@@ -1,0 +1,2 @@
+diagnosis_id,patient_id,encounter_id,diagnosis_code,diagnosis_description
+DX-TEST-01,PAT-TEST-01,ENC-TEST-01,I10,Essential hypertension

@@ -1,0 +1,3 @@
+patient_id,first_name,last_name,date_of_birth,gender,zip_code
+PAT-TEST-01,Jane,Doe,1990-01-01,Female,90210
+PAT-TEST-02,John,Smith,1985-05-12,Male,10001

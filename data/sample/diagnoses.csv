@@ -1,0 +1,801 @@
+diagnosis_id,patient_id,encounter_id,diagnosis_code,diagnosis_description
+DX-0000001,PAT-0000118,ENC-0000017,Z00.00,Encounter for general adult medical examination
+DX-0000002,PAT-0000007,ENC-0000329,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000003,PAT-0000039,ENC-0000337,I48.91,Unspecified atrial fibrillation
+DX-0000004,PAT-0000073,ENC-0000270,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000005,PAT-0000034,ENC-0000360,Z00.00,Encounter for general adult medical examination
+DX-0000006,PAT-0000106,ENC-0000132,I10,Essential (primary) hypertension
+DX-0000007,PAT-0000052,ENC-0000188,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000008,PAT-0000070,ENC-0000311,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000009,PAT-0000055,ENC-0000037,E11.9,Type 2 diabetes mellitus without complications
+DX-0000010,PAT-0000139,ENC-0000477,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000011,PAT-0000102,ENC-0000336,I48.91,Unspecified atrial fibrillation
+DX-0000012,PAT-0000033,ENC-0000476,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000013,PAT-0000086,ENC-0000240,J18.9,"Pneumonia, unspecified organism"
+DX-0000014,PAT-0000060,ENC-0000032,M25.50,Pain in unspecified joint
+DX-0000015,PAT-0000023,ENC-0000286,N18.9,"Chronic kidney disease, unspecified"
+DX-0000016,PAT-0000166,ENC-0000421,M25.50,Pain in unspecified joint
+DX-0000017,PAT-0000076,ENC-0000407,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000018,PAT-0000191,ENC-0000030,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000019,PAT-0000082,ENC-0000137,F41.9,"Anxiety disorder, unspecified"
+DX-0000020,PAT-0000138,ENC-0000021,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000021,PAT-0000140,ENC-0000428,E78.5,"Hyperlipidemia, unspecified"
+DX-0000022,PAT-0000066,ENC-0000040,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000023,PAT-0000177,ENC-0000492,F41.9,"Anxiety disorder, unspecified"
+DX-0000024,PAT-0000141,ENC-0000050,M54.5,Low back pain
+DX-0000025,PAT-0000165,ENC-0000372,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000026,PAT-0000167,ENC-0000273,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000027,PAT-0000152,ENC-0000098,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000028,PAT-0000073,ENC-0000270,R05.9,"Cough, unspecified"
+DX-0000029,PAT-0000182,ENC-0000128,Z00.00,Encounter for general adult medical examination
+DX-0000030,PAT-0000082,ENC-0000321,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000031,PAT-0000023,ENC-0000286,R10.9,Unspecified abdominal pain
+DX-0000032,PAT-0000024,ENC-0000213,M54.5,Low back pain
+DX-0000033,PAT-0000160,ENC-0000393,J18.9,"Pneumonia, unspecified organism"
+DX-0000034,PAT-0000089,ENC-0000296,M25.50,Pain in unspecified joint
+DX-0000035,PAT-0000067,ENC-0000346,E03.9,"Hypothyroidism, unspecified"
+DX-0000036,PAT-0000034,ENC-0000360,R05.9,"Cough, unspecified"
+DX-0000037,PAT-0000168,ENC-0000219,M54.5,Low back pain
+DX-0000038,PAT-0000066,ENC-0000086,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000039,PAT-0000100,ENC-0000282,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000040,PAT-0000050,ENC-0000259,R51.9,"Headache, unspecified"
+DX-0000041,PAT-0000039,ENC-0000337,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000042,PAT-0000025,ENC-0000274,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000043,PAT-0000112,ENC-0000227,M25.50,Pain in unspecified joint
+DX-0000044,PAT-0000157,ENC-0000463,R51.9,"Headache, unspecified"
+DX-0000045,PAT-0000100,ENC-0000282,R51.9,"Headache, unspecified"
+DX-0000046,PAT-0000132,ENC-0000433,M25.50,Pain in unspecified joint
+DX-0000047,PAT-0000143,ENC-0000212,J18.9,"Pneumonia, unspecified organism"
+DX-0000048,PAT-0000036,ENC-0000221,R51.9,"Headache, unspecified"
+DX-0000049,PAT-0000092,ENC-0000312,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000050,PAT-0000148,ENC-0000289,R10.9,Unspecified abdominal pain
+DX-0000051,PAT-0000153,ENC-0000110,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000052,PAT-0000160,ENC-0000393,R10.9,Unspecified abdominal pain
+DX-0000053,PAT-0000068,ENC-0000475,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000054,PAT-0000168,ENC-0000185,E03.9,"Hypothyroidism, unspecified"
+DX-0000055,PAT-0000194,ENC-0000230,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000056,PAT-0000013,ENC-0000001,I10,Essential (primary) hypertension
+DX-0000057,PAT-0000080,ENC-0000146,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000058,PAT-0000113,ENC-0000009,F41.9,"Anxiety disorder, unspecified"
+DX-0000059,PAT-0000142,ENC-0000070,E78.5,"Hyperlipidemia, unspecified"
+DX-0000060,PAT-0000013,ENC-0000004,E78.5,"Hyperlipidemia, unspecified"
+DX-0000061,PAT-0000034,ENC-0000114,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000062,PAT-0000012,ENC-0000439,R51.9,"Headache, unspecified"
+DX-0000063,PAT-0000001,ENC-0000012,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000064,PAT-0000130,ENC-0000422,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000065,PAT-0000162,ENC-0000471,R10.9,Unspecified abdominal pain
+DX-0000066,PAT-0000113,ENC-0000262,R10.9,Unspecified abdominal pain
+DX-0000067,PAT-0000133,ENC-0000293,Z00.00,Encounter for general adult medical examination
+DX-0000068,PAT-0000066,ENC-0000080,M54.5,Low back pain
+DX-0000069,PAT-0000156,ENC-0000020,E03.9,"Hypothyroidism, unspecified"
+DX-0000070,PAT-0000198,ENC-0000183,N39.0,"Urinary tract infection, site not specified"
+DX-0000071,PAT-0000073,ENC-0000071,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000072,PAT-0000052,ENC-0000188,Z00.00,Encounter for general adult medical examination
+DX-0000073,PAT-0000182,ENC-0000128,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000074,PAT-0000106,ENC-0000132,E78.5,"Hyperlipidemia, unspecified"
+DX-0000075,PAT-0000195,ENC-0000048,Z00.00,Encounter for general adult medical examination
+DX-0000076,PAT-0000185,ENC-0000205,Z00.00,Encounter for general adult medical examination
+DX-0000077,PAT-0000115,ENC-0000470,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000078,PAT-0000043,ENC-0000376,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000079,PAT-0000004,ENC-0000371,R51.9,"Headache, unspecified"
+DX-0000080,PAT-0000066,ENC-0000406,I48.91,Unspecified atrial fibrillation
+DX-0000081,PAT-0000017,ENC-0000089,I48.91,Unspecified atrial fibrillation
+DX-0000082,PAT-0000139,ENC-0000423,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000083,PAT-0000034,ENC-0000360,Z00.00,Encounter for general adult medical examination
+DX-0000084,PAT-0000093,ENC-0000420,M54.5,Low back pain
+DX-0000085,PAT-0000016,ENC-0000305,J18.9,"Pneumonia, unspecified organism"
+DX-0000086,PAT-0000094,ENC-0000154,I10,Essential (primary) hypertension
+DX-0000087,PAT-0000047,ENC-0000375,Z00.00,Encounter for general adult medical examination
+DX-0000088,PAT-0000076,ENC-0000196,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000089,PAT-0000175,ENC-0000400,I10,Essential (primary) hypertension
+DX-0000090,PAT-0000069,ENC-0000472,R51.9,"Headache, unspecified"
+DX-0000091,PAT-0000063,ENC-0000179,N18.9,"Chronic kidney disease, unspecified"
+DX-0000092,PAT-0000195,ENC-0000214,M54.5,Low back pain
+DX-0000093,PAT-0000121,ENC-0000446,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000094,PAT-0000128,ENC-0000383,J18.9,"Pneumonia, unspecified organism"
+DX-0000095,PAT-0000154,ENC-0000435,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000096,PAT-0000033,ENC-0000476,E11.9,Type 2 diabetes mellitus without complications
+DX-0000097,PAT-0000042,ENC-0000325,J18.9,"Pneumonia, unspecified organism"
+DX-0000098,PAT-0000076,ENC-0000196,I10,Essential (primary) hypertension
+DX-0000099,PAT-0000017,ENC-0000157,F41.9,"Anxiety disorder, unspecified"
+DX-0000100,PAT-0000077,ENC-0000022,R51.9,"Headache, unspecified"
+DX-0000101,PAT-0000145,ENC-0000277,Z00.00,Encounter for general adult medical examination
+DX-0000102,PAT-0000024,ENC-0000077,R51.9,"Headache, unspecified"
+DX-0000103,PAT-0000074,ENC-0000258,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000104,PAT-0000034,ENC-0000114,N39.0,"Urinary tract infection, site not specified"
+DX-0000105,PAT-0000038,ENC-0000026,R05.9,"Cough, unspecified"
+DX-0000106,PAT-0000047,ENC-0000375,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000107,PAT-0000159,ENC-0000498,E03.9,"Hypothyroidism, unspecified"
+DX-0000108,PAT-0000195,ENC-0000386,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000109,PAT-0000152,ENC-0000295,F41.9,"Anxiety disorder, unspecified"
+DX-0000110,PAT-0000180,ENC-0000047,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000111,PAT-0000164,ENC-0000222,E78.5,"Hyperlipidemia, unspecified"
+DX-0000112,PAT-0000134,ENC-0000403,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000113,PAT-0000173,ENC-0000076,N39.0,"Urinary tract infection, site not specified"
+DX-0000114,PAT-0000074,ENC-0000173,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000115,PAT-0000169,ENC-0000244,Z00.00,Encounter for general adult medical examination
+DX-0000116,PAT-0000061,ENC-0000382,I10,Essential (primary) hypertension
+DX-0000117,PAT-0000099,ENC-0000281,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000118,PAT-0000196,ENC-0000135,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000119,PAT-0000185,ENC-0000205,F41.9,"Anxiety disorder, unspecified"
+DX-0000120,PAT-0000185,ENC-0000223,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000121,PAT-0000114,ENC-0000067,N39.0,"Urinary tract infection, site not specified"
+DX-0000122,PAT-0000057,ENC-0000247,R10.9,Unspecified abdominal pain
+DX-0000123,PAT-0000116,ENC-0000102,I48.91,Unspecified atrial fibrillation
+DX-0000124,PAT-0000098,ENC-0000203,J18.9,"Pneumonia, unspecified organism"
+DX-0000125,PAT-0000133,ENC-0000293,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000126,PAT-0000033,ENC-0000288,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000127,PAT-0000157,ENC-0000377,F41.9,"Anxiety disorder, unspecified"
+DX-0000128,PAT-0000186,ENC-0000127,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000129,PAT-0000055,ENC-0000037,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000130,PAT-0000100,ENC-0000398,N18.9,"Chronic kidney disease, unspecified"
+DX-0000131,PAT-0000019,ENC-0000166,R05.9,"Cough, unspecified"
+DX-0000132,PAT-0000102,ENC-0000474,Z00.00,Encounter for general adult medical examination
+DX-0000133,PAT-0000127,ENC-0000046,M54.5,Low back pain
+DX-0000134,PAT-0000117,ENC-0000344,N18.9,"Chronic kidney disease, unspecified"
+DX-0000135,PAT-0000121,ENC-0000217,M25.50,Pain in unspecified joint
+DX-0000136,PAT-0000063,ENC-0000179,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000137,PAT-0000140,ENC-0000165,M25.50,Pain in unspecified joint
+DX-0000138,PAT-0000016,ENC-0000305,J18.9,"Pneumonia, unspecified organism"
+DX-0000139,PAT-0000020,ENC-0000013,E78.5,"Hyperlipidemia, unspecified"
+DX-0000140,PAT-0000094,ENC-0000087,M25.50,Pain in unspecified joint
+DX-0000141,PAT-0000052,ENC-0000316,E03.9,"Hypothyroidism, unspecified"
+DX-0000142,PAT-0000082,ENC-0000320,N39.0,"Urinary tract infection, site not specified"
+DX-0000143,PAT-0000104,ENC-0000226,I10,Essential (primary) hypertension
+DX-0000144,PAT-0000102,ENC-0000474,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000145,PAT-0000081,ENC-0000103,R05.9,"Cough, unspecified"
+DX-0000146,PAT-0000189,ENC-0000192,N39.0,"Urinary tract infection, site not specified"
+DX-0000147,PAT-0000056,ENC-0000388,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000148,PAT-0000105,ENC-0000058,I10,Essential (primary) hypertension
+DX-0000149,PAT-0000064,ENC-0000125,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000150,PAT-0000068,ENC-0000475,N39.0,"Urinary tract infection, site not specified"
+DX-0000151,PAT-0000131,ENC-0000445,E78.5,"Hyperlipidemia, unspecified"
+DX-0000152,PAT-0000055,ENC-0000008,R51.9,"Headache, unspecified"
+DX-0000153,PAT-0000076,ENC-0000356,M54.5,Low back pain
+DX-0000154,PAT-0000017,ENC-0000157,E03.9,"Hypothyroidism, unspecified"
+DX-0000155,PAT-0000101,ENC-0000242,E11.9,Type 2 diabetes mellitus without complications
+DX-0000156,PAT-0000079,ENC-0000170,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000157,PAT-0000087,ENC-0000379,R10.9,Unspecified abdominal pain
+DX-0000158,PAT-0000136,ENC-0000109,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000159,PAT-0000078,ENC-0000280,F41.9,"Anxiety disorder, unspecified"
+DX-0000160,PAT-0000058,ENC-0000385,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000161,PAT-0000099,ENC-0000281,I48.91,Unspecified atrial fibrillation
+DX-0000162,PAT-0000188,ENC-0000319,N39.0,"Urinary tract infection, site not specified"
+DX-0000163,PAT-0000076,ENC-0000356,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000164,PAT-0000130,ENC-0000343,E11.9,Type 2 diabetes mellitus without complications
+DX-0000165,PAT-0000084,ENC-0000193,Z00.00,Encounter for general adult medical examination
+DX-0000166,PAT-0000072,ENC-0000464,R05.9,"Cough, unspecified"
+DX-0000167,PAT-0000073,ENC-0000270,I10,Essential (primary) hypertension
+DX-0000168,PAT-0000034,ENC-0000131,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000169,PAT-0000113,ENC-0000031,E78.5,"Hyperlipidemia, unspecified"
+DX-0000170,PAT-0000081,ENC-0000103,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000171,PAT-0000094,ENC-0000317,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000172,PAT-0000057,ENC-0000028,E03.9,"Hypothyroidism, unspecified"
+DX-0000173,PAT-0000102,ENC-0000336,E11.9,Type 2 diabetes mellitus without complications
+DX-0000174,PAT-0000100,ENC-0000035,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000175,PAT-0000156,ENC-0000339,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000176,PAT-0000006,ENC-0000340,R05.9,"Cough, unspecified"
+DX-0000177,PAT-0000168,ENC-0000185,M54.5,Low back pain
+DX-0000178,PAT-0000068,ENC-0000010,E78.5,"Hyperlipidemia, unspecified"
+DX-0000179,PAT-0000131,ENC-0000445,J18.9,"Pneumonia, unspecified organism"
+DX-0000180,PAT-0000181,ENC-0000198,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000181,PAT-0000093,ENC-0000195,F41.9,"Anxiety disorder, unspecified"
+DX-0000182,PAT-0000092,ENC-0000364,M54.5,Low back pain
+DX-0000183,PAT-0000157,ENC-0000463,R51.9,"Headache, unspecified"
+DX-0000184,PAT-0000088,ENC-0000249,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000185,PAT-0000167,ENC-0000273,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000186,PAT-0000170,ENC-0000096,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000187,PAT-0000153,ENC-0000257,E03.9,"Hypothyroidism, unspecified"
+DX-0000188,PAT-0000033,ENC-0000288,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000189,PAT-0000001,ENC-0000012,I10,Essential (primary) hypertension
+DX-0000190,PAT-0000186,ENC-0000127,F41.9,"Anxiety disorder, unspecified"
+DX-0000191,PAT-0000017,ENC-0000157,R51.9,"Headache, unspecified"
+DX-0000192,PAT-0000045,ENC-0000251,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000193,PAT-0000061,ENC-0000382,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000194,PAT-0000068,ENC-0000010,M25.50,Pain in unspecified joint
+DX-0000195,PAT-0000071,ENC-0000351,M25.50,Pain in unspecified joint
+DX-0000196,PAT-0000198,ENC-0000182,J18.9,"Pneumonia, unspecified organism"
+DX-0000197,PAT-0000100,ENC-0000155,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000198,PAT-0000153,ENC-0000257,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000199,PAT-0000047,ENC-0000416,I10,Essential (primary) hypertension
+DX-0000200,PAT-0000082,ENC-0000321,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000201,PAT-0000151,ENC-0000450,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000202,PAT-0000081,ENC-0000456,E11.9,Type 2 diabetes mellitus without complications
+DX-0000203,PAT-0000160,ENC-0000484,R10.9,Unspecified abdominal pain
+DX-0000204,PAT-0000088,ENC-0000486,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000205,PAT-0000104,ENC-0000116,N39.0,"Urinary tract infection, site not specified"
+DX-0000206,PAT-0000010,ENC-0000175,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000207,PAT-0000039,ENC-0000337,N39.0,"Urinary tract infection, site not specified"
+DX-0000208,PAT-0000023,ENC-0000045,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000209,PAT-0000148,ENC-0000267,R05.9,"Cough, unspecified"
+DX-0000210,PAT-0000180,ENC-0000314,J18.9,"Pneumonia, unspecified organism"
+DX-0000211,PAT-0000104,ENC-0000352,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000212,PAT-0000195,ENC-0000214,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000213,PAT-0000117,ENC-0000294,N39.0,"Urinary tract infection, site not specified"
+DX-0000214,PAT-0000168,ENC-0000219,E78.5,"Hyperlipidemia, unspecified"
+DX-0000215,PAT-0000108,ENC-0000466,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000216,PAT-0000108,ENC-0000169,E03.9,"Hypothyroidism, unspecified"
+DX-0000217,PAT-0000176,ENC-0000278,N39.0,"Urinary tract infection, site not specified"
+DX-0000218,PAT-0000124,ENC-0000106,J18.9,"Pneumonia, unspecified organism"
+DX-0000219,PAT-0000073,ENC-0000071,Z00.00,Encounter for general adult medical examination
+DX-0000220,PAT-0000176,ENC-0000278,R05.9,"Cough, unspecified"
+DX-0000221,PAT-0000143,ENC-0000410,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000222,PAT-0000093,ENC-0000442,N39.0,"Urinary tract infection, site not specified"
+DX-0000223,PAT-0000023,ENC-0000159,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000224,PAT-0000089,ENC-0000362,F41.9,"Anxiety disorder, unspecified"
+DX-0000225,PAT-0000108,ENC-0000466,N39.0,"Urinary tract infection, site not specified"
+DX-0000226,PAT-0000036,ENC-0000221,N39.0,"Urinary tract infection, site not specified"
+DX-0000227,PAT-0000102,ENC-0000336,Z00.00,Encounter for general adult medical examination
+DX-0000228,PAT-0000115,ENC-0000470,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000229,PAT-0000137,ENC-0000163,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000230,PAT-0000023,ENC-0000286,R10.9,Unspecified abdominal pain
+DX-0000231,PAT-0000088,ENC-0000486,M54.5,Low back pain
+DX-0000232,PAT-0000085,ENC-0000095,R51.9,"Headache, unspecified"
+DX-0000233,PAT-0000043,ENC-0000430,N39.0,"Urinary tract infection, site not specified"
+DX-0000234,PAT-0000093,ENC-0000373,E11.9,Type 2 diabetes mellitus without complications
+DX-0000235,PAT-0000180,ENC-0000392,R51.9,"Headache, unspecified"
+DX-0000236,PAT-0000058,ENC-0000451,N18.9,"Chronic kidney disease, unspecified"
+DX-0000237,PAT-0000176,ENC-0000493,N18.9,"Chronic kidney disease, unspecified"
+DX-0000238,PAT-0000035,ENC-0000156,E03.9,"Hypothyroidism, unspecified"
+DX-0000239,PAT-0000061,ENC-0000382,J18.9,"Pneumonia, unspecified organism"
+DX-0000240,PAT-0000164,ENC-0000478,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000241,PAT-0000015,ENC-0000078,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000242,PAT-0000148,ENC-0000055,N39.0,"Urinary tract infection, site not specified"
+DX-0000243,PAT-0000085,ENC-0000095,E11.9,Type 2 diabetes mellitus without complications
+DX-0000244,PAT-0000156,ENC-0000391,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000245,PAT-0000052,ENC-0000316,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000246,PAT-0000070,ENC-0000311,Z00.00,Encounter for general adult medical examination
+DX-0000247,PAT-0000180,ENC-0000314,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000248,PAT-0000006,ENC-0000306,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000249,PAT-0000166,ENC-0000119,R05.9,"Cough, unspecified"
+DX-0000250,PAT-0000079,ENC-0000014,M25.50,Pain in unspecified joint
+DX-0000251,PAT-0000007,ENC-0000041,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000252,PAT-0000175,ENC-0000400,I48.91,Unspecified atrial fibrillation
+DX-0000253,PAT-0000031,ENC-0000069,F41.9,"Anxiety disorder, unspecified"
+DX-0000254,PAT-0000187,ENC-0000434,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000255,PAT-0000046,ENC-0000241,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000256,PAT-0000108,ENC-0000333,M25.50,Pain in unspecified joint
+DX-0000257,PAT-0000085,ENC-0000095,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000258,PAT-0000169,ENC-0000252,I48.91,Unspecified atrial fibrillation
+DX-0000259,PAT-0000073,ENC-0000071,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000260,PAT-0000008,ENC-0000099,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000261,PAT-0000118,ENC-0000017,N18.9,"Chronic kidney disease, unspecified"
+DX-0000262,PAT-0000180,ENC-0000392,E11.9,Type 2 diabetes mellitus without complications
+DX-0000263,PAT-0000102,ENC-0000474,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000264,PAT-0000015,ENC-0000487,N18.9,"Chronic kidney disease, unspecified"
+DX-0000265,PAT-0000034,ENC-0000114,R05.9,"Cough, unspecified"
+DX-0000266,PAT-0000191,ENC-0000104,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000267,PAT-0000077,ENC-0000034,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000268,PAT-0000068,ENC-0000475,E03.9,"Hypothyroidism, unspecified"
+DX-0000269,PAT-0000148,ENC-0000444,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000270,PAT-0000045,ENC-0000251,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000271,PAT-0000184,ENC-0000167,E03.9,"Hypothyroidism, unspecified"
+DX-0000272,PAT-0000068,ENC-0000455,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000273,PAT-0000168,ENC-0000219,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000274,PAT-0000100,ENC-0000398,I10,Essential (primary) hypertension
+DX-0000275,PAT-0000092,ENC-0000312,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000276,PAT-0000028,ENC-0000369,R51.9,"Headache, unspecified"
+DX-0000277,PAT-0000017,ENC-0000202,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000278,PAT-0000141,ENC-0000481,Z00.00,Encounter for general adult medical examination
+DX-0000279,PAT-0000016,ENC-0000305,R10.9,Unspecified abdominal pain
+DX-0000280,PAT-0000171,ENC-0000269,J18.9,"Pneumonia, unspecified organism"
+DX-0000281,PAT-0000010,ENC-0000449,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000282,PAT-0000134,ENC-0000403,I10,Essential (primary) hypertension
+DX-0000283,PAT-0000148,ENC-0000267,M54.5,Low back pain
+DX-0000284,PAT-0000097,ENC-0000232,E03.9,"Hypothyroidism, unspecified"
+DX-0000285,PAT-0000129,ENC-0000424,I10,Essential (primary) hypertension
+DX-0000286,PAT-0000151,ENC-0000450,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000287,PAT-0000071,ENC-0000266,R10.9,Unspecified abdominal pain
+DX-0000288,PAT-0000098,ENC-0000203,I10,Essential (primary) hypertension
+DX-0000289,PAT-0000023,ENC-0000286,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000290,PAT-0000181,ENC-0000265,J18.9,"Pneumonia, unspecified organism"
+DX-0000291,PAT-0000176,ENC-0000493,I10,Essential (primary) hypertension
+DX-0000292,PAT-0000152,ENC-0000098,E78.5,"Hyperlipidemia, unspecified"
+DX-0000293,PAT-0000104,ENC-0000226,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000294,PAT-0000145,ENC-0000453,E78.5,"Hyperlipidemia, unspecified"
+DX-0000295,PAT-0000027,ENC-0000397,E78.5,"Hyperlipidemia, unspecified"
+DX-0000296,PAT-0000098,ENC-0000237,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000297,PAT-0000121,ENC-0000217,E78.5,"Hyperlipidemia, unspecified"
+DX-0000298,PAT-0000180,ENC-0000314,I10,Essential (primary) hypertension
+DX-0000299,PAT-0000143,ENC-0000354,F41.9,"Anxiety disorder, unspecified"
+DX-0000300,PAT-0000157,ENC-0000463,N39.0,"Urinary tract infection, site not specified"
+DX-0000301,PAT-0000071,ENC-0000238,J18.9,"Pneumonia, unspecified organism"
+DX-0000302,PAT-0000097,ENC-0000232,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000303,PAT-0000105,ENC-0000370,F41.9,"Anxiety disorder, unspecified"
+DX-0000304,PAT-0000105,ENC-0000058,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000305,PAT-0000163,ENC-0000399,Z00.00,Encounter for general adult medical examination
+DX-0000306,PAT-0000141,ENC-0000481,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000307,PAT-0000078,ENC-0000280,N39.0,"Urinary tract infection, site not specified"
+DX-0000308,PAT-0000017,ENC-0000202,N18.9,"Chronic kidney disease, unspecified"
+DX-0000309,PAT-0000019,ENC-0000166,E03.9,"Hypothyroidism, unspecified"
+DX-0000310,PAT-0000020,ENC-0000013,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000311,PAT-0000019,ENC-0000233,Z00.00,Encounter for general adult medical examination
+DX-0000312,PAT-0000193,ENC-0000460,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000313,PAT-0000159,ENC-0000459,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000314,PAT-0000076,ENC-0000452,E03.9,"Hypothyroidism, unspecified"
+DX-0000315,PAT-0000180,ENC-0000047,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000316,PAT-0000019,ENC-0000166,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000317,PAT-0000108,ENC-0000333,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000318,PAT-0000172,ENC-0000408,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000319,PAT-0000108,ENC-0000368,M54.5,Low back pain
+DX-0000320,PAT-0000180,ENC-0000047,M54.5,Low back pain
+DX-0000321,PAT-0000089,ENC-0000362,E03.9,"Hypothyroidism, unspecified"
+DX-0000322,PAT-0000042,ENC-0000325,M25.50,Pain in unspecified joint
+DX-0000323,PAT-0000046,ENC-0000044,F41.9,"Anxiety disorder, unspecified"
+DX-0000324,PAT-0000077,ENC-0000363,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000325,PAT-0000093,ENC-0000373,F41.9,"Anxiety disorder, unspecified"
+DX-0000326,PAT-0000180,ENC-0000314,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000327,PAT-0000099,ENC-0000194,R10.9,Unspecified abdominal pain
+DX-0000328,PAT-0000093,ENC-0000195,I10,Essential (primary) hypertension
+DX-0000329,PAT-0000144,ENC-0000394,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000330,PAT-0000086,ENC-0000468,R51.9,"Headache, unspecified"
+DX-0000331,PAT-0000066,ENC-0000290,R05.9,"Cough, unspecified"
+DX-0000332,PAT-0000093,ENC-0000442,N39.0,"Urinary tract infection, site not specified"
+DX-0000333,PAT-0000049,ENC-0000084,N39.0,"Urinary tract infection, site not specified"
+DX-0000334,PAT-0000114,ENC-0000092,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000335,PAT-0000148,ENC-0000027,N18.9,"Chronic kidney disease, unspecified"
+DX-0000336,PAT-0000036,ENC-0000158,E78.5,"Hyperlipidemia, unspecified"
+DX-0000337,PAT-0000166,ENC-0000374,E03.9,"Hypothyroidism, unspecified"
+DX-0000338,PAT-0000087,ENC-0000148,J18.9,"Pneumonia, unspecified organism"
+DX-0000339,PAT-0000049,ENC-0000093,M54.5,Low back pain
+DX-0000340,PAT-0000199,ENC-0000461,N39.0,"Urinary tract infection, site not specified"
+DX-0000341,PAT-0000177,ENC-0000492,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000342,PAT-0000043,ENC-0000002,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000343,PAT-0000180,ENC-0000392,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000344,PAT-0000034,ENC-0000007,E03.9,"Hypothyroidism, unspecified"
+DX-0000345,PAT-0000030,ENC-0000255,I48.91,Unspecified atrial fibrillation
+DX-0000346,PAT-0000081,ENC-0000279,E11.9,Type 2 diabetes mellitus without complications
+DX-0000347,PAT-0000092,ENC-0000312,I48.91,Unspecified atrial fibrillation
+DX-0000348,PAT-0000019,ENC-0000122,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000349,PAT-0000119,ENC-0000302,R05.9,"Cough, unspecified"
+DX-0000350,PAT-0000169,ENC-0000244,E03.9,"Hypothyroidism, unspecified"
+DX-0000351,PAT-0000127,ENC-0000210,E03.9,"Hypothyroidism, unspecified"
+DX-0000352,PAT-0000007,ENC-0000041,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000353,PAT-0000055,ENC-0000308,E11.9,Type 2 diabetes mellitus without complications
+DX-0000354,PAT-0000174,ENC-0000126,R10.9,Unspecified abdominal pain
+DX-0000355,PAT-0000065,ENC-0000143,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000356,PAT-0000066,ENC-0000322,R10.9,Unspecified abdominal pain
+DX-0000357,PAT-0000093,ENC-0000420,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000358,PAT-0000038,ENC-0000026,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000359,PAT-0000173,ENC-0000076,I10,Essential (primary) hypertension
+DX-0000360,PAT-0000175,ENC-0000335,M25.50,Pain in unspecified joint
+DX-0000361,PAT-0000067,ENC-0000019,N39.0,"Urinary tract infection, site not specified"
+DX-0000362,PAT-0000169,ENC-0000438,I10,Essential (primary) hypertension
+DX-0000363,PAT-0000105,ENC-0000342,Z00.00,Encounter for general adult medical examination
+DX-0000364,PAT-0000043,ENC-0000430,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000365,PAT-0000146,ENC-0000153,R51.9,"Headache, unspecified"
+DX-0000366,PAT-0000069,ENC-0000472,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000367,PAT-0000038,ENC-0000026,M54.5,Low back pain
+DX-0000368,PAT-0000195,ENC-0000214,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000369,PAT-0000145,ENC-0000083,R05.9,"Cough, unspecified"
+DX-0000370,PAT-0000080,ENC-0000146,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000371,PAT-0000156,ENC-0000339,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000372,PAT-0000163,ENC-0000359,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000373,PAT-0000117,ENC-0000294,R10.9,Unspecified abdominal pain
+DX-0000374,PAT-0000168,ENC-0000091,E03.9,"Hypothyroidism, unspecified"
+DX-0000375,PAT-0000159,ENC-0000384,Z00.00,Encounter for general adult medical examination
+DX-0000376,PAT-0000168,ENC-0000185,I10,Essential (primary) hypertension
+DX-0000377,PAT-0000195,ENC-0000048,E78.5,"Hyperlipidemia, unspecified"
+DX-0000378,PAT-0000019,ENC-0000166,M25.50,Pain in unspecified joint
+DX-0000379,PAT-0000193,ENC-0000460,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000380,PAT-0000093,ENC-0000420,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000381,PAT-0000169,ENC-0000389,N18.9,"Chronic kidney disease, unspecified"
+DX-0000382,PAT-0000152,ENC-0000432,R10.9,Unspecified abdominal pain
+DX-0000383,PAT-0000077,ENC-0000034,E78.5,"Hyperlipidemia, unspecified"
+DX-0000384,PAT-0000101,ENC-0000242,N39.0,"Urinary tract infection, site not specified"
+DX-0000385,PAT-0000011,ENC-0000063,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000386,PAT-0000002,ENC-0000441,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000387,PAT-0000108,ENC-0000169,F41.9,"Anxiety disorder, unspecified"
+DX-0000388,PAT-0000143,ENC-0000212,F41.9,"Anxiety disorder, unspecified"
+DX-0000389,PAT-0000002,ENC-0000108,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000390,PAT-0000002,ENC-0000108,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000391,PAT-0000191,ENC-0000030,M54.5,Low back pain
+DX-0000392,PAT-0000133,ENC-0000293,J18.9,"Pneumonia, unspecified organism"
+DX-0000393,PAT-0000026,ENC-0000271,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000394,PAT-0000007,ENC-0000248,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000395,PAT-0000140,ENC-0000310,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000396,PAT-0000087,ENC-0000148,N18.9,"Chronic kidney disease, unspecified"
+DX-0000397,PAT-0000092,ENC-0000312,R51.9,"Headache, unspecified"
+DX-0000398,PAT-0000121,ENC-0000133,F41.9,"Anxiety disorder, unspecified"
+DX-0000399,PAT-0000152,ENC-0000295,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000400,PAT-0000198,ENC-0000182,N39.0,"Urinary tract infection, site not specified"
+DX-0000401,PAT-0000010,ENC-0000315,Z00.00,Encounter for general adult medical examination
+DX-0000402,PAT-0000030,ENC-0000255,F41.9,"Anxiety disorder, unspecified"
+DX-0000403,PAT-0000166,ENC-0000374,J18.9,"Pneumonia, unspecified organism"
+DX-0000404,PAT-0000030,ENC-0000255,I48.91,Unspecified atrial fibrillation
+DX-0000405,PAT-0000037,ENC-0000414,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000406,PAT-0000145,ENC-0000453,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000407,PAT-0000198,ENC-0000120,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000408,PAT-0000111,ENC-0000149,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000409,PAT-0000013,ENC-0000001,M54.5,Low back pain
+DX-0000410,PAT-0000020,ENC-0000013,E03.9,"Hypothyroidism, unspecified"
+DX-0000411,PAT-0000082,ENC-0000321,M54.5,Low back pain
+DX-0000412,PAT-0000029,ENC-0000378,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000413,PAT-0000143,ENC-0000410,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000414,PAT-0000024,ENC-0000213,N18.9,"Chronic kidney disease, unspecified"
+DX-0000415,PAT-0000111,ENC-0000024,R51.9,"Headache, unspecified"
+DX-0000416,PAT-0000177,ENC-0000180,R10.9,Unspecified abdominal pain
+DX-0000417,PAT-0000098,ENC-0000413,J18.9,"Pneumonia, unspecified organism"
+DX-0000418,PAT-0000136,ENC-0000109,E11.9,Type 2 diabetes mellitus without complications
+DX-0000419,PAT-0000093,ENC-0000328,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000420,PAT-0000143,ENC-0000354,E78.5,"Hyperlipidemia, unspecified"
+DX-0000421,PAT-0000034,ENC-0000131,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000422,PAT-0000036,ENC-0000158,E78.5,"Hyperlipidemia, unspecified"
+DX-0000423,PAT-0000043,ENC-0000260,R10.9,Unspecified abdominal pain
+DX-0000424,PAT-0000019,ENC-0000166,E11.9,Type 2 diabetes mellitus without complications
+DX-0000425,PAT-0000176,ENC-0000059,R05.9,"Cough, unspecified"
+DX-0000426,PAT-0000013,ENC-0000171,R51.9,"Headache, unspecified"
+DX-0000427,PAT-0000098,ENC-0000203,Z00.00,Encounter for general adult medical examination
+DX-0000428,PAT-0000052,ENC-0000316,E11.9,Type 2 diabetes mellitus without complications
+DX-0000429,PAT-0000121,ENC-0000427,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000430,PAT-0000083,ENC-0000100,R51.9,"Headache, unspecified"
+DX-0000431,PAT-0000121,ENC-0000427,R51.9,"Headache, unspecified"
+DX-0000432,PAT-0000048,ENC-0000473,R05.9,"Cough, unspecified"
+DX-0000433,PAT-0000157,ENC-0000246,I48.91,Unspecified atrial fibrillation
+DX-0000434,PAT-0000176,ENC-0000409,I10,Essential (primary) hypertension
+DX-0000435,PAT-0000012,ENC-0000331,N39.0,"Urinary tract infection, site not specified"
+DX-0000436,PAT-0000057,ENC-0000247,N39.0,"Urinary tract infection, site not specified"
+DX-0000437,PAT-0000066,ENC-0000322,E03.9,"Hypothyroidism, unspecified"
+DX-0000438,PAT-0000052,ENC-0000457,R10.9,Unspecified abdominal pain
+DX-0000439,PAT-0000159,ENC-0000459,R51.9,"Headache, unspecified"
+DX-0000440,PAT-0000098,ENC-0000237,N18.9,"Chronic kidney disease, unspecified"
+DX-0000441,PAT-0000033,ENC-0000476,I10,Essential (primary) hypertension
+DX-0000442,PAT-0000140,ENC-0000428,F41.9,"Anxiety disorder, unspecified"
+DX-0000443,PAT-0000094,ENC-0000154,Z00.00,Encounter for general adult medical examination
+DX-0000444,PAT-0000165,ENC-0000372,R05.9,"Cough, unspecified"
+DX-0000445,PAT-0000133,ENC-0000162,R10.9,Unspecified abdominal pain
+DX-0000446,PAT-0000179,ENC-0000275,E11.9,Type 2 diabetes mellitus without complications
+DX-0000447,PAT-0000197,ENC-0000107,Z00.00,Encounter for general adult medical examination
+DX-0000448,PAT-0000071,ENC-0000351,R51.9,"Headache, unspecified"
+DX-0000449,PAT-0000143,ENC-0000410,M25.50,Pain in unspecified joint
+DX-0000450,PAT-0000077,ENC-0000034,N39.0,"Urinary tract infection, site not specified"
+DX-0000451,PAT-0000012,ENC-0000144,E11.9,Type 2 diabetes mellitus without complications
+DX-0000452,PAT-0000101,ENC-0000174,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000453,PAT-0000082,ENC-0000321,R10.9,Unspecified abdominal pain
+DX-0000454,PAT-0000152,ENC-0000432,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000455,PAT-0000133,ENC-0000293,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000456,PAT-0000117,ENC-0000200,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000457,PAT-0000016,ENC-0000305,M54.5,Low back pain
+DX-0000458,PAT-0000071,ENC-0000443,E78.5,"Hyperlipidemia, unspecified"
+DX-0000459,PAT-0000089,ENC-0000362,R51.9,"Headache, unspecified"
+DX-0000460,PAT-0000092,ENC-0000364,I10,Essential (primary) hypertension
+DX-0000461,PAT-0000128,ENC-0000140,N18.9,"Chronic kidney disease, unspecified"
+DX-0000462,PAT-0000023,ENC-0000045,I48.91,Unspecified atrial fibrillation
+DX-0000463,PAT-0000151,ENC-0000450,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000464,PAT-0000120,ENC-0000191,E03.9,"Hypothyroidism, unspecified"
+DX-0000465,PAT-0000036,ENC-0000425,E78.5,"Hyperlipidemia, unspecified"
+DX-0000466,PAT-0000170,ENC-0000111,F41.9,"Anxiety disorder, unspecified"
+DX-0000467,PAT-0000100,ENC-0000155,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000468,PAT-0000105,ENC-0000058,M25.50,Pain in unspecified joint
+DX-0000469,PAT-0000014,ENC-0000402,I10,Essential (primary) hypertension
+DX-0000470,PAT-0000163,ENC-0000399,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000471,PAT-0000086,ENC-0000468,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000472,PAT-0000020,ENC-0000228,F41.9,"Anxiety disorder, unspecified"
+DX-0000473,PAT-0000020,ENC-0000013,I48.91,Unspecified atrial fibrillation
+DX-0000474,PAT-0000072,ENC-0000464,F41.9,"Anxiety disorder, unspecified"
+DX-0000475,PAT-0000045,ENC-0000079,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000476,PAT-0000010,ENC-0000175,I48.91,Unspecified atrial fibrillation
+DX-0000477,PAT-0000043,ENC-0000376,F41.9,"Anxiety disorder, unspecified"
+DX-0000478,PAT-0000023,ENC-0000159,R51.9,"Headache, unspecified"
+DX-0000479,PAT-0000033,ENC-0000074,M54.5,Low back pain
+DX-0000480,PAT-0000166,ENC-0000421,F41.9,"Anxiety disorder, unspecified"
+DX-0000481,PAT-0000058,ENC-0000347,N39.0,"Urinary tract infection, site not specified"
+DX-0000482,PAT-0000124,ENC-0000106,I10,Essential (primary) hypertension
+DX-0000483,PAT-0000154,ENC-0000236,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000484,PAT-0000160,ENC-0000366,F41.9,"Anxiety disorder, unspecified"
+DX-0000485,PAT-0000037,ENC-0000060,E11.9,Type 2 diabetes mellitus without complications
+DX-0000486,PAT-0000165,ENC-0000160,I10,Essential (primary) hypertension
+DX-0000487,PAT-0000104,ENC-0000352,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000488,PAT-0000158,ENC-0000447,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000489,PAT-0000013,ENC-0000171,E03.9,"Hypothyroidism, unspecified"
+DX-0000490,PAT-0000081,ENC-0000456,I10,Essential (primary) hypertension
+DX-0000491,PAT-0000014,ENC-0000053,F41.9,"Anxiety disorder, unspecified"
+DX-0000492,PAT-0000160,ENC-0000393,R05.9,"Cough, unspecified"
+DX-0000493,PAT-0000061,ENC-0000382,E78.5,"Hyperlipidemia, unspecified"
+DX-0000494,PAT-0000001,ENC-0000012,Z00.00,Encounter for general adult medical examination
+DX-0000495,PAT-0000169,ENC-0000389,E78.5,"Hyperlipidemia, unspecified"
+DX-0000496,PAT-0000093,ENC-0000328,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000497,PAT-0000140,ENC-0000165,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000498,PAT-0000008,ENC-0000099,E78.5,"Hyperlipidemia, unspecified"
+DX-0000499,PAT-0000140,ENC-0000142,R10.9,Unspecified abdominal pain
+DX-0000500,PAT-0000021,ENC-0000164,E03.9,"Hypothyroidism, unspecified"
+DX-0000501,PAT-0000117,ENC-0000344,M54.5,Low back pain
+DX-0000502,PAT-0000128,ENC-0000140,N39.0,"Urinary tract infection, site not specified"
+DX-0000503,PAT-0000089,ENC-0000081,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000504,PAT-0000176,ENC-0000059,E11.9,Type 2 diabetes mellitus without complications
+DX-0000505,PAT-0000004,ENC-0000491,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000506,PAT-0000182,ENC-0000287,F41.9,"Anxiety disorder, unspecified"
+DX-0000507,PAT-0000014,ENC-0000053,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000508,PAT-0000176,ENC-0000278,M25.50,Pain in unspecified joint
+DX-0000509,PAT-0000100,ENC-0000282,R51.9,"Headache, unspecified"
+DX-0000510,PAT-0000061,ENC-0000139,N39.0,"Urinary tract infection, site not specified"
+DX-0000511,PAT-0000018,ENC-0000483,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000512,PAT-0000019,ENC-0000412,E78.5,"Hyperlipidemia, unspecified"
+DX-0000513,PAT-0000117,ENC-0000294,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000514,PAT-0000098,ENC-0000088,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000515,PAT-0000165,ENC-0000160,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000516,PAT-0000052,ENC-0000457,R51.9,"Headache, unspecified"
+DX-0000517,PAT-0000145,ENC-0000277,E03.9,"Hypothyroidism, unspecified"
+DX-0000518,PAT-0000038,ENC-0000026,N39.0,"Urinary tract infection, site not specified"
+DX-0000519,PAT-0000105,ENC-0000015,I48.91,Unspecified atrial fibrillation
+DX-0000520,PAT-0000157,ENC-0000463,R05.9,"Cough, unspecified"
+DX-0000521,PAT-0000038,ENC-0000026,M54.5,Low back pain
+DX-0000522,PAT-0000180,ENC-0000197,I10,Essential (primary) hypertension
+DX-0000523,PAT-0000023,ENC-0000045,N18.9,"Chronic kidney disease, unspecified"
+DX-0000524,PAT-0000006,ENC-0000201,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000525,PAT-0000096,ENC-0000361,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000526,PAT-0000052,ENC-0000457,Z00.00,Encounter for general adult medical examination
+DX-0000527,PAT-0000097,ENC-0000323,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000528,PAT-0000163,ENC-0000359,E03.9,"Hypothyroidism, unspecified"
+DX-0000529,PAT-0000052,ENC-0000316,M25.50,Pain in unspecified joint
+DX-0000530,PAT-0000165,ENC-0000160,R51.9,"Headache, unspecified"
+DX-0000531,PAT-0000146,ENC-0000419,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000532,PAT-0000160,ENC-0000366,R05.9,"Cough, unspecified"
+DX-0000533,PAT-0000054,ENC-0000415,R10.9,Unspecified abdominal pain
+DX-0000534,PAT-0000007,ENC-0000041,E03.9,"Hypothyroidism, unspecified"
+DX-0000535,PAT-0000012,ENC-0000291,N39.0,"Urinary tract infection, site not specified"
+DX-0000536,PAT-0000195,ENC-0000048,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000537,PAT-0000086,ENC-0000240,M54.5,Low back pain
+DX-0000538,PAT-0000093,ENC-0000234,E78.5,"Hyperlipidemia, unspecified"
+DX-0000539,PAT-0000071,ENC-0000351,J18.9,"Pneumonia, unspecified organism"
+DX-0000540,PAT-0000092,ENC-0000364,E03.9,"Hypothyroidism, unspecified"
+DX-0000541,PAT-0000046,ENC-0000241,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000542,PAT-0000088,ENC-0000486,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000543,PAT-0000033,ENC-0000074,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000544,PAT-0000121,ENC-0000133,M25.50,Pain in unspecified joint
+DX-0000545,PAT-0000006,ENC-0000201,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000546,PAT-0000163,ENC-0000359,R05.9,"Cough, unspecified"
+DX-0000547,PAT-0000079,ENC-0000170,R51.9,"Headache, unspecified"
+DX-0000548,PAT-0000019,ENC-0000233,I48.91,Unspecified atrial fibrillation
+DX-0000549,PAT-0000189,ENC-0000016,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000550,PAT-0000169,ENC-0000244,M54.5,Low back pain
+DX-0000551,PAT-0000177,ENC-0000180,I48.91,Unspecified atrial fibrillation
+DX-0000552,PAT-0000098,ENC-0000237,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000553,PAT-0000047,ENC-0000145,M25.50,Pain in unspecified joint
+DX-0000554,PAT-0000140,ENC-0000310,Z00.00,Encounter for general adult medical examination
+DX-0000555,PAT-0000198,ENC-0000066,F41.9,"Anxiety disorder, unspecified"
+DX-0000556,PAT-0000014,ENC-0000053,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000557,PAT-0000146,ENC-0000419,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000558,PAT-0000172,ENC-0000408,M54.5,Low back pain
+DX-0000559,PAT-0000184,ENC-0000167,R10.9,Unspecified abdominal pain
+DX-0000560,PAT-0000108,ENC-0000333,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000561,PAT-0000066,ENC-0000406,E78.5,"Hyperlipidemia, unspecified"
+DX-0000562,PAT-0000167,ENC-0000273,E03.9,"Hypothyroidism, unspecified"
+DX-0000563,PAT-0000186,ENC-0000206,Z00.00,Encounter for general adult medical examination
+DX-0000564,PAT-0000143,ENC-0000212,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000565,PAT-0000112,ENC-0000318,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000566,PAT-0000099,ENC-0000281,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000567,PAT-0000175,ENC-0000499,I48.91,Unspecified atrial fibrillation
+DX-0000568,PAT-0000180,ENC-0000197,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000569,PAT-0000010,ENC-0000175,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000570,PAT-0000186,ENC-0000417,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000571,PAT-0000038,ENC-0000303,N18.9,"Chronic kidney disease, unspecified"
+DX-0000572,PAT-0000014,ENC-0000402,N18.9,"Chronic kidney disease, unspecified"
+DX-0000573,PAT-0000012,ENC-0000291,R51.9,"Headache, unspecified"
+DX-0000574,PAT-0000081,ENC-0000279,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000575,PAT-0000113,ENC-0000121,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000576,PAT-0000006,ENC-0000340,R05.9,"Cough, unspecified"
+DX-0000577,PAT-0000066,ENC-0000040,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000578,PAT-0000117,ENC-0000294,I48.91,Unspecified atrial fibrillation
+DX-0000579,PAT-0000176,ENC-0000059,Z00.00,Encounter for general adult medical examination
+DX-0000580,PAT-0000006,ENC-0000306,E03.9,"Hypothyroidism, unspecified"
+DX-0000581,PAT-0000184,ENC-0000167,R10.9,Unspecified abdominal pain
+DX-0000582,PAT-0000141,ENC-0000050,E03.9,"Hypothyroidism, unspecified"
+DX-0000583,PAT-0000168,ENC-0000091,E78.5,"Hyperlipidemia, unspecified"
+DX-0000584,PAT-0000124,ENC-0000490,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000585,PAT-0000145,ENC-0000036,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000586,PAT-0000098,ENC-0000056,R05.9,"Cough, unspecified"
+DX-0000587,PAT-0000186,ENC-0000417,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000588,PAT-0000134,ENC-0000395,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000589,PAT-0000120,ENC-0000168,I48.91,Unspecified atrial fibrillation
+DX-0000590,PAT-0000012,ENC-0000331,R05.9,"Cough, unspecified"
+DX-0000591,PAT-0000060,ENC-0000032,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000592,PAT-0000029,ENC-0000112,N39.0,"Urinary tract infection, site not specified"
+DX-0000593,PAT-0000068,ENC-0000455,Z00.00,Encounter for general adult medical examination
+DX-0000594,PAT-0000157,ENC-0000463,J18.9,"Pneumonia, unspecified organism"
+DX-0000595,PAT-0000054,ENC-0000415,E11.9,Type 2 diabetes mellitus without complications
+DX-0000596,PAT-0000056,ENC-0000388,N39.0,"Urinary tract infection, site not specified"
+DX-0000597,PAT-0000156,ENC-0000339,N39.0,"Urinary tract infection, site not specified"
+DX-0000598,PAT-0000097,ENC-0000232,R10.9,Unspecified abdominal pain
+DX-0000599,PAT-0000155,ENC-0000150,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000600,PAT-0000052,ENC-0000316,Z00.00,Encounter for general adult medical examination
+DX-0000601,PAT-0000037,ENC-0000229,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000602,PAT-0000124,ENC-0000106,R05.9,"Cough, unspecified"
+DX-0000603,PAT-0000151,ENC-0000450,R51.9,"Headache, unspecified"
+DX-0000604,PAT-0000094,ENC-0000154,Z00.00,Encounter for general adult medical examination
+DX-0000605,PAT-0000076,ENC-0000407,R05.9,"Cough, unspecified"
+DX-0000606,PAT-0000035,ENC-0000156,N18.9,"Chronic kidney disease, unspecified"
+DX-0000607,PAT-0000108,ENC-0000368,M25.50,Pain in unspecified joint
+DX-0000608,PAT-0000127,ENC-0000046,Z00.00,Encounter for general adult medical examination
+DX-0000609,PAT-0000018,ENC-0000005,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000610,PAT-0000113,ENC-0000262,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000611,PAT-0000187,ENC-0000434,N39.0,"Urinary tract infection, site not specified"
+DX-0000612,PAT-0000156,ENC-0000437,E78.5,"Hyperlipidemia, unspecified"
+DX-0000613,PAT-0000060,ENC-0000032,M25.50,Pain in unspecified joint
+DX-0000614,PAT-0000149,ENC-0000462,R10.9,Unspecified abdominal pain
+DX-0000615,PAT-0000048,ENC-0000496,I10,Essential (primary) hypertension
+DX-0000616,PAT-0000013,ENC-0000001,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000617,PAT-0000182,ENC-0000287,M25.50,Pain in unspecified joint
+DX-0000618,PAT-0000161,ENC-0000057,E78.5,"Hyperlipidemia, unspecified"
+DX-0000619,PAT-0000148,ENC-0000444,E11.9,Type 2 diabetes mellitus without complications
+DX-0000620,PAT-0000113,ENC-0000121,N18.9,"Chronic kidney disease, unspecified"
+DX-0000621,PAT-0000034,ENC-0000360,Z00.00,Encounter for general adult medical examination
+DX-0000622,PAT-0000017,ENC-0000202,J18.9,"Pneumonia, unspecified organism"
+DX-0000623,PAT-0000137,ENC-0000163,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000624,PAT-0000076,ENC-0000196,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000625,PAT-0000076,ENC-0000196,N18.9,"Chronic kidney disease, unspecified"
+DX-0000626,PAT-0000078,ENC-0000280,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000627,PAT-0000006,ENC-0000340,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000628,PAT-0000169,ENC-0000244,N39.0,"Urinary tract infection, site not specified"
+DX-0000629,PAT-0000068,ENC-0000097,R10.9,Unspecified abdominal pain
+DX-0000630,PAT-0000180,ENC-0000197,M25.50,Pain in unspecified joint
+DX-0000631,PAT-0000184,ENC-0000431,N18.9,"Chronic kidney disease, unspecified"
+DX-0000632,PAT-0000045,ENC-0000079,E78.5,"Hyperlipidemia, unspecified"
+DX-0000633,PAT-0000158,ENC-0000447,R05.9,"Cough, unspecified"
+DX-0000634,PAT-0000127,ENC-0000065,N39.0,"Urinary tract infection, site not specified"
+DX-0000635,PAT-0000150,ENC-0000006,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000636,PAT-0000171,ENC-0000332,E11.9,Type 2 diabetes mellitus without complications
+DX-0000637,PAT-0000033,ENC-0000074,I48.91,Unspecified atrial fibrillation
+DX-0000638,PAT-0000039,ENC-0000337,N18.9,"Chronic kidney disease, unspecified"
+DX-0000639,PAT-0000134,ENC-0000500,N39.0,"Urinary tract infection, site not specified"
+DX-0000640,PAT-0000046,ENC-0000044,N39.0,"Urinary tract infection, site not specified"
+DX-0000641,PAT-0000007,ENC-0000329,N18.9,"Chronic kidney disease, unspecified"
+DX-0000642,PAT-0000002,ENC-0000441,E03.9,"Hypothyroidism, unspecified"
+DX-0000643,PAT-0000031,ENC-0000458,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000644,PAT-0000140,ENC-0000310,N18.9,"Chronic kidney disease, unspecified"
+DX-0000645,PAT-0000082,ENC-0000320,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000646,PAT-0000019,ENC-0000233,F41.9,"Anxiety disorder, unspecified"
+DX-0000647,PAT-0000067,ENC-0000218,R10.9,Unspecified abdominal pain
+DX-0000648,PAT-0000093,ENC-0000420,E03.9,"Hypothyroidism, unspecified"
+DX-0000649,PAT-0000180,ENC-0000197,M25.50,Pain in unspecified joint
+DX-0000650,PAT-0000104,ENC-0000116,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000651,PAT-0000067,ENC-0000218,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000652,PAT-0000013,ENC-0000004,Z00.00,Encounter for general adult medical examination
+DX-0000653,PAT-0000035,ENC-0000256,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000654,PAT-0000006,ENC-0000365,F41.9,"Anxiety disorder, unspecified"
+DX-0000655,PAT-0000158,ENC-0000138,N18.9,"Chronic kidney disease, unspecified"
+DX-0000656,PAT-0000068,ENC-0000475,R10.9,Unspecified abdominal pain
+DX-0000657,PAT-0000089,ENC-0000296,M25.50,Pain in unspecified joint
+DX-0000658,PAT-0000018,ENC-0000018,I10,Essential (primary) hypertension
+DX-0000659,PAT-0000012,ENC-0000291,I48.91,Unspecified atrial fibrillation
+DX-0000660,PAT-0000096,ENC-0000361,M25.50,Pain in unspecified joint
+DX-0000661,PAT-0000105,ENC-0000058,Z00.00,Encounter for general adult medical examination
+DX-0000662,PAT-0000057,ENC-0000247,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000663,PAT-0000007,ENC-0000041,N39.0,"Urinary tract infection, site not specified"
+DX-0000664,PAT-0000166,ENC-0000374,F41.9,"Anxiety disorder, unspecified"
+DX-0000665,PAT-0000035,ENC-0000440,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000666,PAT-0000028,ENC-0000239,F41.9,"Anxiety disorder, unspecified"
+DX-0000667,PAT-0000007,ENC-0000041,F41.9,"Anxiety disorder, unspecified"
+DX-0000668,PAT-0000081,ENC-0000456,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000669,PAT-0000127,ENC-0000046,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000670,PAT-0000101,ENC-0000242,J18.9,"Pneumonia, unspecified organism"
+DX-0000671,PAT-0000170,ENC-0000380,R05.9,"Cough, unspecified"
+DX-0000672,PAT-0000177,ENC-0000492,R05.9,"Cough, unspecified"
+DX-0000673,PAT-0000066,ENC-0000040,R05.9,"Cough, unspecified"
+DX-0000674,PAT-0000042,ENC-0000325,R10.9,Unspecified abdominal pain
+DX-0000675,PAT-0000176,ENC-0000409,Z00.00,Encounter for general adult medical examination
+DX-0000676,PAT-0000165,ENC-0000160,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000677,PAT-0000057,ENC-0000028,R51.9,"Headache, unspecified"
+DX-0000678,PAT-0000025,ENC-0000274,E11.9,Type 2 diabetes mellitus without complications
+DX-0000679,PAT-0000046,ENC-0000241,E03.9,"Hypothyroidism, unspecified"
+DX-0000680,PAT-0000023,ENC-0000263,I48.91,Unspecified atrial fibrillation
+DX-0000681,PAT-0000117,ENC-0000294,R51.9,"Headache, unspecified"
+DX-0000682,PAT-0000120,ENC-0000216,M25.50,Pain in unspecified joint
+DX-0000683,PAT-0000177,ENC-0000492,E78.5,"Hyperlipidemia, unspecified"
+DX-0000684,PAT-0000111,ENC-0000149,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000685,PAT-0000067,ENC-0000019,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000686,PAT-0000048,ENC-0000473,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000687,PAT-0000159,ENC-0000384,E78.5,"Hyperlipidemia, unspecified"
+DX-0000688,PAT-0000093,ENC-0000373,Z00.00,Encounter for general adult medical examination
+DX-0000689,PAT-0000052,ENC-0000134,I10,Essential (primary) hypertension
+DX-0000690,PAT-0000097,ENC-0000323,I48.91,Unspecified atrial fibrillation
+DX-0000691,PAT-0000136,ENC-0000297,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000692,PAT-0000117,ENC-0000294,I10,Essential (primary) hypertension
+DX-0000693,PAT-0000039,ENC-0000337,E78.5,"Hyperlipidemia, unspecified"
+DX-0000694,PAT-0000054,ENC-0000415,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000695,PAT-0000079,ENC-0000014,E78.5,"Hyperlipidemia, unspecified"
+DX-0000696,PAT-0000088,ENC-0000249,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000697,PAT-0000127,ENC-0000065,F41.9,"Anxiety disorder, unspecified"
+DX-0000698,PAT-0000066,ENC-0000040,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000699,PAT-0000050,ENC-0000130,N39.0,"Urinary tract infection, site not specified"
+DX-0000700,PAT-0000052,ENC-0000316,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000701,PAT-0000091,ENC-0000141,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000702,PAT-0000055,ENC-0000008,M54.5,Low back pain
+DX-0000703,PAT-0000140,ENC-0000310,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000704,PAT-0000108,ENC-0000466,Z00.00,Encounter for general adult medical examination
+DX-0000705,PAT-0000087,ENC-0000379,N39.0,"Urinary tract infection, site not specified"
+DX-0000706,PAT-0000068,ENC-0000338,E03.9,"Hypothyroidism, unspecified"
+DX-0000707,PAT-0000146,ENC-0000190,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000708,PAT-0000052,ENC-0000134,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000709,PAT-0000113,ENC-0000121,I48.91,Unspecified atrial fibrillation
+DX-0000710,PAT-0000049,ENC-0000093,F41.9,"Anxiety disorder, unspecified"
+DX-0000711,PAT-0000093,ENC-0000442,I10,Essential (primary) hypertension
+DX-0000712,PAT-0000082,ENC-0000176,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000713,PAT-0000048,ENC-0000496,N39.0,"Urinary tract infection, site not specified"
+DX-0000714,PAT-0000016,ENC-0000305,N39.0,"Urinary tract infection, site not specified"
+DX-0000715,PAT-0000133,ENC-0000429,I48.91,Unspecified atrial fibrillation
+DX-0000716,PAT-0000195,ENC-0000386,N18.9,"Chronic kidney disease, unspecified"
+DX-0000717,PAT-0000134,ENC-0000395,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000718,PAT-0000019,ENC-0000122,R05.9,"Cough, unspecified"
+DX-0000719,PAT-0000104,ENC-0000226,J18.9,"Pneumonia, unspecified organism"
+DX-0000720,PAT-0000066,ENC-0000086,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000721,PAT-0000089,ENC-0000296,M25.50,Pain in unspecified joint
+DX-0000722,PAT-0000057,ENC-0000028,J18.9,"Pneumonia, unspecified organism"
+DX-0000723,PAT-0000007,ENC-0000136,M54.5,Low back pain
+DX-0000724,PAT-0000148,ENC-0000027,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000725,PAT-0000071,ENC-0000238,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000726,PAT-0000169,ENC-0000244,E78.5,"Hyperlipidemia, unspecified"
+DX-0000727,PAT-0000169,ENC-0000244,R10.9,Unspecified abdominal pain
+DX-0000728,PAT-0000198,ENC-0000120,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000729,PAT-0000131,ENC-0000350,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000730,PAT-0000117,ENC-0000200,I48.91,Unspecified atrial fibrillation
+DX-0000731,PAT-0000196,ENC-0000135,N39.0,"Urinary tract infection, site not specified"
+DX-0000732,PAT-0000034,ENC-0000272,N18.9,"Chronic kidney disease, unspecified"
+DX-0000733,PAT-0000034,ENC-0000007,E78.5,"Hyperlipidemia, unspecified"
+DX-0000734,PAT-0000068,ENC-0000475,E03.9,"Hypothyroidism, unspecified"
+DX-0000735,PAT-0000076,ENC-0000196,R05.9,"Cough, unspecified"
+DX-0000736,PAT-0000133,ENC-0000162,F41.9,"Anxiety disorder, unspecified"
+DX-0000737,PAT-0000131,ENC-0000350,I10,Essential (primary) hypertension
+DX-0000738,PAT-0000141,ENC-0000050,R10.9,Unspecified abdominal pain
+DX-0000739,PAT-0000073,ENC-0000327,M25.50,Pain in unspecified joint
+DX-0000740,PAT-0000124,ENC-0000490,N18.9,"Chronic kidney disease, unspecified"
+DX-0000741,PAT-0000100,ENC-0000313,J18.9,"Pneumonia, unspecified organism"
+DX-0000742,PAT-0000035,ENC-0000440,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000743,PAT-0000068,ENC-0000172,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000744,PAT-0000082,ENC-0000137,M54.5,Low back pain
+DX-0000745,PAT-0000034,ENC-0000131,J18.9,"Pneumonia, unspecified organism"
+DX-0000746,PAT-0000116,ENC-0000300,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000747,PAT-0000098,ENC-0000237,R05.9,"Cough, unspecified"
+DX-0000748,PAT-0000159,ENC-0000384,J06.9,"Acute upper respiratory infection, unspecified"
+DX-0000749,PAT-0000043,ENC-0000376,R05.9,"Cough, unspecified"
+DX-0000750,PAT-0000119,ENC-0000302,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000751,PAT-0000148,ENC-0000267,R51.9,"Headache, unspecified"
+DX-0000752,PAT-0000058,ENC-0000347,G43.909,"Migraine, unspecified, not intractable, without status migrainosus"
+DX-0000753,PAT-0000049,ENC-0000093,R51.9,"Headache, unspecified"
+DX-0000754,PAT-0000099,ENC-0000281,E11.9,Type 2 diabetes mellitus without complications
+DX-0000755,PAT-0000008,ENC-0000345,E11.9,Type 2 diabetes mellitus without complications
+DX-0000756,PAT-0000195,ENC-0000426,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000757,PAT-0000034,ENC-0000007,N18.9,"Chronic kidney disease, unspecified"
+DX-0000758,PAT-0000031,ENC-0000051,F41.9,"Anxiety disorder, unspecified"
+DX-0000759,PAT-0000088,ENC-0000054,R05.9,"Cough, unspecified"
+DX-0000760,PAT-0000037,ENC-0000229,M25.50,Pain in unspecified joint
+DX-0000761,PAT-0000078,ENC-0000113,E78.5,"Hyperlipidemia, unspecified"
+DX-0000762,PAT-0000172,ENC-0000129,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000763,PAT-0000018,ENC-0000018,E11.9,Type 2 diabetes mellitus without complications
+DX-0000764,PAT-0000112,ENC-0000318,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000765,PAT-0000191,ENC-0000030,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000766,PAT-0000039,ENC-0000337,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000767,PAT-0000015,ENC-0000487,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000768,PAT-0000073,ENC-0000327,M54.5,Low back pain
+DX-0000769,PAT-0000077,ENC-0000363,M54.5,Low back pain
+DX-0000770,PAT-0000023,ENC-0000045,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000771,PAT-0000114,ENC-0000067,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000772,PAT-0000039,ENC-0000337,J18.9,"Pneumonia, unspecified organism"
+DX-0000773,PAT-0000066,ENC-0000290,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000774,PAT-0000159,ENC-0000459,M54.5,Low back pain
+DX-0000775,PAT-0000129,ENC-0000357,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000776,PAT-0000050,ENC-0000130,E78.5,"Hyperlipidemia, unspecified"
+DX-0000777,PAT-0000086,ENC-0000240,R05.9,"Cough, unspecified"
+DX-0000778,PAT-0000137,ENC-0000480,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000779,PAT-0000093,ENC-0000328,E03.9,"Hypothyroidism, unspecified"
+DX-0000780,PAT-0000048,ENC-0000473,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000781,PAT-0000144,ENC-0000394,N18.9,"Chronic kidney disease, unspecified"
+DX-0000782,PAT-0000023,ENC-0000355,R05.9,"Cough, unspecified"
+DX-0000783,PAT-0000134,ENC-0000395,R51.9,"Headache, unspecified"
+DX-0000784,PAT-0000106,ENC-0000132,K21.9,Gastro-esophageal reflux disease without esophagitis
+DX-0000785,PAT-0000175,ENC-0000400,J45.909,"Unspecified asthma, uncomplicated"
+DX-0000786,PAT-0000140,ENC-0000142,I10,Essential (primary) hypertension
+DX-0000787,PAT-0000076,ENC-0000196,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000788,PAT-0000013,ENC-0000171,I10,Essential (primary) hypertension
+DX-0000789,PAT-0000121,ENC-0000133,I25.10,Atherosclerotic heart disease of native coronary artery
+DX-0000790,PAT-0000114,ENC-0000092,E03.9,"Hypothyroidism, unspecified"
+DX-0000791,PAT-0000145,ENC-0000036,I48.91,Unspecified atrial fibrillation
+DX-0000792,PAT-0000033,ENC-0000476,F32.9,"Major depressive disorder, single episode, unspecified"
+DX-0000793,PAT-0000100,ENC-0000313,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+DX-0000794,PAT-0000114,ENC-0000092,J18.9,"Pneumonia, unspecified organism"
+DX-0000795,PAT-0000169,ENC-0000252,M54.5,Low back pain
+DX-0000796,PAT-0000033,ENC-0000074,R10.9,Unspecified abdominal pain
+DX-0000797,PAT-0000144,ENC-0000394,N18.9,"Chronic kidney disease, unspecified"
+DX-0000798,PAT-0000029,ENC-0000112,A09,"Infectious gastroenteritis and colitis, unspecified"
+DX-0000799,PAT-0000126,ENC-0000330,M54.5,Low back pain
+DX-0000800,PAT-0000086,ENC-0000468,E03.9,"Hypothyroidism, unspecified"

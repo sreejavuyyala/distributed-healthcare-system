@@ -1,0 +1,73 @@
+{
+  "name": "PL_PATIENTS",
+  "description": "Representative Azure Data Factory pipeline definition for the Patients feed — design artifact only, not deployed as part of this project. See azure-adf/documentation/README.md for what this maps to in the local implementation (backend/.../ingestion/FeedIngestionService.java).",
+  "properties": {
+    "activities": [
+      {
+        "name": "ValidateSourceFile",
+        "type": "Validation",
+        "typeProperties": {
+          "dataset": { "referenceName": "DS_Patients_Source", "type": "DatasetReference" },
+          "minimumSize": 1
+        }
+      },
+      {
+        "name": "CopyPatientsToRawLandingZone",
+        "type": "Copy",
+        "dependsOn": [{ "activity": "ValidateSourceFile", "dependencyConditions": ["Succeeded"] }],
+        "policy": {
+          "timeout": "0.01:00:00",
+          "retry": 3,
+          "retryIntervalInSeconds": 2,
+          "secureOutput": false
+        },
+        "typeProperties": {
+          "source": { "type": "DelimitedTextSource" },
+          "sink": {
+            "type": "JsonSink",
+            "storeSettings": {
+              "type": "AzureBlobStorageWriteSettings",
+              "copyBehavior": "PreserveHierarchy"
+            }
+          }
+        },
+        "inputs": [{ "referenceName": "DS_Patients_Source", "type": "DatasetReference" }],
+        "outputs": [{ "referenceName": "DS_Patients_RawBlob", "type": "DatasetReference" }]
+      },
+      {
+        "name": "LogSuccess",
+        "type": "WebActivity",
+        "dependsOn": [{ "activity": "CopyPatientsToRawLandingZone", "dependencyConditions": ["Succeeded"] }],
+        "typeProperties": {
+          "url": "@pipeline().parameters.ingestionCallbackUrl",
+          "method": "POST",
+          "body": {
+            "feedName": "patients",
+            "status": "SUCCESS",
+            "batchId": "@pipeline().RunId"
+          }
+        }
+      },
+      {
+        "name": "LogFailure",
+        "type": "WebActivity",
+        "dependsOn": [{ "activity": "CopyPatientsToRawLandingZone", "dependencyConditions": ["Failed"] }],
+        "typeProperties": {
+          "url": "@pipeline().parameters.ingestionCallbackUrl",
+          "method": "POST",
+          "body": {
+            "feedName": "patients",
+            "status": "FAILED",
+            "batchId": "@pipeline().RunId",
+            "errorMessage": "@activity('CopyPatientsToRawLandingZone').Error.message"
+          }
+        },
+        "comment": "Per-feed failure isolation: this pipeline's failure only marks the PATIENTS feed FAILED — it has no dependency on, and does not block, PL_ENCOUNTERS/PL_DIAGNOSES/PL_PROCEDURES/PL_LABS, each of which is triggered independently."
+      }
+    ],
+    "parameters": {
+      "ingestionCallbackUrl": { "type": "string" }
+    },
+    "annotations": ["feed:patients", "layer:raw-ingestion"]
+  }
+}

@@ -1,0 +1,2 @@
+lab_id,patient_id,test_name,test_result,reference_range,collected_at
+LAB-TEST-01,PAT-TEST-01,Hemoglobin A1c,5.4 %,4.0-5.6,2025-01-01T12:00:00

@@ -1,0 +1,23 @@
+# Test profile: requires a local PostgreSQL instance with a `healthcare_test`
+# database (see docs/testing.md — `createdb healthcare_test`). No Docker /
+# Testcontainers: this project's tests run against the same local Postgres
+# a developer already has running for `mvn spring-boot:run`.
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/healthcare_test
+    username: healthcare
+    password: healthcare
+  flyway:
+    clean-disabled: false
+
+platform:
+  ingestion:
+    feeds-dir: src/test/resources/test-feeds
+    failure-rate: 0.0
+    max-retries: 2
+    initial-backoff-ms: 1
+    backoff-multiplier: 1.0
+  storage:
+    provider: local
+    local:
+      root-dir: target/test-local-storage/raw

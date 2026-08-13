@@ -1,0 +1,56 @@
+spring:
+  application:
+    name: distributed-healthcare-platform
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:local}
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/healthcare}
+    username: ${DB_USERNAME:healthcare}
+    password: ${DB_PASSWORD:healthcare}
+    hikari:
+      maximum-pool-size: ${DB_POOL_SIZE:10}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: false
+  flyway:
+    enabled: true
+    schemas: staging,analytics,audit
+    default-schema: public
+    locations: classpath:db/migration
+
+server:
+  port: ${SERVER_PORT:8080}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when-authorized
+
+platform:
+  cors:
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000,http://localhost:5173}
+  ingestion:
+    feeds-dir: ${FEEDS_DIR:../data/generated}
+    failure-rate: ${FAILURE_RATE:0.0}
+    max-retries: ${MAX_RETRIES:3}
+    initial-backoff-ms: ${INITIAL_BACKOFF_MS:2000}
+    backoff-multiplier: ${BACKOFF_MULTIPLIER:2}
+  storage:
+    provider: ${STORAGE_PROVIDER:local}
+    local:
+      root-dir: ${LOCAL_STORAGE_ROOT:./local-storage/raw}
+    azure:
+      connection-string: ${AZURE_STORAGE_CONNECTION_STRING:}
+      container: ${AZURE_STORAGE_CONTAINER:healthcare-raw}
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%X{correlationId}] %-5level %logger{36} - %msg%n"

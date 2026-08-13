@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Distributed Healthcare Data Platform</title>
+<meta name="description" content="A fault-tolerant, multi-feed healthcare data ingestion and analytics platform — Spring Boot, PostgreSQL, React. Academic / portfolio project, $0 infrastructure cost, synthetic data only." />
+<style>
+  :root {
+    --bg: #f4f7f8;
+    --surface: #ffffff;
+    --border: #e2e8ea;
+    --text: #1a2b2e;
+    --text-muted: #5b6b6e;
+    --primary: #0e6f6a;
+    --primary-dark: #0a5652;
+    --primary-soft: #e3f3f1;
+    --success: #1f8a4c;
+    --success-soft: #e6f6ec;
+    --danger: #c0392b;
+    --danger-soft: #fbeae8;
+    --radius: 12px;
+    --shadow: 0 4px 20px rgba(15, 46, 45, 0.08);
+    --maxw: 1080px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  a { color: var(--primary-dark); }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+  section { padding: 64px 0; }
+  h1, h2, h3 { line-height: 1.25; margin: 0 0 12px; }
+  h2 { font-size: 26px; }
+  h3 { font-size: 16px; }
+  p { color: var(--text-muted); margin: 0 0 12px; }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 10px;
+  }
+
+  /* NAV */
+  header.site-nav {
+    position: sticky; top: 0; z-index: 20;
+    background: rgba(244,247,248,0.9);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--border);
+  }
+  .nav-inner {
+    max-width: var(--maxw); margin: 0 auto; padding: 14px 24px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-brand { font-weight: 700; font-size: 14px; }
+  .nav-links { display: flex; gap: 20px; font-size: 13px; }
+  .nav-links a { text-decoration: none; color: var(--text-muted); font-weight: 600; }
+  .nav-links a:hover { color: var(--primary-dark); }
+
+  /* HERO */
+  .hero { padding: 84px 0 60px; text-align: center; }
+  .hero h1 { font-size: 40px; max-width: 760px; margin: 0 auto 16px; }
+  .hero .lead { font-size: 16.5px; max-width: 640px; margin: 0 auto 28px; }
+  .hero-badges { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 30px; }
+  .pill {
+    background: var(--primary-soft); color: var(--primary-dark);
+    padding: 5px 12px; border-radius: 999px; font-size: 12px; font-weight: 600;
+  }
+  .cta-row { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block; padding: 11px 22px; border-radius: 8px; font-weight: 600;
+    font-size: 14px; text-decoration: none; border: 1px solid transparent;
+  }
+  .btn-primary { background: var(--primary); color: white; }
+  .btn-outline { background: var(--surface); color: var(--primary-dark); border-color: var(--border); }
+
+  /* CARD */
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: var(--radius); box-shadow: var(--shadow); padding: 24px;
+  }
+  .grid { display: grid; gap: 18px; }
+  .grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  .grid-3 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .grid-4 { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+
+  /* ARCHITECTURE DIAGRAM */
+  .flow {
+    display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: center;
+    margin: 26px 0;
+  }
+  .flow-box {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 16px; font-size: 12.5px; font-weight: 600; text-align: center;
+    box-shadow: var(--shadow); min-width: 120px;
+  }
+  .flow-arrow { color: var(--text-muted); font-size: 18px; }
+  .flow-box.accent { background: var(--primary); color: white; border-color: var(--primary); }
+
+  /* FAULT TOLERANCE DEMO */
+  .isolation-row {
+    display: flex; gap: 10px; flex-wrap: wrap; margin: 18px 0;
+  }
+  .feed-chip {
+    flex: 1; min-width: 130px;
+    border-radius: 10px; padding: 16px; text-align: center; font-weight: 700; font-size: 13px;
+  }
+  .feed-chip.ok { background: var(--success-soft); color: var(--success); border: 1px solid #cdeedb; }
+  .feed-chip.fail { background: var(--danger-soft); color: var(--danger); border: 1px solid #f5d3ce; }
+  .feed-chip small { display: block; font-weight: 500; margin-top: 4px; opacity: 0.85; font-size: 11px; }
+
+  /* PERF TABLE */
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+  th { color: var(--text-muted); font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.03em; }
+  .improvement { color: var(--success); font-weight: 700; }
+
+  /* TECH STACK */
+  .tech-card {
+    text-align: center; padding: 18px 10px;
+  }
+  .tech-card .tech-name { font-weight: 700; font-size: 13.5px; margin-bottom: 4px; }
+  .tech-card .tech-role { font-size: 11.5px; color: var(--text-muted); }
+
+  /* SCREENSHOTS */
+  .shot {
+    border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow);
+  }
+  .shot img { width: 100%; display: block; }
+  .shot-caption { padding: 12px 16px; font-size: 12.5px; color: var(--text-muted); background: var(--surface); }
+
+  footer {
+    padding: 40px 0 60px; text-align: center; color: var(--text-muted); font-size: 12.5px;
+  }
+
+  .stat-strip { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; margin: 30px 0 0; }
+  .stat-strip .stat { text-align: center; min-width: 130px; }
+  .stat-strip .num { font-size: 26px; font-weight: 800; color: var(--primary-dark); }
+  .stat-strip .lbl { font-size: 11.5px; color: var(--text-muted); }
+
+  code { background: #eef2f2; padding: 1px 5px; border-radius: 4px; font-size: 12.5px; }
+
+  @media (max-width: 640px) {
+    .nav-links { display: none; }
+    .hero h1 { font-size: 30px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <div class="nav-brand">Distributed Healthcare Data Platform</div>
+    <nav class="nav-links">
+      <a href="#problem">Problem</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#fault-tolerance">Fault Tolerance</a>
+      <a href="#performance">Performance</a>
+      <a href="#stack">Stack</a>
+      <a href="#screenshots">Screenshots</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Academic / Portfolio Project — $0 Infrastructure Cost</div>
+    <h1>Fault-tolerant healthcare data ingestion and analytics, built to run entirely on a laptop.</h1>
+    <p class="lead">
+      Five independent healthcare feeds, each with its own retry policy and failure isolation,
+      landing in a partitioned, indexed PostgreSQL analytics layer, served through a Spring Boot
+      REST API and a React dashboard. No Docker, no cloud subscription, no real patient data.
+    </p>
+    <div class="hero-badges">
+      <span class="pill">Java 21 · Spring Boot</span>
+      <span class="pill">PostgreSQL (partitioned)</span>
+      <span class="pill">React + TypeScript</span>
+      <span class="pill">Python data generator</span>
+      <span class="pill">Synthetic data only</span>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#screenshots">View Dashboard</a>
+      <a class="btn btn-outline" href="https://github.com/" target="_blank" rel="noopener">GitHub Repository</a>
+      <a class="btn btn-outline" href="#architecture">Architecture</a>
+    </div>
+    <div class="stat-strip">
+      <div class="stat"><div class="num">160,000</div><div class="lbl">synthetic records ingested</div></div>
+      <div class="stat"><div class="num">5 / 5</div><div class="lbl">feeds independently isolated</div></div>
+      <div class="stat"><div class="num">75.1%</div><div class="lbl">avg. measured query improvement</div></div>
+      <div class="stat"><div class="num">$0</div><div class="lbl">required infrastructure cost</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="problem">
+  <div class="wrap">
+    <div class="eyebrow">The Problem</div>
+    <h2>One flaky feed shouldn't take down the whole pipeline.</h2>
+    <p style="max-width:720px">
+      Healthcare systems receive data from many independent upstream sources — registration,
+      encounters, diagnoses, procedures, lab systems — each on its own schedule, each capable of
+      failing on its own. A naive ingestion job that processes all feeds in one transaction turns a
+      single bad file into a platform-wide outage. This project demonstrates the alternative:
+      <strong>per-feed failure isolation</strong> — an architecture where a failure in the Encounters
+      feed is fully contained, while Patients, Diagnoses, Procedures, and Labs keep succeeding.
+    </p>
+  </div>
+</section>
+
+<section id="architecture">
+  <div class="wrap">
+    <div class="eyebrow">Architecture</div>
+    <h2>Ingestion → raw landing → analytics → API → dashboard</h2>
+    <p>Azure Data Factory and Azure Blob Storage are represented as the production target architecture (design artifacts, not deployed). The local implementation reproduces the same retry + isolation behavior with a Java ingestion engine and the local filesystem.</p>
+    <div class="card">
+      <div class="flow">
+        <div class="flow-box">5 Upstream Feeds<br><small style="font-weight:400">Patients · Encounters · Diagnoses · Procedures · Labs</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box accent">Retry + Per-Feed Isolation<br><small style="font-weight:400;opacity:.85">Azure Data Factory (design) / local engine (running)</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box">Raw Landing Zone<br><small style="font-weight:400">Local FS ⇄ Azure Blob Storage</small></div>
+      </div>
+      <div class="flow">
+        <div class="flow-box">Validation &amp; Transform</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box accent">PostgreSQL Analytics<br><small style="font-weight:400;opacity:.85">partitioned + indexed</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box">Spring Boot REST API</div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-box">React Dashboard</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="fault-tolerance">
+  <div class="wrap">
+    <div class="eyebrow">Fault Tolerance — the core distributed-systems concept</div>
+    <h2>Per-feed failure isolation, proven by an automated test</h2>
+    <p>
+      Captured directly from the running platform: the Encounters feed was forced to fail through
+      3 retry attempts (exponential backoff, 2s → 4s), then marked <code>FAILED</code> — while every
+      other feed in the same batch run still completed with <code>SUCCESS</code> and its full record count.
+    </p>
+    <div class="isolation-row">
+      <div class="feed-chip ok">Patients<small>SUCCESS · 10,000 records</small></div>
+      <div class="feed-chip fail">Encounters<small>FAILED · 2 retries exhausted</small></div>
+      <div class="feed-chip ok">Diagnoses<small>SUCCESS · 50,000 records</small></div>
+      <div class="feed-chip ok">Procedures<small>SUCCESS · 20,000 records</small></div>
+      <div class="feed-chip ok">Labs<small>SUCCESS · 50,000 records</small></div>
+    </div>
+    <p style="font-size:12.5px">
+      This exact scenario is asserted in <code>backend/src/test/java/.../ingestion/FeedIsolationTest.java</code>
+      and again against a real PostgreSQL database in <code>IngestionIntegrationTest</code>.
+    </p>
+  </div>
+</section>
+
+<section id="performance">
+  <div class="wrap">
+    <div class="eyebrow">Database Optimization — measured, not assumed</div>
+    <h2>Partitioning + indexing vs. an unoptimized baseline</h2>
+    <p>
+      <code>analytics.encounters</code> is partitioned by <code>encounter_date</code> (yearly range
+      partitions); <code>encounters</code>, <code>diagnoses</code>, and <code>labs</code> carry indexes
+      matched to the queries the API actually runs. Each query below was run against an unpartitioned,
+      minimally-indexed baseline table loaded with the identical rows, and against the real optimized
+      table — median of 7 runs each, via <code>EXPLAIN ANALYZE</code>.
+    </p>
+    <div class="card">
+      <table>
+        <thead>
+          <tr><th>Query</th><th>Baseline (median)</th><th>Optimized (median)</th><th>Improvement</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Patient encounter history (indexed point lookup)</td>
+            <td>2.443 ms</td><td>0.105 ms</td><td class="improvement">95.7%</td>
+          </tr>
+          <tr>
+            <td>Encounters by facility, date-range filtered (partition pruning)</td>
+            <td>4.151 ms</td><td>2.835 ms</td><td class="improvement">31.7%</td>
+          </tr>
+          <tr>
+            <td>Diagnoses by patient (indexed lookup)</td>
+            <td>4.820 ms</td><td>0.099 ms</td><td class="improvement">97.9%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:12.5px;margin-top:12px">
+      Average across the 3 queries: <strong>75.1%</strong> measured improvement (an earlier run measured
+      84.7% on the identical queries — these numbers move between runs at sub-5ms baseline latencies; see
+      <code>docs/performance.md</code> for why). The two point-lookup queries improve 95%+; the one query
+      doing real aggregation work lands close to the brief's original ~30% target — a more informative
+      result than the headline average. Full methodology and raw samples:
+      <code>reports/performance/results.json</code>.
+    </p>
+  </div>
+</section>
+
+<section id="stack">
+  <div class="wrap">
+    <div class="eyebrow">Technology Stack</div>
+    <h2>What's actually running</h2>
+    <div class="grid grid-4">
+      <div class="card tech-card"><div class="tech-name">Java 21</div><div class="tech-role">Backend language</div></div>
+      <div class="card tech-card"><div class="tech-name">Spring Boot 3</div><div class="tech-role">REST API, JPA, Flyway</div></div>
+      <div class="card tech-card"><div class="tech-name">PostgreSQL 16</div><div class="tech-role">Partitioned analytics store</div></div>
+      <div class="card tech-card"><div class="tech-name">React + TypeScript</div><div class="tech-role">Dashboard (Vite)</div></div>
+      <div class="card tech-card"><div class="tech-name">Python</div><div class="tech-role">Synthetic data generator</div></div>
+      <div class="card tech-card"><div class="tech-name">GitHub Actions</div><div class="tech-role">CI (build + test)</div></div>
+      <div class="card tech-card"><div class="tech-name">Azure Data Factory</div><div class="tech-role">Design target (not deployed)</div></div>
+      <div class="card tech-card"><div class="tech-name">Azure Blob Storage</div><div class="tech-role">Design target (not deployed)</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="screenshots">
+  <div class="wrap">
+    <div class="eyebrow">Screenshots</div>
+    <h2>The dashboard, live</h2>
+    <div class="grid grid-2">
+      <div class="shot">
+        <img src="assets/screenshots/overview.png" alt="Platform overview dashboard showing patient, encounter, diagnosis, procedure and lab counts" loading="lazy" />
+        <div class="shot-caption">Overview — live counts from the analytics schema.</div>
+      </div>
+      <div class="shot">
+        <img src="assets/screenshots/pipeline.png" alt="Pipeline monitoring showing feed_execution audit trail" loading="lazy" />
+        <div class="shot-caption">Pipeline Monitoring — the feed_execution audit trail.</div>
+      </div>
+      <div class="shot">
+        <img src="assets/screenshots/failure-demo.png" alt="Failure simulation panel showing forced encounters failure" loading="lazy" />
+        <div class="shot-caption">Failure Simulation — force a feed to fail on demand.</div>
+      </div>
+      <div class="shot">
+        <img src="assets/screenshots/analytics.png" alt="Clinical analytics charts: encounters over time, top diagnoses, encounters by facility, provider workload" loading="lazy" />
+        <div class="shot-caption">Clinical Analytics — encounters, diagnoses, facilities, providers.</div>
+      </div>
+      <div class="shot" style="grid-column: 1 / -1;">
+        <img src="assets/screenshots/patient-explorer.png" alt="Patient explorer showing demographics, encounters, diagnoses, procedures and labs for a synthetic patient" loading="lazy" />
+        <div class="shot-caption">Patient Explorer — full clinical history for a synthetic patient (PAT-0000001).</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Demonstration platform. All data is synthetically generated — no real patient data (PHI) is used or represented anywhere in this project.</p>
+    <p>See the repository README and <code>docs/</code> for setup, architecture, and academic report outline.</p>
+  </div>
+</footer>
+
+</body>
+</html>

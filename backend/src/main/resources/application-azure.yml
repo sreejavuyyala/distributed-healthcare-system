@@ -1,0 +1,13 @@
+# Azure deployment profile. NOT exercised by this repo's CI or local demo —
+# see docs/deployment.md. Requires DB_URL/DB_USERNAME/DB_PASSWORD pointed at
+# an Azure Database for PostgreSQL instance and AZURE_STORAGE_CONNECTION_STRING
+# for a real Storage Account, supplied via environment/CI secrets — never
+# hardcoded here.
+platform:
+  storage:
+    provider: azure
+
+spring:
+  datasource:
+    hikari:
+      maximum-pool-size: 20

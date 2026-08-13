@@ -1,0 +1,4 @@
+# Local development profile: local Postgres, local-filesystem raw landing zone.
+platform:
+  storage:
+    provider: local

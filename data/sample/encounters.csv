@@ -1,0 +1,501 @@
+encounter_id,patient_id,provider_name,specialty,facility_name,encounter_type,department,admission_time,discharge_time,encounter_date
+ENC-0000001,PAT-0000013,Dr. Moon,Cardiology,Lakeview General Hospital,Outpatient,Oncology,2024-09-23T08:12:51,2024-09-23T10:12:51,2024-09-23
+ENC-0000002,PAT-0000043,Dr. White,Endocrinology,Riverside Medical Center,Telehealth,Psychiatry,2026-05-03T00:16:14,2026-05-03T01:16:14,2026-05-03
+ENC-0000003,PAT-0000188,Dr. Richards,Nephrology,Northside Community Clinic,Outpatient,Radiology,2023-12-05T04:28:39,2023-12-05T05:28:39,2023-12-05
+ENC-0000004,PAT-0000013,Dr. Walters,Nephrology,Willow Creek Clinic,Urgent Care,Oncology,2023-03-30T08:37:27,2023-03-30T13:37:27,2023-03-30
+ENC-0000005,PAT-0000018,Dr. Vasquez,Pediatrics,Harborview Medical Center,Inpatient,Pediatrics,2025-06-18T07:40:00,2025-06-25T03:40:00,2025-06-18
+ENC-0000006,PAT-0000150,Dr. Davis,Emergency Medicine,Maple Street Outpatient Clinic,Emergency,Orthopedics,2025-11-06T09:11:38,2025-11-06T20:11:38,2025-11-06
+ENC-0000007,PAT-0000034,Dr. Bailey,Radiology,Pinecrest General Hospital,Emergency,General Surgery,2023-01-15T11:18:19,2023-01-16T07:18:19,2023-01-15
+ENC-0000008,PAT-0000055,Dr. Cook,Emergency Medicine,Sunrise Specialty Center,Outpatient,Pulmonology,2023-04-17T20:43:33,2023-04-17T23:43:33,2023-04-17
+ENC-0000009,PAT-0000113,Dr. Santiago,Radiology,Eastgate Regional Medical Center,Urgent Care,Cardiology,2025-11-03T11:44:41,2025-11-03T13:44:41,2025-11-03
+ENC-0000010,PAT-0000068,Dr. Hodge,General Surgery,Lakeview General Hospital,Urgent Care,Obstetrics & Gynecology,2024-02-28T01:52:38,2024-02-28T03:52:38,2024-02-28
+ENC-0000011,PAT-0000176,Dr. Rivera,Psychiatry,Willow Creek Clinic,Telehealth,Psychiatry,2026-08-07T09:01:58,2026-08-07T10:01:58,2026-08-07
+ENC-0000012,PAT-0000001,Dr. Steele,Neurology,Northside Community Clinic,Emergency,Oncology,2026-02-25T11:05:28,2026-02-26T05:05:28,2026-02-25
+ENC-0000013,PAT-0000020,Dr. Roberts,Obstetrics & Gynecology,Willow Creek Clinic,Inpatient,Pulmonology,2025-06-23T21:31:50,2025-06-30T06:31:50,2025-06-23
+ENC-0000014,PAT-0000079,Dr. Landry,Pulmonology,Riverside Medical Center,Emergency,Orthopedics,2025-11-25T13:17:21,2025-11-26T11:17:21,2025-11-25
+ENC-0000015,PAT-0000105,Dr. Cervantes,Obstetrics & Gynecology,Cedar Grove Regional Hospital,Outpatient,Oncology,2024-10-02T11:26:59,2024-10-02T14:26:59,2024-10-02
+ENC-0000016,PAT-0000189,Dr. Pierce,Pediatrics,Sunrise Specialty Center,Outpatient,Internal Medicine,2024-08-17T06:11:20,2024-08-17T10:11:20,2024-08-17
+ENC-0000017,PAT-0000118,Dr. Gibson,Pulmonology,Sunrise Specialty Center,Outpatient,Pediatrics,2023-02-06T18:16:26,2023-02-06T22:16:26,2023-02-06
+ENC-0000018,PAT-0000018,Dr. Edwards,Psychiatry,Maple Street Outpatient Clinic,Urgent Care,Endocrinology,2025-11-21T14:16:17,2025-11-21T15:16:17,2025-11-21
+ENC-0000019,PAT-0000067,Dr. Morris,Oncology,Eastgate Regional Medical Center,Emergency,Emergency Medicine,2023-06-18T09:32:23,2023-06-18T23:32:23,2023-06-18
+ENC-0000020,PAT-0000156,Dr. Cordova,Emergency Medicine,Lakeview General Hospital,Telehealth,Orthopedics,2024-01-31T16:44:36,2024-01-31T16:44:36,2024-01-31
+ENC-0000021,PAT-0000138,Dr. Powell,Orthopedic Surgery,Maple Street Outpatient Clinic,Telehealth,General Surgery,2025-10-28T20:34:32,2025-10-28T20:34:32,2025-10-28
+ENC-0000022,PAT-0000077,Dr. Robertson,Emergency Medicine,Sunrise Specialty Center,Telehealth,Neurology,2024-09-17T02:34:25,2024-09-17T02:34:25,2024-09-17
+ENC-0000023,PAT-0000171,Dr. Travis,Endocrinology,Northside Community Clinic,Urgent Care,Radiology,2024-09-22T19:34:46,2024-09-22T21:34:46,2024-09-22
+ENC-0000024,PAT-0000111,Dr. Sandoval,Neurology,Pinecrest General Hospital,Telehealth,Dermatology,2025-11-15T13:12:32,2025-11-15T13:12:32,2025-11-15
+ENC-0000025,PAT-0000022,Dr. Daniels,Radiology,Willow Creek Clinic,Urgent Care,Neurology,2023-05-26T01:43:37,2023-05-26T03:43:37,2023-05-26
+ENC-0000026,PAT-0000038,Dr. Gutierrez,Cardiology,Riverside Medical Center,Outpatient,Nephrology,2025-08-07T13:56:43,2025-08-07T17:56:43,2025-08-07
+ENC-0000027,PAT-0000148,Dr. Lopez,Orthopedic Surgery,Harborview Medical Center,Telehealth,Endocrinology,2024-01-15T00:23:57,2024-01-15T00:23:57,2024-01-15
+ENC-0000028,PAT-0000057,Dr. Cox,Oncology,Willow Creek Clinic,Telehealth,Emergency Medicine,2025-05-15T21:35:39,2025-05-15T21:35:39,2025-05-15
+ENC-0000029,PAT-0000171,Dr. Avila,Emergency Medicine,Willow Creek Clinic,Urgent Care,Neurology,2026-03-19T05:45:40,2026-03-19T07:45:40,2026-03-19
+ENC-0000030,PAT-0000191,Dr. Garrett,Nephrology,Pinecrest General Hospital,Emergency,Pediatrics,2026-07-28T16:21:28,2026-07-29T01:21:28,2026-07-28
+ENC-0000031,PAT-0000113,Dr. Wolf,Internal Medicine,Sunrise Specialty Center,Outpatient,Psychiatry,2024-06-05T17:18:13,2024-06-05T18:18:13,2024-06-05
+ENC-0000032,PAT-0000060,Dr. Harris,Endocrinology,Northside Community Clinic,Outpatient,General Surgery,2024-10-06T11:23:46,2024-10-06T15:23:46,2024-10-06
+ENC-0000033,PAT-0000053,Dr. Dunn,Gastroenterology,Harborview Medical Center,Urgent Care,Cardiology,2026-04-04T07:26:04,2026-04-04T10:26:04,2026-04-04
+ENC-0000034,PAT-0000077,Dr. Pennington,Endocrinology,Harborview Medical Center,Urgent Care,Pediatrics,2025-01-28T10:30:51,2025-01-28T11:30:51,2025-01-28
+ENC-0000035,PAT-0000100,Dr. Kim,Neurology,Harborview Medical Center,Outpatient,Dermatology,2023-07-18T06:18:32,2023-07-18T07:18:32,2023-07-18
+ENC-0000036,PAT-0000145,Dr. Wolfe,Cardiology,Lakeview General Hospital,Telehealth,Obstetrics & Gynecology,2024-12-18T05:21:56,2024-12-18T06:21:56,2024-12-18
+ENC-0000037,PAT-0000055,Dr. Martinez,Dermatology,Maple Street Outpatient Clinic,Emergency,Endocrinology,2024-03-08T06:09:30,2024-03-08T20:09:30,2024-03-08
+ENC-0000038,PAT-0000005,Dr. Dudley,Family Medicine,Maple Street Outpatient Clinic,Outpatient,General Surgery,2026-04-28T14:28:44,2026-04-28T15:28:44,2026-04-28
+ENC-0000039,PAT-0000006,Dr. Lynch,Obstetrics & Gynecology,Cedar Grove Regional Hospital,Outpatient,Nephrology,2025-11-05T23:14:05,2025-11-06T01:14:05,2025-11-05
+ENC-0000040,PAT-0000066,Dr. Allen,Pulmonology,Northside Community Clinic,Urgent Care,Internal Medicine,2026-04-23T06:10:59,2026-04-23T11:10:59,2026-04-23
+ENC-0000041,PAT-0000007,Dr. Moore,Radiology,Eastgate Regional Medical Center,Telehealth,Endocrinology,2026-01-15T17:40:49,2026-01-15T17:40:49,2026-01-15
+ENC-0000042,PAT-0000198,Dr. Pierce,Radiology,Eastgate Regional Medical Center,Inpatient,Emergency Medicine,2024-06-23T08:41:40,2024-06-29T12:41:40,2024-06-23
+ENC-0000043,PAT-0000166,Dr. Tran,Neurology,Riverside Medical Center,Telehealth,Nephrology,2023-06-13T22:46:27,2023-06-13T22:46:27,2023-06-13
+ENC-0000044,PAT-0000046,Dr. Davis,Emergency Medicine,Sunrise Specialty Center,Urgent Care,Nephrology,2024-12-23T03:45:01,2024-12-23T05:45:01,2024-12-23
+ENC-0000045,PAT-0000023,Dr. Gay,Psychiatry,Pinecrest General Hospital,Outpatient,Dermatology,2025-06-04T05:32:04,2025-06-04T09:32:04,2025-06-04
+ENC-0000046,PAT-0000127,Dr. Durham,Neurology,Northside Community Clinic,Telehealth,Orthopedics,2024-07-05T04:50:00,2024-07-05T05:50:00,2024-07-05
+ENC-0000047,PAT-0000180,Dr. Murray,Psychiatry,Willow Creek Clinic,Inpatient,Orthopedics,2023-05-13T23:52:57,2023-05-17T00:52:57,2023-05-13
+ENC-0000048,PAT-0000195,Dr. Wilson,Pediatrics,Pinecrest General Hospital,Telehealth,Dermatology,2026-05-16T18:40:48,2026-05-16T18:40:48,2026-05-16
+ENC-0000049,PAT-0000178,Dr. Collier,Pediatrics,Sunrise Specialty Center,Urgent Care,Pulmonology,2025-01-05T04:25:47,2025-01-05T10:25:47,2025-01-05
+ENC-0000050,PAT-0000141,Dr. Jimenez,Neurology,Maple Street Outpatient Clinic,Telehealth,Psychiatry,2024-04-21T07:44:01,2024-04-21T07:44:01,2024-04-21
+ENC-0000051,PAT-0000031,Dr. Moran,Oncology,Cedar Grove Regional Hospital,Outpatient,Nephrology,2024-03-05T12:39:11,2024-03-05T15:39:11,2024-03-05
+ENC-0000052,PAT-0000076,Dr. Hicks,Pediatrics,Maple Street Outpatient Clinic,Outpatient,Radiology,2023-01-22T23:29:21,2023-01-23T01:29:21,2023-01-22
+ENC-0000053,PAT-0000014,Dr. Hill,Radiology,Northside Community Clinic,Telehealth,Internal Medicine,2023-01-20T01:17:14,2023-01-20T02:17:14,2023-01-20
+ENC-0000054,PAT-0000088,Dr. Davenport,Oncology,Riverside Medical Center,Emergency,Nephrology,2023-06-27T05:28:36,2023-06-27T08:28:36,2023-06-27
+ENC-0000055,PAT-0000148,Dr. Baird,Family Medicine,Northside Community Clinic,Outpatient,Radiology,2023-05-13T07:46:27,2023-05-13T11:46:27,2023-05-13
+ENC-0000056,PAT-0000098,Dr. Sanchez,Dermatology,Pinecrest General Hospital,Emergency,Gastroenterology,2024-04-19T09:24:02,2024-04-20T05:24:02,2024-04-19
+ENC-0000057,PAT-0000161,Dr. Arnold,Orthopedic Surgery,Sunrise Specialty Center,Inpatient,Oncology,2024-01-08T14:49:19,2024-01-10T22:49:19,2024-01-08
+ENC-0000058,PAT-0000105,Dr. Reyes,Dermatology,Eastgate Regional Medical Center,Telehealth,Radiology,2023-02-20T16:54:07,2023-02-20T17:54:07,2023-02-20
+ENC-0000059,PAT-0000176,Dr. Weeks,Pediatrics,Sunrise Specialty Center,Urgent Care,Orthopedics,2024-10-22T10:19:46,2024-10-22T13:19:46,2024-10-22
+ENC-0000060,PAT-0000037,Dr. Romero,Internal Medicine,Riverside Medical Center,Outpatient,Radiology,2025-07-13T08:50:58,2025-07-13T11:50:58,2025-07-13
+ENC-0000061,PAT-0000120,Dr. Suarez,Radiology,Harborview Medical Center,Emergency,Nephrology,2024-11-11T00:50:00,2024-11-11T20:50:00,2024-11-11
+ENC-0000062,PAT-0000083,Dr. Shields,Psychiatry,Riverside Medical Center,Inpatient,Pediatrics,2025-11-13T11:39:54,2025-11-22T21:39:54,2025-11-13
+ENC-0000063,PAT-0000011,Dr. Hill,Oncology,Pinecrest General Hospital,Urgent Care,Dermatology,2024-03-08T02:25:43,2024-03-08T03:25:43,2024-03-08
+ENC-0000064,PAT-0000121,Dr. Tyler,Pulmonology,Harborview Medical Center,Emergency,Neurology,2025-11-07T00:23:17,2025-11-07T06:23:17,2025-11-07
+ENC-0000065,PAT-0000127,Dr. Perry,Radiology,Harborview Medical Center,Urgent Care,Emergency Medicine,2024-12-07T13:08:20,2024-12-07T14:08:20,2024-12-07
+ENC-0000066,PAT-0000198,Dr. Villa,Endocrinology,Willow Creek Clinic,Inpatient,Dermatology,2024-10-03T22:59:10,2024-10-04T23:59:10,2024-10-03
+ENC-0000067,PAT-0000114,Dr. Romero,Family Medicine,Cedar Grove Regional Hospital,Emergency,Obstetrics & Gynecology,2024-03-23T10:30:17,2024-03-24T09:30:17,2024-03-23
+ENC-0000068,PAT-0000162,Dr. Hoover,Pediatrics,Northside Community Clinic,Emergency,Cardiology,2025-05-07T21:25:29,2025-05-08T00:25:29,2025-05-07
+ENC-0000069,PAT-0000031,Dr. Campbell,Obstetrics & Gynecology,Pinecrest General Hospital,Emergency,Psychiatry,2024-10-07T10:36:09,2024-10-08T02:36:09,2024-10-07
+ENC-0000070,PAT-0000142,Dr. Evans,Obstetrics & Gynecology,Harborview Medical Center,Outpatient,Obstetrics & Gynecology,2023-04-19T10:42:30,2023-04-19T13:42:30,2023-04-19
+ENC-0000071,PAT-0000073,Dr. Matthews,Radiology,Eastgate Regional Medical Center,Urgent Care,Nephrology,2023-08-19T20:02:19,2023-08-19T23:02:19,2023-08-19
+ENC-0000072,PAT-0000142,Dr. Duarte,Endocrinology,Pinecrest General Hospital,Emergency,Orthopedics,2025-12-19T12:37:34,2025-12-20T07:37:34,2025-12-19
+ENC-0000073,PAT-0000012,Dr. Burns,Neurology,Pinecrest General Hospital,Telehealth,Endocrinology,2025-10-28T00:06:46,2025-10-28T01:06:46,2025-10-28
+ENC-0000074,PAT-0000033,Dr. Hernandez,Emergency Medicine,Eastgate Regional Medical Center,Emergency,Internal Medicine,2026-08-05T17:21:11,2026-08-05T21:21:11,2026-08-05
+ENC-0000075,PAT-0000037,Dr. Ryan,Gastroenterology,Northside Community Clinic,Inpatient,Nephrology,2026-04-29T01:22:28,2026-05-02T08:22:28,2026-04-29
+ENC-0000076,PAT-0000173,Dr. Reed,Endocrinology,Maple Street Outpatient Clinic,Telehealth,Emergency Medicine,2025-08-17T04:33:26,2025-08-17T04:33:26,2025-08-17
+ENC-0000077,PAT-0000024,Dr. Arnold,Gastroenterology,Lakeview General Hospital,Inpatient,Dermatology,2023-09-16T10:31:43,2023-09-24T07:31:43,2023-09-16
+ENC-0000078,PAT-0000015,Dr. Daniels,Radiology,Maple Street Outpatient Clinic,Emergency,Gastroenterology,2023-08-15T03:14:07,2023-08-15T20:14:07,2023-08-15
+ENC-0000079,PAT-0000045,Dr. Gibson,Internal Medicine,Eastgate Regional Medical Center,Telehealth,Pediatrics,2025-02-12T02:22:47,2025-02-12T03:22:47,2025-02-12
+ENC-0000080,PAT-0000066,Dr. Morris,Dermatology,Sunrise Specialty Center,Inpatient,Dermatology,2024-03-22T19:41:08,2024-03-30T12:41:08,2024-03-22
+ENC-0000081,PAT-0000089,Dr. Lopez,Radiology,Harborview Medical Center,Emergency,Dermatology,2026-08-06T03:12:52,2026-08-06T10:12:52,2026-08-06
+ENC-0000082,PAT-0000061,Dr. Terry,Endocrinology,Eastgate Regional Medical Center,Emergency,Radiology,2025-12-22T07:00:49,2025-12-22T08:00:49,2025-12-22
+ENC-0000083,PAT-0000145,Dr. Armstrong,Family Medicine,Eastgate Regional Medical Center,Telehealth,Radiology,2026-04-20T01:43:11,2026-04-20T01:43:11,2026-04-20
+ENC-0000084,PAT-0000049,Dr. Hall,Psychiatry,Northside Community Clinic,Inpatient,Emergency Medicine,2024-04-24T21:51:09,2024-05-03T18:51:09,2024-04-24
+ENC-0000085,PAT-0000034,Dr. Rowe,Internal Medicine,Sunrise Specialty Center,Emergency,Gastroenterology,2023-09-30T20:20:11,2023-10-01T01:20:11,2023-09-30
+ENC-0000086,PAT-0000066,Dr. Williams,Nephrology,Sunrise Specialty Center,Emergency,Internal Medicine,2024-12-28T12:39:34,2024-12-28T17:39:34,2024-12-28
+ENC-0000087,PAT-0000094,Dr. Garner,Internal Medicine,Harborview Medical Center,Inpatient,Psychiatry,2025-04-13T12:51:56,2025-04-15T07:51:56,2025-04-13
+ENC-0000088,PAT-0000098,Dr. Thornton,Pulmonology,Lakeview General Hospital,Outpatient,Nephrology,2023-02-08T20:59:11,2023-02-08T23:59:11,2023-02-08
+ENC-0000089,PAT-0000017,Dr. Shepherd,Dermatology,Sunrise Specialty Center,Telehealth,Internal Medicine,2023-08-06T03:15:53,2023-08-06T04:15:53,2023-08-06
+ENC-0000090,PAT-0000025,Dr. Hughes,Pediatrics,Willow Creek Clinic,Outpatient,Endocrinology,2024-12-05T17:03:54,2024-12-05T21:03:54,2024-12-05
+ENC-0000091,PAT-0000168,Dr. Alvarado,General Surgery,Pinecrest General Hospital,Urgent Care,Gastroenterology,2024-03-10T13:28:06,2024-03-10T17:28:06,2024-03-10
+ENC-0000092,PAT-0000114,Dr. Hoover,Pediatrics,Maple Street Outpatient Clinic,Inpatient,Pulmonology,2025-04-25T19:09:30,2025-05-03T04:09:30,2025-04-25
+ENC-0000093,PAT-0000049,Dr. Pollard,General Surgery,Pinecrest General Hospital,Inpatient,Orthopedics,2025-09-23T20:28:35,2025-10-01T03:28:35,2025-09-23
+ENC-0000094,PAT-0000063,Dr. Simpson,Obstetrics & Gynecology,Eastgate Regional Medical Center,Outpatient,General Surgery,2026-07-13T01:51:04,2026-07-13T03:51:04,2026-07-13
+ENC-0000095,PAT-0000085,Dr. Johnson,Obstetrics & Gynecology,Eastgate Regional Medical Center,Inpatient,Psychiatry,2023-08-13T18:21:31,2023-08-15T15:21:31,2023-08-13
+ENC-0000096,PAT-0000170,Dr. Shaw,Cardiology,Northside Community Clinic,Inpatient,Pulmonology,2026-05-12T04:45:46,2026-05-21T01:45:46,2026-05-12
+ENC-0000097,PAT-0000068,Dr. Lawrence,Family Medicine,Northside Community Clinic,Telehealth,Internal Medicine,2026-03-04T08:24:59,2026-03-04T09:24:59,2026-03-04
+ENC-0000098,PAT-0000152,Dr. Kane,General Surgery,Pinecrest General Hospital,Urgent Care,Pediatrics,2025-08-13T12:50:42,2025-08-13T18:50:42,2025-08-13
+ENC-0000099,PAT-0000008,Dr. Sawyer,Family Medicine,Pinecrest General Hospital,Telehealth,Gastroenterology,2025-12-01T19:34:07,2025-12-01T19:34:07,2025-12-01
+ENC-0000100,PAT-0000083,Dr. Alexander,Obstetrics & Gynecology,Lakeview General Hospital,Outpatient,Psychiatry,2025-08-27T20:14:35,2025-08-27T23:14:35,2025-08-27
+ENC-0000101,PAT-0000136,Dr. Fox,Radiology,Pinecrest General Hospital,Urgent Care,Gastroenterology,2023-06-04T01:38:27,2023-06-04T05:38:27,2023-06-04
+ENC-0000102,PAT-0000116,Dr. Bryant,Pediatrics,Harborview Medical Center,Emergency,Dermatology,2024-09-11T09:44:19,2024-09-12T09:44:19,2024-09-11
+ENC-0000103,PAT-0000081,Dr. Bowen,Psychiatry,Maple Street Outpatient Clinic,Outpatient,Nephrology,2023-04-15T06:54:40,2023-04-15T07:54:40,2023-04-15
+ENC-0000104,PAT-0000191,Dr. Ortiz,Pulmonology,Northside Community Clinic,Urgent Care,Emergency Medicine,2025-06-30T01:00:10,2025-06-30T05:00:10,2025-06-30
+ENC-0000105,PAT-0000091,Dr. Pena,Gastroenterology,Riverside Medical Center,Emergency,Radiology,2024-06-30T06:19:12,2024-07-01T01:19:12,2024-06-30
+ENC-0000106,PAT-0000124,Dr. Moore,Pediatrics,Lakeview General Hospital,Emergency,Pulmonology,2023-06-28T11:14:05,2023-06-28T20:14:05,2023-06-28
+ENC-0000107,PAT-0000197,Dr. Harrison,Cardiology,Eastgate Regional Medical Center,Emergency,Cardiology,2023-10-08T06:23:55,2023-10-09T05:23:55,2023-10-08
+ENC-0000108,PAT-0000002,Dr. Costa,Oncology,Northside Community Clinic,Urgent Care,Endocrinology,2023-04-19T02:19:57,2023-04-19T08:19:57,2023-04-19
+ENC-0000109,PAT-0000136,Dr. Morgan,Orthopedic Surgery,Harborview Medical Center,Telehealth,Dermatology,2024-06-13T13:31:24,2024-06-13T14:31:24,2024-06-13
+ENC-0000110,PAT-0000153,Dr. Schwartz,Internal Medicine,Riverside Medical Center,Outpatient,Oncology,2026-03-17T23:24:29,2026-03-18T00:24:29,2026-03-17
+ENC-0000111,PAT-0000170,Dr. Santos,Gastroenterology,Pinecrest General Hospital,Urgent Care,Dermatology,2024-10-05T09:53:20,2024-10-05T13:53:20,2024-10-05
+ENC-0000112,PAT-0000029,Dr. Christian,Radiology,Eastgate Regional Medical Center,Telehealth,Radiology,2023-03-12T13:16:55,2023-03-12T13:16:55,2023-03-12
+ENC-0000113,PAT-0000078,Dr. Phelps,Orthopedic Surgery,Northside Community Clinic,Emergency,Radiology,2024-05-24T17:17:17,2024-05-24T18:17:17,2024-05-24
+ENC-0000114,PAT-0000034,Dr. Villarreal,Endocrinology,Willow Creek Clinic,Outpatient,Pulmonology,2023-04-22T23:10:09,2023-04-23T00:10:09,2023-04-22
+ENC-0000115,PAT-0000118,Dr. James,Internal Medicine,Maple Street Outpatient Clinic,Urgent Care,Gastroenterology,2025-06-09T17:53:22,2025-06-09T18:53:22,2025-06-09
+ENC-0000116,PAT-0000104,Dr. Stewart,Cardiology,Maple Street Outpatient Clinic,Outpatient,Dermatology,2026-07-16T12:10:27,2026-07-16T13:10:27,2026-07-16
+ENC-0000117,PAT-0000063,Dr. Higgins,Gastroenterology,Eastgate Regional Medical Center,Telehealth,General Surgery,2024-09-06T19:15:06,2024-09-06T19:15:06,2024-09-06
+ENC-0000118,PAT-0000200,Dr. Malone,Oncology,Lakeview General Hospital,Urgent Care,Internal Medicine,2025-04-04T06:22:53,2025-04-04T12:22:53,2025-04-04
+ENC-0000119,PAT-0000166,Dr. Brennan,Obstetrics & Gynecology,Cedar Grove Regional Hospital,Inpatient,Obstetrics & Gynecology,2024-02-02T15:11:13,2024-02-05T05:11:13,2024-02-02
+ENC-0000120,PAT-0000198,Dr. Johnson,Nephrology,Pinecrest General Hospital,Urgent Care,Dermatology,2025-11-24T02:29:47,2025-11-24T04:29:47,2025-11-24
+ENC-0000121,PAT-0000113,Dr. Jones,Internal Medicine,Pinecrest General Hospital,Telehealth,Radiology,2026-05-22T01:19:20,2026-05-22T02:19:20,2026-05-22
+ENC-0000122,PAT-0000019,Dr. Welch,Radiology,Pinecrest General Hospital,Telehealth,Emergency Medicine,2023-03-30T09:00:53,2023-03-30T09:00:53,2023-03-30
+ENC-0000123,PAT-0000153,Dr. Mccall,Emergency Medicine,Harborview Medical Center,Telehealth,Emergency Medicine,2024-11-29T15:17:15,2024-11-29T16:17:15,2024-11-29
+ENC-0000124,PAT-0000122,Dr. Bright,Emergency Medicine,Northside Community Clinic,Inpatient,Dermatology,2023-06-10T18:49:46,2023-06-19T21:49:46,2023-06-10
+ENC-0000125,PAT-0000064,Dr. Francis,Dermatology,Pinecrest General Hospital,Urgent Care,Oncology,2024-07-19T07:05:57,2024-07-19T10:05:57,2024-07-19
+ENC-0000126,PAT-0000174,Dr. Hamilton,Family Medicine,Maple Street Outpatient Clinic,Inpatient,Neurology,2023-05-27T19:26:13,2023-06-03T05:26:13,2023-05-27
+ENC-0000127,PAT-0000186,Dr. Garcia,Obstetrics & Gynecology,Maple Street Outpatient Clinic,Inpatient,Obstetrics & Gynecology,2024-06-27T10:15:51,2024-07-01T05:15:51,2024-06-27
+ENC-0000128,PAT-0000182,Dr. Schultz,Internal Medicine,Sunrise Specialty Center,Urgent Care,Endocrinology,2025-09-26T15:10:03,2025-09-26T21:10:03,2025-09-26
+ENC-0000129,PAT-0000172,Dr. Brennan,Gastroenterology,Willow Creek Clinic,Emergency,Cardiology,2024-07-17T06:37:15,2024-07-17T12:37:15,2024-07-17
+ENC-0000130,PAT-0000050,Dr. Wallace,Pediatrics,Northside Community Clinic,Outpatient,General Surgery,2024-04-04T11:55:43,2024-04-04T12:55:43,2024-04-04
+ENC-0000131,PAT-0000034,Dr. Benson,Endocrinology,Northside Community Clinic,Outpatient,Oncology,2026-07-15T10:47:24,2026-07-15T12:47:24,2026-07-15
+ENC-0000132,PAT-0000106,Dr. Berger,Pulmonology,Cedar Grove Regional Hospital,Telehealth,Radiology,2026-03-14T19:10:32,2026-03-14T19:10:32,2026-03-14
+ENC-0000133,PAT-0000121,Dr. Williams,Orthopedic Surgery,Maple Street Outpatient Clinic,Urgent Care,Dermatology,2024-12-18T04:40:37,2024-12-18T06:40:37,2024-12-18
+ENC-0000134,PAT-0000052,Dr. Flynn,Obstetrics & Gynecology,Sunrise Specialty Center,Inpatient,Nephrology,2024-07-30T15:47:25,2024-08-06T00:47:25,2024-07-30
+ENC-0000135,PAT-0000196,Dr. Carter,Oncology,Sunrise Specialty Center,Telehealth,Obstetrics & Gynecology,2026-07-14T23:40:02,2026-07-15T00:40:02,2026-07-14
+ENC-0000136,PAT-0000007,Dr. Brooks,Gastroenterology,Riverside Medical Center,Telehealth,Pulmonology,2024-01-02T06:26:37,2024-01-02T06:26:37,2024-01-02
+ENC-0000137,PAT-0000082,Dr. Thomas,General Surgery,Maple Street Outpatient Clinic,Outpatient,Obstetrics & Gynecology,2023-03-01T12:02:47,2023-03-01T14:02:47,2023-03-01
+ENC-0000138,PAT-0000158,Dr. Schmidt,Cardiology,Lakeview General Hospital,Inpatient,Psychiatry,2023-12-02T00:11:29,2023-12-11T09:11:29,2023-12-02
+ENC-0000139,PAT-0000061,Dr. Knight,Radiology,Lakeview General Hospital,Inpatient,Pediatrics,2024-10-14T04:13:50,2024-10-21T11:13:50,2024-10-14
+ENC-0000140,PAT-0000128,Dr. Sparks,Cardiology,Willow Creek Clinic,Urgent Care,Pediatrics,2026-01-21T05:16:27,2026-01-21T10:16:27,2026-01-21
+ENC-0000141,PAT-0000091,Dr. Jackson,Pediatrics,Eastgate Regional Medical Center,Telehealth,Oncology,2025-10-29T01:33:26,2025-10-29T01:33:26,2025-10-29
+ENC-0000142,PAT-0000140,Dr. Miller,Emergency Medicine,Willow Creek Clinic,Urgent Care,Cardiology,2024-08-29T13:10:12,2024-08-29T16:10:12,2024-08-29
+ENC-0000143,PAT-0000065,Dr. Pitts,Cardiology,Maple Street Outpatient Clinic,Inpatient,Pulmonology,2024-01-10T13:49:33,2024-01-18T20:49:33,2024-01-10
+ENC-0000144,PAT-0000012,Dr. Harvey,Pulmonology,Willow Creek Clinic,Emergency,Oncology,2026-07-13T22:56:47,2026-07-14T20:56:47,2026-07-13
+ENC-0000145,PAT-0000047,Dr. Allen,Obstetrics & Gynecology,Lakeview General Hospital,Telehealth,Emergency Medicine,2024-03-31T20:19:55,2024-03-31T20:19:55,2024-03-31
+ENC-0000146,PAT-0000080,Dr. Durham,Emergency Medicine,Harborview Medical Center,Urgent Care,Nephrology,2024-01-29T12:13:18,2024-01-29T15:13:18,2024-01-29
+ENC-0000147,PAT-0000200,Dr. Thomas,Family Medicine,Maple Street Outpatient Clinic,Emergency,Internal Medicine,2026-05-26T17:38:42,2026-05-27T07:38:42,2026-05-26
+ENC-0000148,PAT-0000087,Dr. Murray,Oncology,Pinecrest General Hospital,Telehealth,Pulmonology,2026-05-23T13:09:30,2026-05-23T14:09:30,2026-05-23
+ENC-0000149,PAT-0000111,Dr. King,Oncology,Willow Creek Clinic,Emergency,Neurology,2023-06-09T09:07:38,2023-06-09T20:07:38,2023-06-09
+ENC-0000150,PAT-0000155,Dr. Scott,Gastroenterology,Northside Community Clinic,Telehealth,Pulmonology,2024-11-25T14:12:07,2024-11-25T15:12:07,2024-11-25
+ENC-0000151,PAT-0000164,Dr. Smith,Family Medicine,Lakeview General Hospital,Telehealth,Pulmonology,2025-03-08T01:13:59,2025-03-08T01:13:59,2025-03-08
+ENC-0000152,PAT-0000156,Dr. Ballard,Dermatology,Riverside Medical Center,Outpatient,General Surgery,2024-01-02T14:32:43,2024-01-02T17:32:43,2024-01-02
+ENC-0000153,PAT-0000146,Dr. Santana,Family Medicine,Eastgate Regional Medical Center,Outpatient,Dermatology,2024-07-30T06:33:33,2024-07-30T07:33:33,2024-07-30
+ENC-0000154,PAT-0000094,Dr. Byrd,Endocrinology,Maple Street Outpatient Clinic,Emergency,Pediatrics,2023-06-26T05:40:15,2023-06-27T05:40:15,2023-06-26
+ENC-0000155,PAT-0000100,Dr. Moore,General Surgery,Sunrise Specialty Center,Emergency,Dermatology,2023-11-30T07:45:54,2023-11-30T17:45:54,2023-11-30
+ENC-0000156,PAT-0000035,Dr. Alexander,Internal Medicine,Pinecrest General Hospital,Outpatient,Dermatology,2023-05-17T09:04:33,2023-05-17T12:04:33,2023-05-17
+ENC-0000157,PAT-0000017,Dr. Reed,Radiology,Sunrise Specialty Center,Outpatient,Oncology,2026-05-17T23:08:45,2026-05-18T01:08:45,2026-05-17
+ENC-0000158,PAT-0000036,Dr. Matthews,Pediatrics,Pinecrest General Hospital,Inpatient,Pulmonology,2025-05-10T15:24:58,2025-05-17T05:24:58,2025-05-10
+ENC-0000159,PAT-0000023,Dr. Fowler,Internal Medicine,Sunrise Specialty Center,Telehealth,Nephrology,2025-03-27T15:21:16,2025-03-27T15:21:16,2025-03-27
+ENC-0000160,PAT-0000165,Dr. Coleman,Internal Medicine,Pinecrest General Hospital,Telehealth,Pulmonology,2023-07-19T08:39:39,2023-07-19T08:39:39,2023-07-19
+ENC-0000161,PAT-0000129,Dr. Wright,Family Medicine,Lakeview General Hospital,Urgent Care,Obstetrics & Gynecology,2024-04-17T10:35:05,2024-04-17T13:35:05,2024-04-17
+ENC-0000162,PAT-0000133,Dr. Bruce,Radiology,Lakeview General Hospital,Emergency,Orthopedics,2025-09-13T12:38:39,2025-09-13T21:38:39,2025-09-13
+ENC-0000163,PAT-0000137,Dr. Gonzalez,Internal Medicine,Willow Creek Clinic,Outpatient,Obstetrics & Gynecology,2023-09-23T22:49:18,2023-09-24T01:49:18,2023-09-23
+ENC-0000164,PAT-0000021,Dr. Cruz,Family Medicine,Eastgate Regional Medical Center,Emergency,Orthopedics,2026-04-06T10:18:14,2026-04-07T00:18:14,2026-04-06
+ENC-0000165,PAT-0000140,Dr. Webb,Radiology,Sunrise Specialty Center,Telehealth,Pediatrics,2026-06-04T00:56:55,2026-06-04T01:56:55,2026-06-04
+ENC-0000166,PAT-0000019,Dr. Young,Family Medicine,Northside Community Clinic,Telehealth,Gastroenterology,2025-01-22T06:11:26,2025-01-22T06:11:26,2025-01-22
+ENC-0000167,PAT-0000184,Dr. Armstrong,Neurology,Maple Street Outpatient Clinic,Telehealth,Obstetrics & Gynecology,2026-03-27T15:38:47,2026-03-27T16:38:47,2026-03-27
+ENC-0000168,PAT-0000120,Dr. Andrews,General Surgery,Sunrise Specialty Center,Telehealth,Pediatrics,2023-08-07T20:17:56,2023-08-07T21:17:56,2023-08-07
+ENC-0000169,PAT-0000108,Dr. Haney,Pediatrics,Northside Community Clinic,Emergency,Neurology,2023-10-22T21:31:41,2023-10-23T03:31:41,2023-10-22
+ENC-0000170,PAT-0000079,Dr. Phillips,Nephrology,Riverside Medical Center,Inpatient,Endocrinology,2025-02-24T04:20:07,2025-03-01T13:20:07,2025-02-24
+ENC-0000171,PAT-0000013,Dr. Spence,Radiology,Pinecrest General Hospital,Urgent Care,Nephrology,2024-03-19T21:28:18,2024-03-19T23:28:18,2024-03-19
+ENC-0000172,PAT-0000068,Dr. Barrett,Pulmonology,Harborview Medical Center,Emergency,Emergency Medicine,2024-09-14T06:45:55,2024-09-15T01:45:55,2024-09-14
+ENC-0000173,PAT-0000074,Dr. Hill,Internal Medicine,Harborview Medical Center,Urgent Care,Dermatology,2026-04-02T11:03:03,2026-04-02T12:03:03,2026-04-02
+ENC-0000174,PAT-0000101,Dr. Knight,Pulmonology,Maple Street Outpatient Clinic,Urgent Care,Pulmonology,2026-03-18T19:08:30,2026-03-18T20:08:30,2026-03-18
+ENC-0000175,PAT-0000010,Dr. Jennings,Obstetrics & Gynecology,Maple Street Outpatient Clinic,Telehealth,Dermatology,2023-08-20T08:54:37,2023-08-20T09:54:37,2023-08-20
+ENC-0000176,PAT-0000082,Dr. Garner,Oncology,Harborview Medical Center,Urgent Care,Radiology,2025-07-11T07:39:34,2025-07-11T11:39:34,2025-07-11
+ENC-0000177,PAT-0000005,Dr. Williams,Pulmonology,Maple Street Outpatient Clinic,Inpatient,Gastroenterology,2025-06-25T17:59:35,2025-06-29T11:59:35,2025-06-25
+ENC-0000178,PAT-0000168,Dr. Obrien,Pediatrics,Riverside Medical Center,Urgent Care,Nephrology,2023-09-22T21:09:01,2023-09-23T03:09:01,2023-09-22
+ENC-0000179,PAT-0000063,Dr. Crawford,Family Medicine,Eastgate Regional Medical Center,Inpatient,Orthopedics,2023-01-30T10:02:10,2023-02-04T14:02:10,2023-01-30
+ENC-0000180,PAT-0000177,Dr. Strong,Orthopedic Surgery,Harborview Medical Center,Urgent Care,Nephrology,2026-08-10T21:47:12,2026-08-11T02:47:12,2026-08-10
+ENC-0000181,PAT-0000054,Dr. Mitchell,Neurology,Pinecrest General Hospital,Urgent Care,Endocrinology,2024-05-02T09:32:40,2024-05-02T15:32:40,2024-05-02
+ENC-0000182,PAT-0000198,Dr. Lindsey,Psychiatry,Eastgate Regional Medical Center,Telehealth,Orthopedics,2024-01-18T22:53:58,2024-01-18T22:53:58,2024-01-18
+ENC-0000183,PAT-0000198,Dr. Lawson,Radiology,Cedar Grove Regional Hospital,Telehealth,Neurology,2025-01-15T08:22:05,2025-01-15T09:22:05,2025-01-15
+ENC-0000184,PAT-0000147,Dr. Gomez,Endocrinology,Harborview Medical Center,Emergency,Obstetrics & Gynecology,2024-03-27T04:51:35,2024-03-27T14:51:35,2024-03-27
+ENC-0000185,PAT-0000168,Dr. Fields,Psychiatry,Pinecrest General Hospital,Outpatient,Orthopedics,2026-07-10T04:16:36,2026-07-10T07:16:36,2026-07-10
+ENC-0000186,PAT-0000158,Dr. Oliver,Pediatrics,Cedar Grove Regional Hospital,Inpatient,Pediatrics,2025-09-18T00:17:51,2025-09-20T23:17:51,2025-09-18
+ENC-0000187,PAT-0000184,Dr. Byrd,Nephrology,Lakeview General Hospital,Outpatient,Cardiology,2025-05-04T22:37:50,2025-05-05T02:37:50,2025-05-04
+ENC-0000188,PAT-0000052,Dr. Le,Radiology,Maple Street Outpatient Clinic,Emergency,Emergency Medicine,2026-04-09T04:08:42,2026-04-10T01:08:42,2026-04-09
+ENC-0000189,PAT-0000107,Dr. Hopkins,Oncology,Riverside Medical Center,Telehealth,Nephrology,2023-10-17T10:12:03,2023-10-17T10:12:03,2023-10-17
+ENC-0000190,PAT-0000146,Dr. Massey,General Surgery,Maple Street Outpatient Clinic,Emergency,Dermatology,2025-09-23T05:51:34,2025-09-23T22:51:34,2025-09-23
+ENC-0000191,PAT-0000120,Dr. Fuller,Psychiatry,Cedar Grove Regional Hospital,Inpatient,Neurology,2023-09-10T10:13:30,2023-09-18T17:13:30,2023-09-10
+ENC-0000192,PAT-0000189,Dr. Berger,Neurology,Sunrise Specialty Center,Urgent Care,Orthopedics,2023-09-30T14:55:28,2023-09-30T19:55:28,2023-09-30
+ENC-0000193,PAT-0000084,Dr. Lucas,Internal Medicine,Harborview Medical Center,Inpatient,Oncology,2023-08-07T10:23:26,2023-08-13T00:23:26,2023-08-07
+ENC-0000194,PAT-0000099,Dr. Parker,Pediatrics,Pinecrest General Hospital,Emergency,Neurology,2024-04-14T01:21:24,2024-04-15T01:21:24,2024-04-14
+ENC-0000195,PAT-0000093,Dr. Alexander,Pediatrics,Riverside Medical Center,Inpatient,Dermatology,2024-04-21T14:34:10,2024-04-23T18:34:10,2024-04-21
+ENC-0000196,PAT-0000076,Dr. Riley,Pulmonology,Eastgate Regional Medical Center,Outpatient,Pediatrics,2023-07-27T11:48:18,2023-07-27T15:48:18,2023-07-27
+ENC-0000197,PAT-0000180,Dr. Oconnor,Nephrology,Willow Creek Clinic,Outpatient,Pediatrics,2025-11-22T20:59:06,2025-11-22T21:59:06,2025-11-22
+ENC-0000198,PAT-0000181,Dr. Davis,Pulmonology,Lakeview General Hospital,Urgent Care,Internal Medicine,2023-04-06T22:30:24,2023-04-07T00:30:24,2023-04-06
+ENC-0000199,PAT-0000084,Dr. Phillips,Emergency Medicine,Pinecrest General Hospital,Inpatient,Orthopedics,2026-01-18T16:38:20,2026-01-25T09:38:20,2026-01-18
+ENC-0000200,PAT-0000117,Dr. Burgess,Obstetrics & Gynecology,Willow Creek Clinic,Telehealth,Dermatology,2025-05-26T00:07:58,2025-05-26T01:07:58,2025-05-26
+ENC-0000201,PAT-0000006,Dr. Thompson,Endocrinology,Sunrise Specialty Center,Inpatient,Orthopedics,2025-06-17T09:00:24,2025-06-18T15:00:24,2025-06-17
+ENC-0000202,PAT-0000017,Dr. Anderson,Family Medicine,Lakeview General Hospital,Telehealth,Emergency Medicine,2024-03-21T23:31:02,2024-03-22T00:31:02,2024-03-21
+ENC-0000203,PAT-0000098,Dr. Ryan,Dermatology,Harborview Medical Center,Telehealth,General Surgery,2025-11-26T14:01:56,2025-11-26T15:01:56,2025-11-26
+ENC-0000204,PAT-0000046,Dr. Mata,Endocrinology,Willow Creek Clinic,Outpatient,Pediatrics,2026-07-20T20:24:20,2026-07-20T23:24:20,2026-07-20
+ENC-0000205,PAT-0000185,Dr. Schmidt,Gastroenterology,Willow Creek Clinic,Telehealth,Pediatrics,2024-01-20T11:55:03,2024-01-20T12:55:03,2024-01-20
+ENC-0000206,PAT-0000186,Dr. Mcintyre,General Surgery,Riverside Medical Center,Telehealth,Cardiology,2024-01-09T20:41:23,2024-01-09T20:41:23,2024-01-09
+ENC-0000207,PAT-0000154,Dr. Rivas,Family Medicine,Cedar Grove Regional Hospital,Inpatient,Endocrinology,2024-11-12T21:43:11,2024-11-15T20:43:11,2024-11-12
+ENC-0000208,PAT-0000129,Dr. Scott,Radiology,Cedar Grove Regional Hospital,Urgent Care,Neurology,2025-06-16T01:49:17,2025-06-16T04:49:17,2025-06-16
+ENC-0000209,PAT-0000037,Dr. Summers,Emergency Medicine,Cedar Grove Regional Hospital,Telehealth,Radiology,2024-03-03T10:28:54,2024-03-03T11:28:54,2024-03-03
+ENC-0000210,PAT-0000127,Dr. Olson,Family Medicine,Maple Street Outpatient Clinic,Telehealth,Neurology,2025-12-17T16:15:32,2025-12-17T17:15:32,2025-12-17
+ENC-0000211,PAT-0000048,Dr. Drake,Nephrology,Cedar Grove Regional Hospital,Outpatient,Radiology,2026-01-04T04:22:30,2026-01-04T05:22:30,2026-01-04
+ENC-0000212,PAT-0000143,Dr. Francis,Emergency Medicine,Northside Community Clinic,Telehealth,Pediatrics,2024-02-01T02:55:36,2024-02-01T03:55:36,2024-02-01
+ENC-0000213,PAT-0000024,Dr. Morgan,Orthopedic Surgery,Riverside Medical Center,Emergency,Endocrinology,2025-11-12T12:18:34,2025-11-13T08:18:34,2025-11-12
+ENC-0000214,PAT-0000195,Dr. Wilson,Orthopedic Surgery,Pinecrest General Hospital,Outpatient,Neurology,2024-04-15T23:40:07,2024-04-16T01:40:07,2024-04-15
+ENC-0000215,PAT-0000194,Dr. Mccarty,Nephrology,Cedar Grove Regional Hospital,Urgent Care,Orthopedics,2024-09-08T03:30:53,2024-09-08T07:30:53,2024-09-08
+ENC-0000216,PAT-0000120,Dr. Taylor,Pulmonology,Sunrise Specialty Center,Emergency,Pulmonology,2025-03-07T15:11:10,2025-03-08T07:11:10,2025-03-07
+ENC-0000217,PAT-0000121,Dr. Levy,Neurology,Cedar Grove Regional Hospital,Emergency,Neurology,2024-10-05T00:26:07,2024-10-05T19:26:07,2024-10-05
+ENC-0000218,PAT-0000067,Dr. Dalton,Gastroenterology,Sunrise Specialty Center,Outpatient,Orthopedics,2024-05-27T10:16:09,2024-05-27T12:16:09,2024-05-27
+ENC-0000219,PAT-0000168,Dr. Ramsey,Neurology,Sunrise Specialty Center,Telehealth,Nephrology,2024-12-16T20:57:01,2024-12-16T20:57:01,2024-12-16
+ENC-0000220,PAT-0000185,Dr. Whitney,Nephrology,Northside Community Clinic,Urgent Care,Emergency Medicine,2025-03-24T22:03:49,2025-03-25T02:03:49,2025-03-24
+ENC-0000221,PAT-0000036,Dr. Coffey,Pediatrics,Lakeview General Hospital,Outpatient,Cardiology,2023-12-06T18:27:37,2023-12-06T21:27:37,2023-12-06
+ENC-0000222,PAT-0000164,Dr. Ballard,Nephrology,Pinecrest General Hospital,Inpatient,Cardiology,2025-04-06T18:19:10,2025-04-13T03:19:10,2025-04-06
+ENC-0000223,PAT-0000185,Dr. Diaz,Psychiatry,Willow Creek Clinic,Emergency,Cardiology,2025-02-19T03:58:14,2025-02-20T02:58:14,2025-02-19
+ENC-0000224,PAT-0000025,Dr. Gibbs,Emergency Medicine,Northside Community Clinic,Outpatient,Orthopedics,2025-08-20T19:06:16,2025-08-20T22:06:16,2025-08-20
+ENC-0000225,PAT-0000021,Dr. Smith,Pulmonology,Harborview Medical Center,Telehealth,Pediatrics,2025-12-19T02:51:14,2025-12-19T02:51:14,2025-12-19
+ENC-0000226,PAT-0000104,Dr. Herrera,Endocrinology,Harborview Medical Center,Urgent Care,Nephrology,2023-03-29T04:06:59,2023-03-29T08:06:59,2023-03-29
+ENC-0000227,PAT-0000112,Dr. Gibson,Neurology,Eastgate Regional Medical Center,Inpatient,Emergency Medicine,2023-12-23T22:18:57,2023-12-26T16:18:57,2023-12-23
+ENC-0000228,PAT-0000020,Dr. Chambers,Psychiatry,Willow Creek Clinic,Urgent Care,Emergency Medicine,2023-10-06T14:49:13,2023-10-06T19:49:13,2023-10-06
+ENC-0000229,PAT-0000037,Dr. Chambers,Endocrinology,Lakeview General Hospital,Emergency,Oncology,2025-05-26T01:53:08,2025-05-26T20:53:08,2025-05-26
+ENC-0000230,PAT-0000194,Dr. Richards,Obstetrics & Gynecology,Lakeview General Hospital,Urgent Care,Pulmonology,2023-03-25T09:56:53,2023-03-25T12:56:53,2023-03-25
+ENC-0000231,PAT-0000155,Dr. Carson,Endocrinology,Maple Street Outpatient Clinic,Inpatient,Psychiatry,2026-05-02T04:47:30,2026-05-07T11:47:30,2026-05-02
+ENC-0000232,PAT-0000097,Dr. Bentley,Gastroenterology,Northside Community Clinic,Urgent Care,Endocrinology,2023-05-14T02:54:29,2023-05-14T08:54:29,2023-05-14
+ENC-0000233,PAT-0000019,Dr. Rodriguez,Internal Medicine,Sunrise Specialty Center,Outpatient,Endocrinology,2026-01-10T13:14:50,2026-01-10T15:14:50,2026-01-10
+ENC-0000234,PAT-0000093,Dr. Hall,General Surgery,Lakeview General Hospital,Inpatient,Radiology,2024-11-21T20:57:17,2024-11-26T04:57:17,2024-11-21
+ENC-0000235,PAT-0000048,Dr. Johnson,Gastroenterology,Pinecrest General Hospital,Urgent Care,Gastroenterology,2023-06-10T11:02:22,2023-06-10T16:02:22,2023-06-10
+ENC-0000236,PAT-0000154,Dr. Henson,Neurology,Harborview Medical Center,Inpatient,Radiology,2024-10-04T19:57:27,2024-10-09T10:57:27,2024-10-04
+ENC-0000237,PAT-0000098,Dr. Hoffman,Oncology,Northside Community Clinic,Emergency,Radiology,2024-02-21T22:55:50,2024-02-22T03:55:50,2024-02-21
+ENC-0000238,PAT-0000071,Dr. Herman,Gastroenterology,Sunrise Specialty Center,Telehealth,General Surgery,2024-07-14T23:42:45,2024-07-14T23:42:45,2024-07-14
+ENC-0000239,PAT-0000028,Dr. Walker,Obstetrics & Gynecology,Sunrise Specialty Center,Inpatient,Endocrinology,2024-05-31T01:57:19,2024-06-09T12:57:19,2024-05-31
+ENC-0000240,PAT-0000086,Dr. Brown,Gastroenterology,Eastgate Regional Medical Center,Outpatient,Radiology,2024-05-13T03:15:48,2024-05-13T05:15:48,2024-05-13
+ENC-0000241,PAT-0000046,Dr. Colon,Endocrinology,Maple Street Outpatient Clinic,Emergency,Nephrology,2025-06-13T14:20:08,2025-06-13T22:20:08,2025-06-13
+ENC-0000242,PAT-0000101,Dr. Blankenship,Pulmonology,Lakeview General Hospital,Urgent Care,Orthopedics,2025-07-08T23:49:26,2025-07-09T05:49:26,2025-07-08
+ENC-0000243,PAT-0000054,Dr. Turner,Dermatology,Sunrise Specialty Center,Inpatient,Gastroenterology,2025-11-11T10:25:31,2025-11-17T05:25:31,2025-11-11
+ENC-0000244,PAT-0000169,Dr. Ortiz,Obstetrics & Gynecology,Harborview Medical Center,Telehealth,General Surgery,2024-11-28T14:25:14,2024-11-28T15:25:14,2024-11-28
+ENC-0000245,PAT-0000010,Dr. Taylor,Pulmonology,Willow Creek Clinic,Urgent Care,General Surgery,2023-06-19T21:35:15,2023-06-20T03:35:15,2023-06-19
+ENC-0000246,PAT-0000157,Dr. Shah,Family Medicine,Eastgate Regional Medical Center,Telehealth,Neurology,2026-05-21T21:38:44,2026-05-21T21:38:44,2026-05-21
+ENC-0000247,PAT-0000057,Dr. Torres,Emergency Medicine,Willow Creek Clinic,Urgent Care,Pediatrics,2024-11-23T11:49:44,2024-11-23T14:49:44,2024-11-23
+ENC-0000248,PAT-0000007,Dr. Vasquez,Nephrology,Lakeview General Hospital,Emergency,Gastroenterology,2023-05-14T08:53:56,2023-05-15T08:53:56,2023-05-14
+ENC-0000249,PAT-0000088,Dr. Davis,Dermatology,Cedar Grove Regional Hospital,Urgent Care,Nephrology,2024-06-25T01:34:34,2024-06-25T04:34:34,2024-06-25
+ENC-0000250,PAT-0000018,Dr. Clay,Radiology,Riverside Medical Center,Inpatient,Cardiology,2024-06-16T22:52:22,2024-06-24T07:52:22,2024-06-16
+ENC-0000251,PAT-0000045,Dr. Taylor,Oncology,Maple Street Outpatient Clinic,Urgent Care,Gastroenterology,2024-12-18T18:37:39,2024-12-19T00:37:39,2024-12-18
+ENC-0000252,PAT-0000169,Dr. Chavez,Gastroenterology,Harborview Medical Center,Inpatient,Orthopedics,2024-11-29T09:22:16,2024-12-06T04:22:16,2024-11-29
+ENC-0000253,PAT-0000055,Dr. Santiago,Orthopedic Surgery,Sunrise Specialty Center,Inpatient,Internal Medicine,2026-05-26T23:36:29,2026-06-05T18:36:29,2026-05-26
+ENC-0000254,PAT-0000051,Dr. Paul,Dermatology,Lakeview General Hospital,Emergency,Nephrology,2025-03-30T18:38:30,2025-03-31T05:38:30,2025-03-30
+ENC-0000255,PAT-0000030,Dr. Bautista,Pulmonology,Maple Street Outpatient Clinic,Telehealth,Oncology,2026-06-18T02:21:39,2026-06-18T02:21:39,2026-06-18
+ENC-0000256,PAT-0000035,Dr. Barnes,Neurology,Lakeview General Hospital,Outpatient,Radiology,2023-07-01T16:10:16,2023-07-01T18:10:16,2023-07-01
+ENC-0000257,PAT-0000153,Dr. Newton,Obstetrics & Gynecology,Eastgate Regional Medical Center,Telehealth,Gastroenterology,2023-10-16T13:23:59,2023-10-16T13:23:59,2023-10-16
+ENC-0000258,PAT-0000074,Dr. Moore,Obstetrics & Gynecology,Northside Community Clinic,Emergency,Dermatology,2025-08-20T05:16:40,2025-08-20T17:16:40,2025-08-20
+ENC-0000259,PAT-0000050,Dr. Perry,Endocrinology,Willow Creek Clinic,Urgent Care,Nephrology,2024-09-27T13:38:02,2024-09-27T17:38:02,2024-09-27
+ENC-0000260,PAT-0000043,Dr. Garcia,Internal Medicine,Eastgate Regional Medical Center,Inpatient,Pediatrics,2024-03-29T17:54:04,2024-03-30T13:54:04,2024-03-29
+ENC-0000261,PAT-0000200,Dr. Burns,Dermatology,Eastgate Regional Medical Center,Telehealth,Internal Medicine,2025-06-08T16:19:39,2025-06-08T16:19:39,2025-06-08
+ENC-0000262,PAT-0000113,Dr. Russell,Orthopedic Surgery,Harborview Medical Center,Inpatient,Pediatrics,2024-04-07T11:23:36,2024-04-17T06:23:36,2024-04-07
+ENC-0000263,PAT-0000023,Dr. Lynn,Dermatology,Lakeview General Hospital,Outpatient,Orthopedics,2026-06-13T09:11:16,2026-06-13T12:11:16,2026-06-13
+ENC-0000264,PAT-0000158,Dr. Johnson,Obstetrics & Gynecology,Cedar Grove Regional Hospital,Outpatient,Emergency Medicine,2025-06-04T13:54:43,2025-06-04T16:54:43,2025-06-04
+ENC-0000265,PAT-0000181,Dr. Wood,Radiology,Sunrise Specialty Center,Urgent Care,Psychiatry,2025-03-10T02:46:50,2025-03-10T03:46:50,2025-03-10
+ENC-0000266,PAT-0000071,Dr. Ramos,Obstetrics & Gynecology,Northside Community Clinic,Outpatient,Obstetrics & Gynecology,2026-01-10T02:43:20,2026-01-10T06:43:20,2026-01-10
+ENC-0000267,PAT-0000148,Dr. Sampson,Psychiatry,Harborview Medical Center,Telehealth,Dermatology,2023-04-28T07:27:02,2023-04-28T08:27:02,2023-04-28
+ENC-0000268,PAT-0000095,Dr. Foley,Dermatology,Pinecrest General Hospital,Emergency,Cardiology,2026-04-17T13:51:19,2026-04-18T13:51:19,2026-04-17
+ENC-0000269,PAT-0000171,Dr. Garcia,Pulmonology,Lakeview General Hospital,Urgent Care,Endocrinology,2023-12-05T09:17:18,2023-12-05T12:17:18,2023-12-05
+ENC-0000270,PAT-0000073,Dr. Jennings,Neurology,Willow Creek Clinic,Urgent Care,Obstetrics & Gynecology,2025-05-29T11:18:27,2025-05-29T12:18:27,2025-05-29
+ENC-0000271,PAT-0000026,Dr. Stephens,Dermatology,Riverside Medical Center,Inpatient,Oncology,2024-11-16T12:19:57,2024-11-21T20:19:57,2024-11-16
+ENC-0000272,PAT-0000034,Dr. Levine,Radiology,Northside Community Clinic,Emergency,General Surgery,2025-10-13T20:48:29,2025-10-14T05:48:29,2025-10-13
+ENC-0000273,PAT-0000167,Dr. Howard,Oncology,Riverside Medical Center,Telehealth,Radiology,2026-02-01T18:48:28,2026-02-01T18:48:28,2026-02-01
+ENC-0000274,PAT-0000025,Dr. Sanders,Cardiology,Cedar Grove Regional Hospital,Telehealth,General Surgery,2023-07-26T03:24:24,2023-07-26T03:24:24,2023-07-26
+ENC-0000275,PAT-0000179,Dr. Lopez,Neurology,Lakeview General Hospital,Telehealth,Obstetrics & Gynecology,2025-01-12T01:57:21,2025-01-12T01:57:21,2025-01-12
+ENC-0000276,PAT-0000027,Dr. Martinez,General Surgery,Maple Street Outpatient Clinic,Emergency,Radiology,2023-08-02T00:33:02,2023-08-02T05:33:02,2023-08-02
+ENC-0000277,PAT-0000145,Dr. Charles,Cardiology,Eastgate Regional Medical Center,Outpatient,Dermatology,2024-06-29T13:13:37,2024-06-29T15:13:37,2024-06-29
+ENC-0000278,PAT-0000176,Dr. Gibson,Dermatology,Cedar Grove Regional Hospital,Inpatient,Internal Medicine,2023-08-06T12:04:05,2023-08-15T00:04:05,2023-08-06
+ENC-0000279,PAT-0000081,Dr. Bates,Obstetrics & Gynecology,Cedar Grove Regional Hospital,Emergency,General Surgery,2024-01-21T12:20:14,2024-01-22T08:20:14,2024-01-21
+ENC-0000280,PAT-0000078,Dr. May,Orthopedic Surgery,Willow Creek Clinic,Urgent Care,Orthopedics,2026-03-07T17:37:54,2026-03-07T21:37:54,2026-03-07
+ENC-0000281,PAT-0000099,Dr. Harper,General Surgery,Cedar Grove Regional Hospital,Telehealth,General Surgery,2025-03-31T15:56:53,2025-03-31T16:56:53,2025-03-31
+ENC-0000282,PAT-0000100,Dr. Smith,Gastroenterology,Maple Street Outpatient Clinic,Urgent Care,Oncology,2026-03-30T20:29:02,2026-03-30T21:29:02,2026-03-30
+ENC-0000283,PAT-0000068,Dr. Buchanan,Orthopedic Surgery,Riverside Medical Center,Inpatient,Endocrinology,2025-02-25T23:48:44,2025-03-01T12:48:44,2025-02-25
+ENC-0000284,PAT-0000103,Dr. Sanchez,Internal Medicine,Willow Creek Clinic,Urgent Care,Obstetrics & Gynecology,2024-03-07T00:44:49,2024-03-07T02:44:49,2024-03-07
+ENC-0000285,PAT-0000138,Dr. Martinez,Neurology,Harborview Medical Center,Urgent Care,General Surgery,2024-04-26T19:57:24,2024-04-26T21:57:24,2024-04-26
+ENC-0000286,PAT-0000023,Dr. Cunningham,Gastroenterology,Lakeview General Hospital,Telehealth,Emergency Medicine,2024-04-25T11:10:09,2024-04-25T11:10:09,2024-04-25
+ENC-0000287,PAT-0000182,Dr. Jones,Obstetrics & Gynecology,Riverside Medical Center,Outpatient,Nephrology,2024-06-22T14:06:14,2024-06-22T17:06:14,2024-06-22
+ENC-0000288,PAT-0000033,Dr. Hubbard,Psychiatry,Lakeview General Hospital,Inpatient,Neurology,2026-06-07T19:09:41,2026-06-12T20:09:41,2026-06-07
+ENC-0000289,PAT-0000148,Dr. Clark,Internal Medicine,Pinecrest General Hospital,Telehealth,Pulmonology,2023-03-28T02:55:11,2023-03-28T03:55:11,2023-03-28
+ENC-0000290,PAT-0000066,Dr. Robinson,General Surgery,Eastgate Regional Medical Center,Inpatient,Pediatrics,2026-02-24T18:16:43,2026-03-02T16:16:43,2026-02-24
+ENC-0000291,PAT-0000012,Dr. Kane,Nephrology,Maple Street Outpatient Clinic,Telehealth,Obstetrics & Gynecology,2023-10-06T00:08:49,2023-10-06T00:08:49,2023-10-06
+ENC-0000292,PAT-0000064,Dr. Murphy,Gastroenterology,Maple Street Outpatient Clinic,Emergency,General Surgery,2025-06-06T20:24:18,2025-06-07T00:24:18,2025-06-06
+ENC-0000293,PAT-0000133,Dr. Hernandez,Family Medicine,Harborview Medical Center,Inpatient,Dermatology,2024-03-14T13:09:46,2024-03-23T07:09:46,2024-03-14
+ENC-0000294,PAT-0000117,Dr. Lester,Cardiology,Maple Street Outpatient Clinic,Outpatient,Radiology,2025-05-25T20:14:19,2025-05-25T22:14:19,2025-05-25
+ENC-0000295,PAT-0000152,Dr. Smith,Nephrology,Cedar Grove Regional Hospital,Urgent Care,Pediatrics,2023-08-22T21:31:17,2023-08-23T02:31:17,2023-08-22
+ENC-0000296,PAT-0000089,Dr. Garrison,Cardiology,Maple Street Outpatient Clinic,Inpatient,Endocrinology,2026-08-11T21:14:14,2026-08-20T05:14:14,2026-08-11
+ENC-0000297,PAT-0000136,Dr. Thomas,Pediatrics,Harborview Medical Center,Telehealth,Emergency Medicine,2023-08-10T04:04:05,2023-08-10T04:04:05,2023-08-10
+ENC-0000298,PAT-0000134,Dr. Anderson,Gastroenterology,Maple Street Outpatient Clinic,Telehealth,General Surgery,2025-06-21T04:41:54,2025-06-21T05:41:54,2025-06-21
+ENC-0000299,PAT-0000152,Dr. King,Family Medicine,Harborview Medical Center,Outpatient,Pediatrics,2024-03-29T02:28:13,2024-03-29T06:28:13,2024-03-29
+ENC-0000300,PAT-0000116,Dr. Thompson,Psychiatry,Cedar Grove Regional Hospital,Inpatient,Orthopedics,2023-07-31T10:37:02,2023-08-09T05:37:02,2023-07-31
+ENC-0000301,PAT-0000043,Dr. Guerrero,Dermatology,Pinecrest General Hospital,Emergency,Gastroenterology,2023-07-07T13:23:30,2023-07-08T01:23:30,2023-07-07
+ENC-0000302,PAT-0000119,Dr. Johnson,Psychiatry,Lakeview General Hospital,Inpatient,Oncology,2026-06-08T13:23:41,2026-06-16T08:23:41,2026-06-08
+ENC-0000303,PAT-0000038,Dr. Smith,Internal Medicine,Cedar Grove Regional Hospital,Emergency,Endocrinology,2025-03-08T15:09:51,2025-03-09T13:09:51,2025-03-08
+ENC-0000304,PAT-0000008,Dr. Tyler,Endocrinology,Pinecrest General Hospital,Urgent Care,Pediatrics,2023-05-28T03:36:51,2023-05-28T04:36:51,2023-05-28
+ENC-0000305,PAT-0000016,Dr. Young,Pediatrics,Northside Community Clinic,Outpatient,Endocrinology,2024-08-01T06:06:12,2024-08-01T07:06:12,2024-08-01
+ENC-0000306,PAT-0000006,Dr. Morris,Internal Medicine,Cedar Grove Regional Hospital,Telehealth,Obstetrics & Gynecology,2023-05-23T21:12:43,2023-05-23T21:12:43,2023-05-23
+ENC-0000307,PAT-0000013,Dr. Thompson,Oncology,Eastgate Regional Medical Center,Telehealth,Endocrinology,2025-02-09T16:55:57,2025-02-09T16:55:57,2025-02-09
+ENC-0000308,PAT-0000055,Dr. Williams,Oncology,Sunrise Specialty Center,Emergency,Dermatology,2023-08-19T21:22:50,2023-08-20T17:22:50,2023-08-19
+ENC-0000309,PAT-0000106,Dr. Harmon,Nephrology,Riverside Medical Center,Inpatient,Psychiatry,2024-08-17T23:50:40,2024-08-19T22:50:40,2024-08-17
+ENC-0000310,PAT-0000140,Dr. Fox,Cardiology,Harborview Medical Center,Emergency,Nephrology,2025-04-25T21:05:42,2025-04-26T13:05:42,2025-04-25
+ENC-0000311,PAT-0000070,Dr. Reese,Oncology,Riverside Medical Center,Emergency,Pediatrics,2023-02-15T12:30:43,2023-02-15T21:30:43,2023-02-15
+ENC-0000312,PAT-0000092,Dr. Alvarez,Pediatrics,Northside Community Clinic,Inpatient,Pediatrics,2025-10-17T09:40:50,2025-10-20T10:40:50,2025-10-17
+ENC-0000313,PAT-0000100,Dr. Strickland,Pulmonology,Northside Community Clinic,Outpatient,Pediatrics,2025-07-09T10:43:42,2025-07-09T13:43:42,2025-07-09
+ENC-0000314,PAT-0000180,Dr. Palmer,Pulmonology,Eastgate Regional Medical Center,Urgent Care,Obstetrics & Gynecology,2025-05-24T18:13:15,2025-05-24T22:13:15,2025-05-24
+ENC-0000315,PAT-0000010,Dr. Rodriguez,Internal Medicine,Riverside Medical Center,Outpatient,Pediatrics,2023-01-31T22:58:09,2023-01-31T23:58:09,2023-01-31
+ENC-0000316,PAT-0000052,Dr. Gordon,Obstetrics & Gynecology,Maple Street Outpatient Clinic,Outpatient,Neurology,2023-04-03T12:24:26,2023-04-03T14:24:26,2023-04-03
+ENC-0000317,PAT-0000094,Dr. Dougherty,Internal Medicine,Maple Street Outpatient Clinic,Telehealth,Internal Medicine,2024-06-06T19:54:22,2024-06-06T19:54:22,2024-06-06
+ENC-0000318,PAT-0000112,Dr. Williams,Nephrology,Maple Street Outpatient Clinic,Outpatient,Pulmonology,2023-12-13T18:53:11,2023-12-13T20:53:11,2023-12-13
+ENC-0000319,PAT-0000188,Dr. Logan,Radiology,Northside Community Clinic,Outpatient,Cardiology,2025-12-26T12:46:18,2025-12-26T13:46:18,2025-12-26
+ENC-0000320,PAT-0000082,Dr. Camacho,Pediatrics,Eastgate Regional Medical Center,Inpatient,Nephrology,2023-08-07T11:33:53,2023-08-11T11:33:53,2023-08-07
+ENC-0000321,PAT-0000082,Dr. Boyd,Oncology,Lakeview General Hospital,Emergency,Dermatology,2023-01-18T16:51:34,2023-01-18T23:51:34,2023-01-18
+ENC-0000322,PAT-0000066,Dr. Ellis,General Surgery,Riverside Medical Center,Inpatient,Endocrinology,2024-11-11T18:01:51,2024-11-20T01:01:51,2024-11-11
+ENC-0000323,PAT-0000097,Dr. Maynard,Pulmonology,Willow Creek Clinic,Telehealth,Internal Medicine,2026-07-11T12:09:49,2026-07-11T12:09:49,2026-07-11
+ENC-0000324,PAT-0000019,Dr. Brown,Family Medicine,Sunrise Specialty Center,Inpatient,Neurology,2024-02-10T15:32:47,2024-02-12T05:32:47,2024-02-10
+ENC-0000325,PAT-0000042,Dr. Mendoza,Internal Medicine,Willow Creek Clinic,Inpatient,Neurology,2025-07-11T19:03:49,2025-07-18T20:03:49,2025-07-11
+ENC-0000326,PAT-0000043,Dr. Morales,Gastroenterology,Northside Community Clinic,Inpatient,Internal Medicine,2024-05-29T08:06:02,2024-06-01T00:06:02,2024-05-29
+ENC-0000327,PAT-0000073,Dr. Parks,Radiology,Cedar Grove Regional Hospital,Inpatient,Emergency Medicine,2024-09-02T08:27:22,2024-09-08T22:27:22,2024-09-02
+ENC-0000328,PAT-0000093,Dr. Henry,Cardiology,Harborview Medical Center,Inpatient,Radiology,2026-07-03T21:07:04,2026-07-11T10:07:04,2026-07-03
+ENC-0000329,PAT-0000007,Dr. Browning,Orthopedic Surgery,Northside Community Clinic,Emergency,General Surgery,2025-01-05T15:59:36,2025-01-05T19:59:36,2025-01-05
+ENC-0000330,PAT-0000126,Dr. Jones,Psychiatry,Lakeview General Hospital,Urgent Care,Endocrinology,2023-10-15T04:52:17,2023-10-15T08:52:17,2023-10-15
+ENC-0000331,PAT-0000012,Dr. Miller,Psychiatry,Pinecrest General Hospital,Telehealth,Psychiatry,2023-12-18T10:55:24,2023-12-18T10:55:24,2023-12-18
+ENC-0000332,PAT-0000171,Dr. Franklin,General Surgery,Lakeview General Hospital,Emergency,Gastroenterology,2026-03-21T02:45:24,2026-03-21T10:45:24,2026-03-21
+ENC-0000333,PAT-0000108,Dr. Jones,Nephrology,Eastgate Regional Medical Center,Outpatient,Nephrology,2024-04-09T06:00:51,2024-04-09T07:00:51,2024-04-09
+ENC-0000334,PAT-0000194,Dr. Hill,Dermatology,Northside Community Clinic,Outpatient,Orthopedics,2026-06-09T21:36:01,2026-06-09T22:36:01,2026-06-09
+ENC-0000335,PAT-0000175,Dr. Schultz,Gastroenterology,Cedar Grove Regional Hospital,Outpatient,Psychiatry,2024-05-11T17:07:29,2024-05-11T18:07:29,2024-05-11
+ENC-0000336,PAT-0000102,Dr. Kelley,Neurology,Sunrise Specialty Center,Urgent Care,Dermatology,2023-01-20T04:57:20,2023-01-20T08:57:20,2023-01-20
+ENC-0000337,PAT-0000039,Dr. Nguyen,Obstetrics & Gynecology,Eastgate Regional Medical Center,Urgent Care,Internal Medicine,2023-06-14T02:21:05,2023-06-14T06:21:05,2023-06-14
+ENC-0000338,PAT-0000068,Dr. Vang,Endocrinology,Pinecrest General Hospital,Urgent Care,Nephrology,2023-02-28T04:49:17,2023-02-28T09:49:17,2023-02-28
+ENC-0000339,PAT-0000156,Dr. Schmidt,Endocrinology,Riverside Medical Center,Telehealth,Neurology,2025-12-08T16:13:07,2025-12-08T17:13:07,2025-12-08
+ENC-0000340,PAT-0000006,Dr. Chavez,Neurology,Sunrise Specialty Center,Emergency,Psychiatry,2026-08-02T07:35:51,2026-08-03T06:35:51,2026-08-02
+ENC-0000341,PAT-0000077,Dr. Jacobs,Dermatology,Maple Street Outpatient Clinic,Emergency,Gastroenterology,2025-07-28T19:15:24,2025-07-28T22:15:24,2025-07-28
+ENC-0000342,PAT-0000105,Dr. Garcia,Nephrology,Willow Creek Clinic,Emergency,Emergency Medicine,2025-03-11T10:38:48,2025-03-11T16:38:48,2025-03-11
+ENC-0000343,PAT-0000130,Dr. Miles,Endocrinology,Northside Community Clinic,Urgent Care,Cardiology,2023-09-27T21:23:53,2023-09-27T22:23:53,2023-09-27
+ENC-0000344,PAT-0000117,Dr. Farrell,Family Medicine,Maple Street Outpatient Clinic,Outpatient,Psychiatry,2024-07-26T05:09:18,2024-07-26T09:09:18,2024-07-26
+ENC-0000345,PAT-0000008,Dr. Curtis,Pediatrics,Maple Street Outpatient Clinic,Telehealth,Dermatology,2023-10-03T20:47:59,2023-10-03T21:47:59,2023-10-03
+ENC-0000346,PAT-0000067,Dr. Mack,Internal Medicine,Sunrise Specialty Center,Inpatient,Endocrinology,2023-03-19T03:07:30,2023-03-21T08:07:30,2023-03-19
+ENC-0000347,PAT-0000058,Dr. Le,Orthopedic Surgery,Sunrise Specialty Center,Telehealth,Cardiology,2026-04-27T03:49:44,2026-04-27T04:49:44,2026-04-27
+ENC-0000348,PAT-0000166,Dr. Lewis,Oncology,Eastgate Regional Medical Center,Inpatient,Pediatrics,2024-01-28T01:47:51,2024-02-04T00:47:51,2024-01-28
+ENC-0000349,PAT-0000090,Dr. Hayes,Dermatology,Sunrise Specialty Center,Outpatient,Dermatology,2024-04-14T08:47:07,2024-04-14T12:47:07,2024-04-14
+ENC-0000350,PAT-0000131,Dr. Perez,Pulmonology,Willow Creek Clinic,Urgent Care,Radiology,2024-04-08T15:59:20,2024-04-08T18:59:20,2024-04-08
+ENC-0000351,PAT-0000071,Dr. Morgan,Neurology,Sunrise Specialty Center,Emergency,Radiology,2023-10-20T14:34:22,2023-10-21T07:34:22,2023-10-20
+ENC-0000352,PAT-0000104,Dr. Chavez,Neurology,Northside Community Clinic,Inpatient,Nephrology,2024-04-04T04:56:22,2024-04-07T10:56:22,2024-04-04
+ENC-0000353,PAT-0000010,Dr. Perry,Orthopedic Surgery,Maple Street Outpatient Clinic,Outpatient,Nephrology,2025-11-09T17:04:20,2025-11-09T20:04:20,2025-11-09
+ENC-0000354,PAT-0000143,Dr. Davis,Oncology,Sunrise Specialty Center,Inpatient,Nephrology,2023-07-18T18:06:11,2023-07-27T03:06:11,2023-07-18
+ENC-0000355,PAT-0000023,Dr. Simmons,Pediatrics,Maple Street Outpatient Clinic,Outpatient,Radiology,2024-10-15T04:21:12,2024-10-15T07:21:12,2024-10-15
+ENC-0000356,PAT-0000076,Dr. Ortega,Dermatology,Lakeview General Hospital,Telehealth,Emergency Medicine,2025-09-12T12:01:29,2025-09-12T13:01:29,2025-09-12
+ENC-0000357,PAT-0000129,Dr. Brooks,General Surgery,Harborview Medical Center,Urgent Care,Radiology,2024-10-03T17:45:17,2024-10-03T20:45:17,2024-10-03
+ENC-0000358,PAT-0000105,Dr. Hernandez,Dermatology,Northside Community Clinic,Emergency,Oncology,2026-04-25T01:01:55,2026-04-25T17:01:55,2026-04-25
+ENC-0000359,PAT-0000163,Dr. Leblanc,Family Medicine,Riverside Medical Center,Telehealth,Psychiatry,2023-11-22T06:20:25,2023-11-22T07:20:25,2023-11-22
+ENC-0000360,PAT-0000034,Dr. Jones,Gastroenterology,Harborview Medical Center,Telehealth,Gastroenterology,2025-01-11T14:46:20,2025-01-11T14:46:20,2025-01-11
+ENC-0000361,PAT-0000096,Dr. Decker,Cardiology,Maple Street Outpatient Clinic,Urgent Care,Orthopedics,2023-01-28T19:57:41,2023-01-29T01:57:41,2023-01-28
+ENC-0000362,PAT-0000089,Dr. Davis,Radiology,Northside Community Clinic,Inpatient,Endocrinology,2025-02-20T21:44:38,2025-02-27T15:44:38,2025-02-20
+ENC-0000363,PAT-0000077,Dr. Davis,Radiology,Pinecrest General Hospital,Urgent Care,Neurology,2024-11-04T16:12:41,2024-11-04T20:12:41,2024-11-04
+ENC-0000364,PAT-0000092,Dr. Rodgers,Orthopedic Surgery,Northside Community Clinic,Telehealth,Cardiology,2023-12-21T20:03:03,2023-12-21T20:03:03,2023-12-21
+ENC-0000365,PAT-0000006,Dr. Cain,Emergency Medicine,Northside Community Clinic,Inpatient,Pulmonology,2026-01-09T16:06:20,2026-01-17T02:06:20,2026-01-09
+ENC-0000366,PAT-0000160,Dr. Hawkins,Family Medicine,Eastgate Regional Medical Center,Inpatient,Internal Medicine,2025-10-12T06:46:00,2025-10-21T16:46:00,2025-10-12
+ENC-0000367,PAT-0000114,Dr. Willis,Endocrinology,Lakeview General Hospital,Urgent Care,Psychiatry,2025-01-06T22:46:38,2025-01-07T01:46:38,2025-01-06
+ENC-0000368,PAT-0000108,Dr. Hoffman,General Surgery,Willow Creek Clinic,Emergency,Obstetrics & Gynecology,2024-10-12T14:57:20,2024-10-12T18:57:20,2024-10-12
+ENC-0000369,PAT-0000028,Dr. Rivera,Nephrology,Cedar Grove Regional Hospital,Urgent Care,Orthopedics,2026-04-23T12:24:38,2026-04-23T18:24:38,2026-04-23
+ENC-0000370,PAT-0000105,Dr. Martinez,Radiology,Northside Community Clinic,Inpatient,Nephrology,2023-11-19T15:23:34,2023-11-27T11:23:34,2023-11-19
+ENC-0000371,PAT-0000004,Dr. Gomez,Internal Medicine,Lakeview General Hospital,Urgent Care,Nephrology,2023-08-20T16:30:34,2023-08-20T19:30:34,2023-08-20
+ENC-0000372,PAT-0000165,Dr. Ortega,Pediatrics,Pinecrest General Hospital,Emergency,Psychiatry,2024-12-22T05:30:52,2024-12-22T09:30:52,2024-12-22
+ENC-0000373,PAT-0000093,Dr. Christensen,Neurology,Harborview Medical Center,Inpatient,Internal Medicine,2026-03-23T19:53:38,2026-04-02T18:53:38,2026-03-23
+ENC-0000374,PAT-0000166,Dr. Parrish,Oncology,Maple Street Outpatient Clinic,Emergency,Dermatology,2025-08-23T22:38:47,2025-08-24T22:38:47,2025-08-23
+ENC-0000375,PAT-0000047,Dr. Griffith,General Surgery,Harborview Medical Center,Telehealth,Dermatology,2024-02-27T06:40:19,2024-02-27T07:40:19,2024-02-27
+ENC-0000376,PAT-0000043,Dr. Schmitt,General Surgery,Northside Community Clinic,Inpatient,Oncology,2023-06-11T02:42:17,2023-06-16T00:42:17,2023-06-11
+ENC-0000377,PAT-0000157,Dr. Burke,Endocrinology,Maple Street Outpatient Clinic,Urgent Care,Cardiology,2025-11-29T06:40:20,2025-11-29T10:40:20,2025-11-29
+ENC-0000378,PAT-0000029,Dr. Bell,Gastroenterology,Pinecrest General Hospital,Inpatient,General Surgery,2024-02-11T09:38:04,2024-02-18T20:38:04,2024-02-11
+ENC-0000379,PAT-0000087,Dr. Lane,Emergency Medicine,Willow Creek Clinic,Urgent Care,Internal Medicine,2024-11-03T09:44:22,2024-11-03T12:44:22,2024-11-03
+ENC-0000380,PAT-0000170,Dr. Lewis,Endocrinology,Northside Community Clinic,Urgent Care,Emergency Medicine,2023-01-19T02:09:07,2023-01-19T04:09:07,2023-01-19
+ENC-0000381,PAT-0000020,Dr. Douglas,Nephrology,Maple Street Outpatient Clinic,Outpatient,Neurology,2024-03-08T02:26:58,2024-03-08T04:26:58,2024-03-08
+ENC-0000382,PAT-0000061,Dr. Walker,Internal Medicine,Pinecrest General Hospital,Telehealth,Dermatology,2023-05-17T17:37:05,2023-05-17T18:37:05,2023-05-17
+ENC-0000383,PAT-0000128,Dr. Rodriguez,Cardiology,Lakeview General Hospital,Telehealth,Gastroenterology,2023-02-25T15:54:40,2023-02-25T15:54:40,2023-02-25
+ENC-0000384,PAT-0000159,Dr. Bruce,Radiology,Willow Creek Clinic,Urgent Care,Orthopedics,2025-10-13T21:06:25,2025-10-13T22:06:25,2025-10-13
+ENC-0000385,PAT-0000058,Dr. Richardson,Dermatology,Maple Street Outpatient Clinic,Urgent Care,Nephrology,2026-01-18T06:56:57,2026-01-18T07:56:57,2026-01-18
+ENC-0000386,PAT-0000195,Dr. Farmer,Pediatrics,Riverside Medical Center,Emergency,Pulmonology,2026-07-13T04:18:49,2026-07-13T14:18:49,2026-07-13
+ENC-0000387,PAT-0000043,Dr. Andrews,Nephrology,Northside Community Clinic,Telehealth,Internal Medicine,2024-01-31T00:35:33,2024-01-31T00:35:33,2024-01-31
+ENC-0000388,PAT-0000056,Dr. Aguirre,Dermatology,Cedar Grove Regional Hospital,Emergency,Internal Medicine,2026-03-22T04:34:24,2026-03-22T06:34:24,2026-03-22
+ENC-0000389,PAT-0000169,Dr. Bruce,Emergency Medicine,Northside Community Clinic,Telehealth,Cardiology,2025-04-03T21:24:57,2025-04-03T22:24:57,2025-04-03
+ENC-0000390,PAT-0000200,Dr. Villegas,Oncology,Eastgate Regional Medical Center,Outpatient,Obstetrics & Gynecology,2023-06-10T20:46:17,2023-06-10T23:46:17,2023-06-10
+ENC-0000391,PAT-0000156,Dr. Cardenas,Pediatrics,Sunrise Specialty Center,Telehealth,Neurology,2024-04-01T23:35:04,2024-04-02T00:35:04,2024-04-01
+ENC-0000392,PAT-0000180,Dr. Austin,Emergency Medicine,Sunrise Specialty Center,Urgent Care,Neurology,2026-01-10T20:35:58,2026-01-10T22:35:58,2026-01-10
+ENC-0000393,PAT-0000160,Dr. Day,Radiology,Maple Street Outpatient Clinic,Outpatient,Oncology,2025-02-21T18:30:32,2025-02-21T21:30:32,2025-02-21
+ENC-0000394,PAT-0000144,Dr. Johnson,Nephrology,Eastgate Regional Medical Center,Urgent Care,Gastroenterology,2025-11-13T09:37:08,2025-11-13T10:37:08,2025-11-13
+ENC-0000395,PAT-0000134,Dr. Hickman,General Surgery,Riverside Medical Center,Telehealth,Obstetrics & Gynecology,2023-03-24T10:24:23,2023-03-24T11:24:23,2023-03-24
+ENC-0000396,PAT-0000074,Dr. Gallegos,Psychiatry,Northside Community Clinic,Inpatient,Radiology,2023-11-13T21:42:17,2023-11-22T09:42:17,2023-11-13
+ENC-0000397,PAT-0000027,Dr. Adams,Pediatrics,Willow Creek Clinic,Telehealth,Pediatrics,2025-03-04T16:33:50,2025-03-04T16:33:50,2025-03-04
+ENC-0000398,PAT-0000100,Dr. White,Gastroenterology,Maple Street Outpatient Clinic,Urgent Care,Emergency Medicine,2023-01-21T03:22:44,2023-01-21T05:22:44,2023-01-21
+ENC-0000399,PAT-0000163,Dr. Park,Pulmonology,Eastgate Regional Medical Center,Urgent Care,Orthopedics,2026-04-20T16:50:52,2026-04-20T18:50:52,2026-04-20
+ENC-0000400,PAT-0000175,Dr. Parker,Internal Medicine,Northside Community Clinic,Outpatient,Internal Medicine,2024-08-08T22:58:09,2024-08-09T01:58:09,2024-08-08
+ENC-0000401,PAT-0000042,Dr. Morgan,Psychiatry,Riverside Medical Center,Emergency,Dermatology,2026-01-07T11:08:04,2026-01-07T13:08:04,2026-01-07
+ENC-0000402,PAT-0000014,Dr. Smith,Radiology,Pinecrest General Hospital,Urgent Care,Pulmonology,2023-04-24T05:11:34,2023-04-24T07:11:34,2023-04-24
+ENC-0000403,PAT-0000134,Dr. Kane,Internal Medicine,Willow Creek Clinic,Outpatient,Gastroenterology,2025-04-23T15:29:44,2025-04-23T16:29:44,2025-04-23
+ENC-0000404,PAT-0000055,Dr. Knight,Neurology,Maple Street Outpatient Clinic,Emergency,Radiology,2023-12-06T08:13:49,2023-12-07T04:13:49,2023-12-06
+ENC-0000405,PAT-0000172,Dr. Morales,Pulmonology,Pinecrest General Hospital,Outpatient,Pediatrics,2023-03-03T22:43:53,2023-03-04T02:43:53,2023-03-03
+ENC-0000406,PAT-0000066,Dr. Thomas,Radiology,Riverside Medical Center,Urgent Care,Pulmonology,2025-03-09T22:49:53,2025-03-09T23:49:53,2025-03-09
+ENC-0000407,PAT-0000076,Dr. Schultz,Orthopedic Surgery,Maple Street Outpatient Clinic,Urgent Care,General Surgery,2023-05-30T01:30:54,2023-05-30T03:30:54,2023-05-30
+ENC-0000408,PAT-0000172,Dr. Johnson,Orthopedic Surgery,Harborview Medical Center,Inpatient,Orthopedics,2025-04-15T08:55:48,2025-04-24T16:55:48,2025-04-15
+ENC-0000409,PAT-0000176,Dr. Reese,Obstetrics & Gynecology,Riverside Medical Center,Telehealth,Neurology,2023-02-28T20:30:15,2023-02-28T20:30:15,2023-02-28
+ENC-0000410,PAT-0000143,Dr. Lewis,Internal Medicine,Eastgate Regional Medical Center,Outpatient,Psychiatry,2024-09-25T05:39:05,2024-09-25T09:39:05,2024-09-25
+ENC-0000411,PAT-0000005,Dr. Barnes,Endocrinology,Lakeview General Hospital,Urgent Care,Cardiology,2025-09-23T09:58:23,2025-09-23T15:58:23,2025-09-23
+ENC-0000412,PAT-0000019,Dr. Peterson,Pulmonology,Willow Creek Clinic,Inpatient,Radiology,2026-05-07T09:27:22,2026-05-15T04:27:22,2026-05-07
+ENC-0000413,PAT-0000098,Dr. Wood,Endocrinology,Riverside Medical Center,Telehealth,Oncology,2025-04-08T17:07:11,2025-04-08T18:07:11,2025-04-08
+ENC-0000414,PAT-0000037,Dr. Griffith,Radiology,Maple Street Outpatient Clinic,Inpatient,Obstetrics & Gynecology,2023-07-11T10:32:23,2023-07-12T08:32:23,2023-07-11
+ENC-0000415,PAT-0000054,Dr. Frank,Pulmonology,Cedar Grove Regional Hospital,Telehealth,Obstetrics & Gynecology,2023-09-08T00:48:48,2023-09-08T00:48:48,2023-09-08
+ENC-0000416,PAT-0000047,Dr. Bradley,Family Medicine,Willow Creek Clinic,Telehealth,General Surgery,2024-03-27T12:19:00,2024-03-27T12:19:00,2024-03-27
+ENC-0000417,PAT-0000186,Dr. Miller,Nephrology,Maple Street Outpatient Clinic,Emergency,Obstetrics & Gynecology,2025-11-08T19:42:45,2025-11-09T03:42:45,2025-11-08
+ENC-0000418,PAT-0000018,Dr. Williams,Orthopedic Surgery,Maple Street Outpatient Clinic,Telehealth,Dermatology,2024-05-25T01:37:44,2024-05-25T01:37:44,2024-05-25
+ENC-0000419,PAT-0000146,Dr. Moore,Pulmonology,Maple Street Outpatient Clinic,Telehealth,Oncology,2023-01-08T12:08:44,2023-01-08T13:08:44,2023-01-08
+ENC-0000420,PAT-0000093,Dr. Williamson,Obstetrics & Gynecology,Maple Street Outpatient Clinic,Telehealth,Dermatology,2024-11-22T20:08:55,2024-11-22T20:08:55,2024-11-22
+ENC-0000421,PAT-0000166,Dr. Craig,Internal Medicine,Sunrise Specialty Center,Outpatient,Orthopedics,2024-02-13T22:05:56,2024-02-13T23:05:56,2024-02-13
+ENC-0000422,PAT-0000130,Dr. Nelson,Cardiology,Eastgate Regional Medical Center,Urgent Care,Endocrinology,2026-04-09T21:51:50,2026-04-10T02:51:50,2026-04-09
+ENC-0000423,PAT-0000139,Dr. Stanley,Nephrology,Northside Community Clinic,Emergency,Endocrinology,2023-12-13T21:28:30,2023-12-14T16:28:30,2023-12-13
+ENC-0000424,PAT-0000129,Dr. Tucker,Emergency Medicine,Lakeview General Hospital,Telehealth,Pulmonology,2025-02-19T02:09:10,2025-02-19T02:09:10,2025-02-19
+ENC-0000425,PAT-0000036,Dr. Ramos,Dermatology,Northside Community Clinic,Outpatient,Obstetrics & Gynecology,2026-02-17T05:04:44,2026-02-17T08:04:44,2026-02-17
+ENC-0000426,PAT-0000195,Dr. Nelson,Nephrology,Cedar Grove Regional Hospital,Inpatient,Psychiatry,2024-07-27T21:32:31,2024-07-30T20:32:31,2024-07-27
+ENC-0000427,PAT-0000121,Dr. Fischer,Dermatology,Riverside Medical Center,Inpatient,Neurology,2023-06-10T08:30:26,2023-06-18T08:30:26,2023-06-10
+ENC-0000428,PAT-0000140,Dr. Wilson,Oncology,Harborview Medical Center,Telehealth,Pulmonology,2025-07-01T22:15:16,2025-07-01T23:15:16,2025-07-01
+ENC-0000429,PAT-0000133,Dr. Jordan,Endocrinology,Maple Street Outpatient Clinic,Emergency,Nephrology,2026-05-16T08:24:42,2026-05-17T04:24:42,2026-05-16
+ENC-0000430,PAT-0000043,Dr. Campbell,Pediatrics,Lakeview General Hospital,Urgent Care,Psychiatry,2023-11-25T13:55:45,2023-11-25T18:55:45,2023-11-25
+ENC-0000431,PAT-0000184,Dr. Gregory,General Surgery,Cedar Grove Regional Hospital,Telehealth,Neurology,2026-01-23T21:04:38,2026-01-23T22:04:38,2026-01-23
+ENC-0000432,PAT-0000152,Dr. Tucker,Oncology,Harborview Medical Center,Inpatient,Pediatrics,2023-03-09T00:32:14,2023-03-10T20:32:14,2023-03-09
+ENC-0000433,PAT-0000132,Dr. Estrada,Family Medicine,Eastgate Regional Medical Center,Outpatient,Emergency Medicine,2023-09-16T09:39:20,2023-09-16T13:39:20,2023-09-16
+ENC-0000434,PAT-0000187,Dr. Williams,Radiology,Lakeview General Hospital,Outpatient,Dermatology,2025-07-31T04:55:27,2025-07-31T06:55:27,2025-07-31
+ENC-0000435,PAT-0000154,Dr. Foster,Obstetrics & Gynecology,Eastgate Regional Medical Center,Outpatient,Psychiatry,2023-09-18T13:07:05,2023-09-18T16:07:05,2023-09-18
+ENC-0000436,PAT-0000152,Dr. Greene,Internal Medicine,Cedar Grove Regional Hospital,Telehealth,Endocrinology,2023-07-25T09:15:55,2023-07-25T10:15:55,2023-07-25
+ENC-0000437,PAT-0000156,Dr. Smith,General Surgery,Northside Community Clinic,Telehealth,Emergency Medicine,2026-05-02T16:43:33,2026-05-02T16:43:33,2026-05-02
+ENC-0000438,PAT-0000169,Dr. Turner,Obstetrics & Gynecology,Eastgate Regional Medical Center,Urgent Care,Cardiology,2026-04-18T17:15:47,2026-04-18T20:15:47,2026-04-18
+ENC-0000439,PAT-0000012,Dr. Clark,Emergency Medicine,Harborview Medical Center,Outpatient,Nephrology,2026-05-11T12:45:56,2026-05-11T15:45:56,2026-05-11
+ENC-0000440,PAT-0000035,Dr. Taylor,Psychiatry,Pinecrest General Hospital,Outpatient,General Surgery,2024-03-16T00:56:48,2024-03-16T04:56:48,2024-03-16
+ENC-0000441,PAT-0000002,Dr. Scott,Cardiology,Eastgate Regional Medical Center,Urgent Care,Internal Medicine,2025-03-18T10:07:34,2025-03-18T14:07:34,2025-03-18
+ENC-0000442,PAT-0000093,Dr. Murphy,General Surgery,Northside Community Clinic,Telehealth,Psychiatry,2024-02-10T22:04:40,2024-02-10T23:04:40,2024-02-10
+ENC-0000443,PAT-0000071,Dr. Smith,Endocrinology,Cedar Grove Regional Hospital,Telehealth,Nephrology,2023-10-05T15:08:58,2023-10-05T16:08:58,2023-10-05
+ENC-0000444,PAT-0000148,Dr. Burgess,Pulmonology,Harborview Medical Center,Outpatient,Internal Medicine,2026-03-07T16:32:02,2026-03-07T18:32:02,2026-03-07
+ENC-0000445,PAT-0000131,Dr. Thompson,Endocrinology,Maple Street Outpatient Clinic,Urgent Care,Emergency Medicine,2023-09-07T16:44:50,2023-09-07T18:44:50,2023-09-07
+ENC-0000446,PAT-0000121,Dr. James,Gastroenterology,Lakeview General Hospital,Inpatient,Psychiatry,2023-12-11T12:11:38,2023-12-15T22:11:38,2023-12-11
+ENC-0000447,PAT-0000158,Dr. Padilla,Emergency Medicine,Sunrise Specialty Center,Urgent Care,Emergency Medicine,2026-04-16T18:12:48,2026-04-16T19:12:48,2026-04-16
+ENC-0000448,PAT-0000052,Dr. Mason,Emergency Medicine,Sunrise Specialty Center,Outpatient,Emergency Medicine,2026-05-02T20:07:35,2026-05-02T22:07:35,2026-05-02
+ENC-0000449,PAT-0000010,Dr. Whitaker,Pulmonology,Cedar Grove Regional Hospital,Inpatient,Oncology,2023-05-15T21:44:04,2023-05-19T07:44:04,2023-05-15
+ENC-0000450,PAT-0000151,Dr. Drake,Orthopedic Surgery,Willow Creek Clinic,Inpatient,General Surgery,2023-05-21T01:37:36,2023-05-27T09:37:36,2023-05-21
+ENC-0000451,PAT-0000058,Dr. Jones,Orthopedic Surgery,Pinecrest General Hospital,Telehealth,Cardiology,2024-02-10T14:47:36,2024-02-10T14:47:36,2024-02-10
+ENC-0000452,PAT-0000076,Dr. Hensley,Neurology,Lakeview General Hospital,Urgent Care,Psychiatry,2025-04-15T14:29:30,2025-04-15T18:29:30,2025-04-15
+ENC-0000453,PAT-0000145,Dr. Williams,Nephrology,Cedar Grove Regional Hospital,Emergency,Dermatology,2025-11-24T19:41:28,2025-11-25T14:41:28,2025-11-24
+ENC-0000454,PAT-0000067,Dr. Smith,Internal Medicine,Harborview Medical Center,Outpatient,Pediatrics,2026-05-28T00:10:44,2026-05-28T03:10:44,2026-05-28
+ENC-0000455,PAT-0000068,Dr. Morse,Pediatrics,Sunrise Specialty Center,Inpatient,Endocrinology,2025-11-12T13:16:43,2025-11-21T00:16:43,2025-11-12
+ENC-0000456,PAT-0000081,Dr. Atkins,Pulmonology,Cedar Grove Regional Hospital,Urgent Care,Psychiatry,2023-10-11T22:41:53,2023-10-12T04:41:53,2023-10-11
+ENC-0000457,PAT-0000052,Dr. Johnston,Pediatrics,Cedar Grove Regional Hospital,Emergency,Orthopedics,2023-12-23T01:28:34,2023-12-23T09:28:34,2023-12-23
+ENC-0000458,PAT-0000031,Dr. Berry,Internal Medicine,Pinecrest General Hospital,Urgent Care,Cardiology,2026-04-02T05:05:21,2026-04-02T08:05:21,2026-04-02
+ENC-0000459,PAT-0000159,Dr. Mckinney,Neurology,Pinecrest General Hospital,Urgent Care,Psychiatry,2025-02-01T10:32:59,2025-02-01T12:32:59,2025-02-01
+ENC-0000460,PAT-0000193,Dr. Butler,Obstetrics & Gynecology,Riverside Medical Center,Urgent Care,Gastroenterology,2025-01-13T01:03:53,2025-01-13T07:03:53,2025-01-13
+ENC-0000461,PAT-0000199,Dr. Wilson,Oncology,Pinecrest General Hospital,Inpatient,Dermatology,2024-05-05T08:19:55,2024-05-13T04:19:55,2024-05-05
+ENC-0000462,PAT-0000149,Dr. Smith,General Surgery,Maple Street Outpatient Clinic,Emergency,Psychiatry,2023-10-18T17:32:55,2023-10-19T02:32:55,2023-10-18
+ENC-0000463,PAT-0000157,Dr. Nguyen,Neurology,Maple Street Outpatient Clinic,Outpatient,Nephrology,2024-10-20T13:44:10,2024-10-20T16:44:10,2024-10-20
+ENC-0000464,PAT-0000072,Dr. Solis,Dermatology,Northside Community Clinic,Urgent Care,Obstetrics & Gynecology,2025-06-13T14:50:13,2025-06-13T16:50:13,2025-06-13
+ENC-0000465,PAT-0000143,Dr. Montgomery,Gastroenterology,Harborview Medical Center,Outpatient,Obstetrics & Gynecology,2026-05-27T19:33:29,2026-05-27T23:33:29,2026-05-27
+ENC-0000466,PAT-0000108,Dr. Collier,Nephrology,Northside Community Clinic,Urgent Care,Neurology,2026-05-04T23:20:02,2026-05-05T03:20:02,2026-05-04
+ENC-0000467,PAT-0000026,Dr. Gillespie,Oncology,Riverside Medical Center,Outpatient,Psychiatry,2025-01-10T06:40:38,2025-01-10T07:40:38,2025-01-10
+ENC-0000468,PAT-0000086,Dr. Davis,Psychiatry,Maple Street Outpatient Clinic,Emergency,Psychiatry,2024-06-18T14:28:46,2024-06-19T04:28:46,2024-06-18
+ENC-0000469,PAT-0000156,Dr. Richard,Orthopedic Surgery,Eastgate Regional Medical Center,Urgent Care,Oncology,2026-04-27T04:01:54,2026-04-27T10:01:54,2026-04-27
+ENC-0000470,PAT-0000115,Dr. Sanchez,Internal Medicine,Harborview Medical Center,Urgent Care,Radiology,2024-12-21T09:55:50,2024-12-21T13:55:50,2024-12-21
+ENC-0000471,PAT-0000162,Dr. Chapman,Endocrinology,Lakeview General Hospital,Inpatient,Oncology,2024-06-17T19:17:12,2024-06-20T17:17:12,2024-06-17
+ENC-0000472,PAT-0000069,Dr. Warren,Endocrinology,Sunrise Specialty Center,Telehealth,Pulmonology,2026-03-07T19:33:54,2026-03-07T20:33:54,2026-03-07
+ENC-0000473,PAT-0000048,Dr. Foster,Cardiology,Northside Community Clinic,Outpatient,Psychiatry,2026-03-01T13:40:58,2026-03-01T14:40:58,2026-03-01
+ENC-0000474,PAT-0000102,Dr. Collins,General Surgery,Lakeview General Hospital,Inpatient,Nephrology,2025-05-01T23:05:31,2025-05-03T00:05:31,2025-05-01
+ENC-0000475,PAT-0000068,Dr. Morgan,Obstetrics & Gynecology,Lakeview General Hospital,Telehealth,Radiology,2023-12-23T07:00:35,2023-12-23T08:00:35,2023-12-23
+ENC-0000476,PAT-0000033,Dr. Cook,Obstetrics & Gynecology,Willow Creek Clinic,Outpatient,Cardiology,2023-02-24T14:40:21,2023-02-24T17:40:21,2023-02-24
+ENC-0000477,PAT-0000139,Dr. Jackson,Psychiatry,Willow Creek Clinic,Telehealth,Obstetrics & Gynecology,2025-12-19T17:15:57,2025-12-19T18:15:57,2025-12-19
+ENC-0000478,PAT-0000164,Dr. Dixon,Radiology,Maple Street Outpatient Clinic,Telehealth,Pediatrics,2026-06-04T01:40:48,2026-06-04T02:40:48,2026-06-04
+ENC-0000479,PAT-0000067,Dr. Wilson,Obstetrics & Gynecology,Sunrise Specialty Center,Inpatient,Cardiology,2025-03-23T22:38:36,2025-04-02T02:38:36,2025-03-23
+ENC-0000480,PAT-0000137,Dr. Hicks,Cardiology,Pinecrest General Hospital,Telehealth,Radiology,2023-01-15T04:29:16,2023-01-15T04:29:16,2023-01-15
+ENC-0000481,PAT-0000141,Dr. Bullock,Pulmonology,Cedar Grove Regional Hospital,Telehealth,Gastroenterology,2024-09-05T05:25:27,2024-09-05T06:25:27,2024-09-05
+ENC-0000482,PAT-0000068,Dr. Bailey,Internal Medicine,Harborview Medical Center,Outpatient,Psychiatry,2024-03-18T05:31:20,2024-03-18T08:31:20,2024-03-18
+ENC-0000483,PAT-0000018,Dr. Luna,Oncology,Northside Community Clinic,Emergency,Internal Medicine,2025-09-16T09:04:52,2025-09-17T05:04:52,2025-09-16
+ENC-0000484,PAT-0000160,Dr. Fuentes,Nephrology,Cedar Grove Regional Hospital,Emergency,Cardiology,2023-08-25T08:32:14,2023-08-26T02:32:14,2023-08-25
+ENC-0000485,PAT-0000073,Dr. Briggs,Psychiatry,Northside Community Clinic,Telehealth,Cardiology,2023-12-28T15:48:16,2023-12-28T16:48:16,2023-12-28
+ENC-0000486,PAT-0000088,Dr. Young,Gastroenterology,Sunrise Specialty Center,Telehealth,Pulmonology,2024-12-21T07:24:35,2024-12-21T07:24:35,2024-12-21
+ENC-0000487,PAT-0000015,Dr. Thomas,Psychiatry,Harborview Medical Center,Inpatient,Nephrology,2023-10-10T02:40:41,2023-10-12T15:40:41,2023-10-10
+ENC-0000488,PAT-0000197,Dr. Gonzalez,Pediatrics,Harborview Medical Center,Telehealth,Pediatrics,2026-02-19T20:25:47,2026-02-19T20:25:47,2026-02-19
+ENC-0000489,PAT-0000171,Dr. Morrison,Orthopedic Surgery,Pinecrest General Hospital,Telehealth,Radiology,2024-05-16T20:40:07,2024-05-16T20:40:07,2024-05-16
+ENC-0000490,PAT-0000124,Dr. Wolf,Radiology,Cedar Grove Regional Hospital,Emergency,Emergency Medicine,2025-11-01T16:10:59,2025-11-01T20:10:59,2025-11-01
+ENC-0000491,PAT-0000004,Dr. Rios,Oncology,Sunrise Specialty Center,Urgent Care,Internal Medicine,2024-09-06T20:48:10,2024-09-07T01:48:10,2024-09-06
+ENC-0000492,PAT-0000177,Dr. Thompson,Nephrology,Eastgate Regional Medical Center,Outpatient,Pulmonology,2026-04-12T09:23:42,2026-04-12T11:23:42,2026-04-12
+ENC-0000493,PAT-0000176,Dr. Mejia,Neurology,Riverside Medical Center,Inpatient,Pulmonology,2025-09-28T07:29:38,2025-09-30T10:29:38,2025-09-28
+ENC-0000494,PAT-0000060,Dr. Snyder,Neurology,Willow Creek Clinic,Emergency,Dermatology,2026-02-12T23:15:39,2026-02-13T00:15:39,2026-02-12
+ENC-0000495,PAT-0000035,Dr. Webster,Psychiatry,Riverside Medical Center,Telehealth,Dermatology,2025-05-18T09:57:17,2025-05-18T09:57:17,2025-05-18
+ENC-0000496,PAT-0000048,Dr. Wolf,Pulmonology,Maple Street Outpatient Clinic,Telehealth,Psychiatry,2026-07-15T10:57:33,2026-07-15T10:57:33,2026-07-15
+ENC-0000497,PAT-0000040,Dr. Cole,Dermatology,Sunrise Specialty Center,Emergency,Pulmonology,2024-12-06T09:17:29,2024-12-07T06:17:29,2024-12-06
+ENC-0000498,PAT-0000159,Dr. Glass,Pulmonology,Eastgate Regional Medical Center,Outpatient,Neurology,2026-01-25T00:57:40,2026-01-25T04:57:40,2026-01-25
+ENC-0000499,PAT-0000175,Dr. Cunningham,Nephrology,Willow Creek Clinic,Outpatient,Radiology,2024-05-16T03:24:04,2024-05-16T06:24:04,2024-05-16
+ENC-0000500,PAT-0000134,Dr. Reid,Internal Medicine,Riverside Medical Center,Outpatient,Oncology,2023-02-18T13:58:12,2023-02-18T17:58:12,2023-02-18

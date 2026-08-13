@@ -1,0 +1,301 @@
+procedure_id,patient_id,encounter_id,procedure_code,procedure_description,procedure_date
+PRC-0000001,PAT-0000114,ENC-0000367,71046,"Chest X-ray, 2 views",2025-01-06
+PRC-0000002,PAT-0000014,ENC-0000053,99213,"Office/outpatient visit, established patient, low complexity",2023-01-20
+PRC-0000003,PAT-0000005,ENC-0000038,99283,"Emergency department visit, moderate severity",2026-04-28
+PRC-0000004,PAT-0000133,ENC-0000293,12001,Simple repair of superficial wound,2024-03-14
+PRC-0000005,PAT-0000172,ENC-0000129,90471,Immunization administration,2024-07-17
+PRC-0000006,PAT-0000037,ENC-0000229,99213,"Office/outpatient visit, established patient, low complexity",2025-05-26
+PRC-0000007,PAT-0000193,ENC-0000460,47562,Laparoscopic cholecystectomy,2025-01-13
+PRC-0000008,PAT-0000024,ENC-0000077,70450,CT scan of head/brain without contrast,2023-09-16
+PRC-0000009,PAT-0000093,ENC-0000328,99213,"Office/outpatient visit, established patient, low complexity",2026-07-03
+PRC-0000010,PAT-0000164,ENC-0000478,99213,"Office/outpatient visit, established patient, low complexity",2026-06-04
+PRC-0000011,PAT-0000077,ENC-0000341,29881,Knee arthroscopy with meniscectomy,2025-07-28
+PRC-0000012,PAT-0000082,ENC-0000137,93000,"Electrocardiogram, routine, with interpretation",2023-03-01
+PRC-0000013,PAT-0000163,ENC-0000359,45378,"Colonoscopy, diagnostic",2023-11-22
+PRC-0000014,PAT-0000072,ENC-0000464,29881,Knee arthroscopy with meniscectomy,2025-06-13
+PRC-0000015,PAT-0000152,ENC-0000295,99213,"Office/outpatient visit, established patient, low complexity",2023-08-22
+PRC-0000016,PAT-0000158,ENC-0000264,12001,Simple repair of superficial wound,2025-06-04
+PRC-0000017,PAT-0000068,ENC-0000482,90471,Immunization administration,2024-03-18
+PRC-0000018,PAT-0000169,ENC-0000252,47562,Laparoscopic cholecystectomy,2024-11-29
+PRC-0000019,PAT-0000025,ENC-0000224,29881,Knee arthroscopy with meniscectomy,2025-08-20
+PRC-0000020,PAT-0000132,ENC-0000433,12001,Simple repair of superficial wound,2023-09-16
+PRC-0000021,PAT-0000175,ENC-0000400,90471,Immunization administration,2024-08-08
+PRC-0000022,PAT-0000134,ENC-0000403,99283,"Emergency department visit, moderate severity",2025-04-23
+PRC-0000023,PAT-0000145,ENC-0000277,80053,Comprehensive metabolic panel,2024-06-29
+PRC-0000024,PAT-0000043,ENC-0000002,29881,Knee arthroscopy with meniscectomy,2026-05-03
+PRC-0000025,PAT-0000171,ENC-0000489,12001,Simple repair of superficial wound,2024-05-16
+PRC-0000026,PAT-0000146,ENC-0000419,90471,Immunization administration,2023-01-08
+PRC-0000027,PAT-0000057,ENC-0000247,99283,"Emergency department visit, moderate severity",2024-11-23
+PRC-0000028,PAT-0000012,ENC-0000291,36415,Collection of venous blood by venipuncture,2023-10-06
+PRC-0000029,PAT-0000067,ENC-0000479,45378,"Colonoscopy, diagnostic",2025-03-23
+PRC-0000030,PAT-0000013,ENC-0000171,70450,CT scan of head/brain without contrast,2024-03-19
+PRC-0000031,PAT-0000035,ENC-0000156,29881,Knee arthroscopy with meniscectomy,2023-05-17
+PRC-0000032,PAT-0000171,ENC-0000029,70450,CT scan of head/brain without contrast,2026-03-19
+PRC-0000033,PAT-0000004,ENC-0000491,70450,CT scan of head/brain without contrast,2024-09-06
+PRC-0000034,PAT-0000180,ENC-0000047,45378,"Colonoscopy, diagnostic",2023-05-13
+PRC-0000035,PAT-0000025,ENC-0000274,93306,"Echocardiogram, complete",2023-07-26
+PRC-0000036,PAT-0000177,ENC-0000492,45378,"Colonoscopy, diagnostic",2026-04-12
+PRC-0000037,PAT-0000198,ENC-0000042,93306,"Echocardiogram, complete",2024-06-23
+PRC-0000038,PAT-0000154,ENC-0000236,90471,Immunization administration,2024-10-04
+PRC-0000039,PAT-0000160,ENC-0000393,71046,"Chest X-ray, 2 views",2025-02-21
+PRC-0000040,PAT-0000171,ENC-0000332,80053,Comprehensive metabolic panel,2026-03-21
+PRC-0000041,PAT-0000168,ENC-0000091,36415,Collection of venous blood by venipuncture,2024-03-10
+PRC-0000042,PAT-0000138,ENC-0000021,29881,Knee arthroscopy with meniscectomy,2025-10-28
+PRC-0000043,PAT-0000156,ENC-0000339,80053,Comprehensive metabolic panel,2025-12-08
+PRC-0000044,PAT-0000094,ENC-0000154,12001,Simple repair of superficial wound,2023-06-26
+PRC-0000045,PAT-0000117,ENC-0000200,81001,Urinalysis with microscopy,2025-05-26
+PRC-0000046,PAT-0000148,ENC-0000055,70450,CT scan of head/brain without contrast,2023-05-13
+PRC-0000047,PAT-0000010,ENC-0000353,45378,"Colonoscopy, diagnostic",2025-11-09
+PRC-0000048,PAT-0000018,ENC-0000250,99283,"Emergency department visit, moderate severity",2024-06-16
+PRC-0000049,PAT-0000067,ENC-0000454,70450,CT scan of head/brain without contrast,2026-05-28
+PRC-0000050,PAT-0000021,ENC-0000225,12001,Simple repair of superficial wound,2025-12-19
+PRC-0000051,PAT-0000152,ENC-0000098,93000,"Electrocardiogram, routine, with interpretation",2025-08-13
+PRC-0000052,PAT-0000067,ENC-0000019,80053,Comprehensive metabolic panel,2023-06-18
+PRC-0000053,PAT-0000020,ENC-0000013,12001,Simple repair of superficial wound,2025-06-23
+PRC-0000054,PAT-0000008,ENC-0000304,80053,Comprehensive metabolic panel,2023-05-28
+PRC-0000055,PAT-0000045,ENC-0000251,29881,Knee arthroscopy with meniscectomy,2024-12-18
+PRC-0000056,PAT-0000053,ENC-0000033,90471,Immunization administration,2026-04-04
+PRC-0000057,PAT-0000145,ENC-0000277,70450,CT scan of head/brain without contrast,2024-06-29
+PRC-0000058,PAT-0000036,ENC-0000158,47562,Laparoscopic cholecystectomy,2025-05-10
+PRC-0000059,PAT-0000025,ENC-0000274,93306,"Echocardiogram, complete",2023-07-26
+PRC-0000060,PAT-0000047,ENC-0000416,47562,Laparoscopic cholecystectomy,2024-03-27
+PRC-0000061,PAT-0000035,ENC-0000495,99213,"Office/outpatient visit, established patient, low complexity",2025-05-18
+PRC-0000062,PAT-0000067,ENC-0000019,45378,"Colonoscopy, diagnostic",2023-06-18
+PRC-0000063,PAT-0000171,ENC-0000029,45378,"Colonoscopy, diagnostic",2026-03-19
+PRC-0000064,PAT-0000055,ENC-0000404,12001,Simple repair of superficial wound,2023-12-06
+PRC-0000065,PAT-0000077,ENC-0000022,29881,Knee arthroscopy with meniscectomy,2024-09-17
+PRC-0000066,PAT-0000120,ENC-0000061,80053,Comprehensive metabolic panel,2024-11-11
+PRC-0000067,PAT-0000037,ENC-0000414,70450,CT scan of head/brain without contrast,2023-07-11
+PRC-0000068,PAT-0000105,ENC-0000342,36415,Collection of venous blood by venipuncture,2025-03-11
+PRC-0000069,PAT-0000048,ENC-0000235,70450,CT scan of head/brain without contrast,2023-06-10
+PRC-0000070,PAT-0000121,ENC-0000446,93306,"Echocardiogram, complete",2023-12-11
+PRC-0000071,PAT-0000179,ENC-0000275,93000,"Electrocardiogram, routine, with interpretation",2025-01-12
+PRC-0000072,PAT-0000170,ENC-0000380,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2023-01-19
+PRC-0000073,PAT-0000198,ENC-0000120,81001,Urinalysis with microscopy,2025-11-24
+PRC-0000074,PAT-0000055,ENC-0000037,99213,"Office/outpatient visit, established patient, low complexity",2024-03-08
+PRC-0000075,PAT-0000157,ENC-0000377,93000,"Electrocardiogram, routine, with interpretation",2025-11-29
+PRC-0000076,PAT-0000045,ENC-0000251,70450,CT scan of head/brain without contrast,2024-12-18
+PRC-0000077,PAT-0000068,ENC-0000010,47562,Laparoscopic cholecystectomy,2024-02-28
+PRC-0000078,PAT-0000143,ENC-0000465,81001,Urinalysis with microscopy,2026-05-27
+PRC-0000079,PAT-0000094,ENC-0000317,99213,"Office/outpatient visit, established patient, low complexity",2024-06-06
+PRC-0000080,PAT-0000064,ENC-0000125,12001,Simple repair of superficial wound,2024-07-19
+PRC-0000081,PAT-0000108,ENC-0000333,93000,"Electrocardiogram, routine, with interpretation",2024-04-09
+PRC-0000082,PAT-0000055,ENC-0000008,93000,"Electrocardiogram, routine, with interpretation",2023-04-17
+PRC-0000083,PAT-0000019,ENC-0000324,99213,"Office/outpatient visit, established patient, low complexity",2024-02-10
+PRC-0000084,PAT-0000072,ENC-0000464,71046,"Chest X-ray, 2 views",2025-06-13
+PRC-0000085,PAT-0000166,ENC-0000421,90471,Immunization administration,2024-02-13
+PRC-0000086,PAT-0000141,ENC-0000050,47562,Laparoscopic cholecystectomy,2024-04-21
+PRC-0000087,PAT-0000100,ENC-0000313,93000,"Electrocardiogram, routine, with interpretation",2025-07-09
+PRC-0000088,PAT-0000140,ENC-0000428,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2025-07-01
+PRC-0000089,PAT-0000053,ENC-0000033,93306,"Echocardiogram, complete",2026-04-04
+PRC-0000090,PAT-0000146,ENC-0000419,99283,"Emergency department visit, moderate severity",2023-01-08
+PRC-0000091,PAT-0000176,ENC-0000059,47562,Laparoscopic cholecystectomy,2024-10-22
+PRC-0000092,PAT-0000016,ENC-0000305,90471,Immunization administration,2024-08-01
+PRC-0000093,PAT-0000052,ENC-0000316,80053,Comprehensive metabolic panel,2023-04-03
+PRC-0000094,PAT-0000053,ENC-0000033,90471,Immunization administration,2026-04-04
+PRC-0000095,PAT-0000191,ENC-0000104,29881,Knee arthroscopy with meniscectomy,2025-06-30
+PRC-0000096,PAT-0000074,ENC-0000173,90471,Immunization administration,2026-04-02
+PRC-0000097,PAT-0000140,ENC-0000428,12001,Simple repair of superficial wound,2025-07-01
+PRC-0000098,PAT-0000166,ENC-0000348,29881,Knee arthroscopy with meniscectomy,2024-01-28
+PRC-0000099,PAT-0000184,ENC-0000167,99283,"Emergency department visit, moderate severity",2026-03-27
+PRC-0000100,PAT-0000134,ENC-0000500,70450,CT scan of head/brain without contrast,2023-02-18
+PRC-0000101,PAT-0000152,ENC-0000295,36415,Collection of venous blood by venipuncture,2023-08-22
+PRC-0000102,PAT-0000073,ENC-0000071,45378,"Colonoscopy, diagnostic",2023-08-19
+PRC-0000103,PAT-0000133,ENC-0000429,90471,Immunization administration,2026-05-16
+PRC-0000104,PAT-0000153,ENC-0000110,90471,Immunization administration,2026-03-17
+PRC-0000105,PAT-0000111,ENC-0000024,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2025-11-15
+PRC-0000106,PAT-0000017,ENC-0000089,45378,"Colonoscopy, diagnostic",2023-08-06
+PRC-0000107,PAT-0000053,ENC-0000033,99283,"Emergency department visit, moderate severity",2026-04-04
+PRC-0000108,PAT-0000091,ENC-0000141,93000,"Electrocardiogram, routine, with interpretation",2025-10-29
+PRC-0000109,PAT-0000056,ENC-0000388,29881,Knee arthroscopy with meniscectomy,2026-03-22
+PRC-0000110,PAT-0000094,ENC-0000087,12001,Simple repair of superficial wound,2025-04-13
+PRC-0000111,PAT-0000146,ENC-0000190,36415,Collection of venous blood by venipuncture,2025-09-23
+PRC-0000112,PAT-0000034,ENC-0000085,47562,Laparoscopic cholecystectomy,2023-09-30
+PRC-0000113,PAT-0000064,ENC-0000125,81001,Urinalysis with microscopy,2024-07-19
+PRC-0000114,PAT-0000134,ENC-0000298,99213,"Office/outpatient visit, established patient, low complexity",2025-06-21
+PRC-0000115,PAT-0000031,ENC-0000069,99283,"Emergency department visit, moderate severity",2024-10-07
+PRC-0000116,PAT-0000066,ENC-0000406,93306,"Echocardiogram, complete",2025-03-09
+PRC-0000117,PAT-0000019,ENC-0000324,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2024-02-10
+PRC-0000118,PAT-0000084,ENC-0000193,90471,Immunization administration,2023-08-07
+PRC-0000119,PAT-0000089,ENC-0000081,99213,"Office/outpatient visit, established patient, low complexity",2026-08-06
+PRC-0000120,PAT-0000058,ENC-0000451,47562,Laparoscopic cholecystectomy,2024-02-10
+PRC-0000121,PAT-0000198,ENC-0000042,99213,"Office/outpatient visit, established patient, low complexity",2024-06-23
+PRC-0000122,PAT-0000013,ENC-0000004,93000,"Electrocardiogram, routine, with interpretation",2023-03-30
+PRC-0000123,PAT-0000068,ENC-0000475,99283,"Emergency department visit, moderate severity",2023-12-23
+PRC-0000124,PAT-0000089,ENC-0000362,70450,CT scan of head/brain without contrast,2025-02-20
+PRC-0000125,PAT-0000008,ENC-0000304,81001,Urinalysis with microscopy,2023-05-28
+PRC-0000126,PAT-0000080,ENC-0000146,29881,Knee arthroscopy with meniscectomy,2024-01-29
+PRC-0000127,PAT-0000076,ENC-0000356,90471,Immunization administration,2025-09-12
+PRC-0000128,PAT-0000066,ENC-0000406,90471,Immunization administration,2025-03-09
+PRC-0000129,PAT-0000169,ENC-0000244,12001,Simple repair of superficial wound,2024-11-28
+PRC-0000130,PAT-0000127,ENC-0000065,80053,Comprehensive metabolic panel,2024-12-07
+PRC-0000131,PAT-0000033,ENC-0000074,70450,CT scan of head/brain without contrast,2026-08-05
+PRC-0000132,PAT-0000061,ENC-0000139,36415,Collection of venous blood by venipuncture,2024-10-14
+PRC-0000133,PAT-0000155,ENC-0000231,29881,Knee arthroscopy with meniscectomy,2026-05-02
+PRC-0000134,PAT-0000153,ENC-0000123,93000,"Electrocardiogram, routine, with interpretation",2024-11-29
+PRC-0000135,PAT-0000100,ENC-0000313,12001,Simple repair of superficial wound,2025-07-09
+PRC-0000136,PAT-0000156,ENC-0000020,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2024-01-31
+PRC-0000137,PAT-0000049,ENC-0000093,12001,Simple repair of superficial wound,2025-09-23
+PRC-0000138,PAT-0000035,ENC-0000256,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2023-07-01
+PRC-0000139,PAT-0000015,ENC-0000487,99283,"Emergency department visit, moderate severity",2023-10-10
+PRC-0000140,PAT-0000066,ENC-0000322,93306,"Echocardiogram, complete",2024-11-11
+PRC-0000141,PAT-0000042,ENC-0000401,71046,"Chest X-ray, 2 views",2026-01-07
+PRC-0000142,PAT-0000063,ENC-0000179,29881,Knee arthroscopy with meniscectomy,2023-01-30
+PRC-0000143,PAT-0000188,ENC-0000003,36415,Collection of venous blood by venipuncture,2023-12-05
+PRC-0000144,PAT-0000113,ENC-0000121,80053,Comprehensive metabolic panel,2026-05-22
+PRC-0000145,PAT-0000120,ENC-0000061,36415,Collection of venous blood by venipuncture,2024-11-11
+PRC-0000146,PAT-0000178,ENC-0000049,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2025-01-05
+PRC-0000147,PAT-0000158,ENC-0000186,93306,"Echocardiogram, complete",2025-09-18
+PRC-0000148,PAT-0000200,ENC-0000390,36415,Collection of venous blood by venipuncture,2023-06-10
+PRC-0000149,PAT-0000043,ENC-0000260,80053,Comprehensive metabolic panel,2024-03-29
+PRC-0000150,PAT-0000071,ENC-0000238,90471,Immunization administration,2024-07-14
+PRC-0000151,PAT-0000082,ENC-0000321,70450,CT scan of head/brain without contrast,2023-01-18
+PRC-0000152,PAT-0000197,ENC-0000107,71046,"Chest X-ray, 2 views",2023-10-08
+PRC-0000153,PAT-0000057,ENC-0000028,80053,Comprehensive metabolic panel,2025-05-15
+PRC-0000154,PAT-0000105,ENC-0000058,90471,Immunization administration,2023-02-20
+PRC-0000155,PAT-0000024,ENC-0000077,70450,CT scan of head/brain without contrast,2023-09-16
+PRC-0000156,PAT-0000132,ENC-0000433,81001,Urinalysis with microscopy,2023-09-16
+PRC-0000157,PAT-0000054,ENC-0000243,47562,Laparoscopic cholecystectomy,2025-11-11
+PRC-0000158,PAT-0000168,ENC-0000091,93000,"Electrocardiogram, routine, with interpretation",2024-03-10
+PRC-0000159,PAT-0000117,ENC-0000344,81001,Urinalysis with microscopy,2024-07-26
+PRC-0000160,PAT-0000171,ENC-0000023,99213,"Office/outpatient visit, established patient, low complexity",2024-09-22
+PRC-0000161,PAT-0000012,ENC-0000331,45378,"Colonoscopy, diagnostic",2023-12-18
+PRC-0000162,PAT-0000080,ENC-0000146,80053,Comprehensive metabolic panel,2024-01-29
+PRC-0000163,PAT-0000185,ENC-0000223,71046,"Chest X-ray, 2 views",2025-02-19
+PRC-0000164,PAT-0000068,ENC-0000172,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2024-09-14
+PRC-0000165,PAT-0000098,ENC-0000413,81001,Urinalysis with microscopy,2025-04-08
+PRC-0000166,PAT-0000169,ENC-0000389,47562,Laparoscopic cholecystectomy,2025-04-03
+PRC-0000167,PAT-0000171,ENC-0000023,99283,"Emergency department visit, moderate severity",2024-09-22
+PRC-0000168,PAT-0000170,ENC-0000380,99213,"Office/outpatient visit, established patient, low complexity",2023-01-19
+PRC-0000169,PAT-0000102,ENC-0000474,36415,Collection of venous blood by venipuncture,2025-05-01
+PRC-0000170,PAT-0000168,ENC-0000091,93000,"Electrocardiogram, routine, with interpretation",2024-03-10
+PRC-0000171,PAT-0000134,ENC-0000403,99213,"Office/outpatient visit, established patient, low complexity",2025-04-23
+PRC-0000172,PAT-0000088,ENC-0000249,36415,Collection of venous blood by venipuncture,2024-06-25
+PRC-0000173,PAT-0000037,ENC-0000060,99283,"Emergency department visit, moderate severity",2025-07-13
+PRC-0000174,PAT-0000159,ENC-0000459,80053,Comprehensive metabolic panel,2025-02-01
+PRC-0000175,PAT-0000105,ENC-0000370,47562,Laparoscopic cholecystectomy,2023-11-19
+PRC-0000176,PAT-0000008,ENC-0000304,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2023-05-28
+PRC-0000177,PAT-0000184,ENC-0000167,29881,Knee arthroscopy with meniscectomy,2026-03-27
+PRC-0000178,PAT-0000116,ENC-0000102,12001,Simple repair of superficial wound,2024-09-11
+PRC-0000179,PAT-0000058,ENC-0000347,81001,Urinalysis with microscopy,2026-04-27
+PRC-0000180,PAT-0000184,ENC-0000167,80053,Comprehensive metabolic panel,2026-03-27
+PRC-0000181,PAT-0000163,ENC-0000399,99283,"Emergency department visit, moderate severity",2026-04-20
+PRC-0000182,PAT-0000184,ENC-0000167,80053,Comprehensive metabolic panel,2026-03-27
+PRC-0000183,PAT-0000031,ENC-0000051,80053,Comprehensive metabolic panel,2024-03-05
+PRC-0000184,PAT-0000029,ENC-0000378,29881,Knee arthroscopy with meniscectomy,2024-02-11
+PRC-0000185,PAT-0000121,ENC-0000446,80053,Comprehensive metabolic panel,2023-12-11
+PRC-0000186,PAT-0000084,ENC-0000193,81001,Urinalysis with microscopy,2023-08-07
+PRC-0000187,PAT-0000078,ENC-0000113,99283,"Emergency department visit, moderate severity",2024-05-24
+PRC-0000188,PAT-0000101,ENC-0000242,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2025-07-08
+PRC-0000189,PAT-0000088,ENC-0000249,99213,"Office/outpatient visit, established patient, low complexity",2024-06-25
+PRC-0000190,PAT-0000081,ENC-0000456,29881,Knee arthroscopy with meniscectomy,2023-10-11
+PRC-0000191,PAT-0000037,ENC-0000075,80053,Comprehensive metabolic panel,2026-04-29
+PRC-0000192,PAT-0000033,ENC-0000476,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2023-02-24
+PRC-0000193,PAT-0000019,ENC-0000233,93000,"Electrocardiogram, routine, with interpretation",2026-01-10
+PRC-0000194,PAT-0000084,ENC-0000199,45378,"Colonoscopy, diagnostic",2026-01-18
+PRC-0000195,PAT-0000142,ENC-0000070,47562,Laparoscopic cholecystectomy,2023-04-19
+PRC-0000196,PAT-0000028,ENC-0000369,80053,Comprehensive metabolic panel,2026-04-23
+PRC-0000197,PAT-0000019,ENC-0000324,45378,"Colonoscopy, diagnostic",2024-02-10
+PRC-0000198,PAT-0000134,ENC-0000500,71046,"Chest X-ray, 2 views",2023-02-18
+PRC-0000199,PAT-0000191,ENC-0000104,45378,"Colonoscopy, diagnostic",2025-06-30
+PRC-0000200,PAT-0000198,ENC-0000066,99213,"Office/outpatient visit, established patient, low complexity",2024-10-03
+PRC-0000201,PAT-0000023,ENC-0000355,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2024-10-15
+PRC-0000202,PAT-0000113,ENC-0000031,71046,"Chest X-ray, 2 views",2024-06-05
+PRC-0000203,PAT-0000142,ENC-0000070,99283,"Emergency department visit, moderate severity",2023-04-19
+PRC-0000204,PAT-0000156,ENC-0000437,47562,Laparoscopic cholecystectomy,2026-05-02
+PRC-0000205,PAT-0000048,ENC-0000235,29881,Knee arthroscopy with meniscectomy,2023-06-10
+PRC-0000206,PAT-0000098,ENC-0000088,90471,Immunization administration,2023-02-08
+PRC-0000207,PAT-0000082,ENC-0000176,80053,Comprehensive metabolic panel,2025-07-11
+PRC-0000208,PAT-0000067,ENC-0000454,71046,"Chest X-ray, 2 views",2026-05-28
+PRC-0000209,PAT-0000140,ENC-0000310,93000,"Electrocardiogram, routine, with interpretation",2025-04-25
+PRC-0000210,PAT-0000172,ENC-0000405,90471,Immunization administration,2023-03-03
+PRC-0000211,PAT-0000073,ENC-0000327,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2024-09-02
+PRC-0000212,PAT-0000072,ENC-0000464,93000,"Electrocardiogram, routine, with interpretation",2025-06-13
+PRC-0000213,PAT-0000089,ENC-0000296,36415,Collection of venous blood by venipuncture,2026-08-11
+PRC-0000214,PAT-0000169,ENC-0000438,80053,Comprehensive metabolic panel,2026-04-18
+PRC-0000215,PAT-0000023,ENC-0000045,29881,Knee arthroscopy with meniscectomy,2025-06-04
+PRC-0000216,PAT-0000012,ENC-0000439,36415,Collection of venous blood by venipuncture,2026-05-11
+PRC-0000217,PAT-0000045,ENC-0000251,93306,"Echocardiogram, complete",2024-12-18
+PRC-0000218,PAT-0000170,ENC-0000111,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2024-10-05
+PRC-0000219,PAT-0000054,ENC-0000243,93306,"Echocardiogram, complete",2025-11-11
+PRC-0000220,PAT-0000098,ENC-0000237,71046,"Chest X-ray, 2 views",2024-02-21
+PRC-0000221,PAT-0000055,ENC-0000008,12001,Simple repair of superficial wound,2023-04-17
+PRC-0000222,PAT-0000185,ENC-0000220,12001,Simple repair of superficial wound,2025-03-24
+PRC-0000223,PAT-0000158,ENC-0000447,80053,Comprehensive metabolic panel,2026-04-16
+PRC-0000224,PAT-0000186,ENC-0000127,45378,"Colonoscopy, diagnostic",2024-06-27
+PRC-0000225,PAT-0000185,ENC-0000223,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2025-02-19
+PRC-0000226,PAT-0000034,ENC-0000114,81001,Urinalysis with microscopy,2023-04-22
+PRC-0000227,PAT-0000068,ENC-0000475,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2023-12-23
+PRC-0000228,PAT-0000073,ENC-0000485,93000,"Electrocardiogram, routine, with interpretation",2023-12-28
+PRC-0000229,PAT-0000086,ENC-0000468,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2024-06-18
+PRC-0000230,PAT-0000193,ENC-0000460,99213,"Office/outpatient visit, established patient, low complexity",2025-01-13
+PRC-0000231,PAT-0000195,ENC-0000214,99213,"Office/outpatient visit, established patient, low complexity",2024-04-15
+PRC-0000232,PAT-0000138,ENC-0000021,47562,Laparoscopic cholecystectomy,2025-10-28
+PRC-0000233,PAT-0000043,ENC-0000376,90471,Immunization administration,2023-06-11
+PRC-0000234,PAT-0000050,ENC-0000259,99213,"Office/outpatient visit, established patient, low complexity",2024-09-27
+PRC-0000235,PAT-0000067,ENC-0000218,36415,Collection of venous blood by venipuncture,2024-05-27
+PRC-0000236,PAT-0000017,ENC-0000202,47562,Laparoscopic cholecystectomy,2024-03-21
+PRC-0000237,PAT-0000054,ENC-0000415,90471,Immunization administration,2023-09-08
+PRC-0000238,PAT-0000129,ENC-0000357,93306,"Echocardiogram, complete",2024-10-03
+PRC-0000239,PAT-0000031,ENC-0000051,47562,Laparoscopic cholecystectomy,2024-03-05
+PRC-0000240,PAT-0000051,ENC-0000254,80053,Comprehensive metabolic panel,2025-03-30
+PRC-0000241,PAT-0000166,ENC-0000043,36415,Collection of venous blood by venipuncture,2023-06-13
+PRC-0000242,PAT-0000195,ENC-0000386,99213,"Office/outpatient visit, established patient, low complexity",2026-07-13
+PRC-0000243,PAT-0000023,ENC-0000355,12001,Simple repair of superficial wound,2024-10-15
+PRC-0000244,PAT-0000037,ENC-0000209,80053,Comprehensive metabolic panel,2024-03-03
+PRC-0000245,PAT-0000162,ENC-0000068,45378,"Colonoscopy, diagnostic",2025-05-07
+PRC-0000246,PAT-0000156,ENC-0000152,80053,Comprehensive metabolic panel,2024-01-02
+PRC-0000247,PAT-0000171,ENC-0000332,99283,"Emergency department visit, moderate severity",2026-03-21
+PRC-0000248,PAT-0000113,ENC-0000009,47562,Laparoscopic cholecystectomy,2025-11-03
+PRC-0000249,PAT-0000130,ENC-0000343,71046,"Chest X-ray, 2 views",2023-09-27
+PRC-0000250,PAT-0000145,ENC-0000083,12001,Simple repair of superficial wound,2026-04-20
+PRC-0000251,PAT-0000154,ENC-0000236,93306,"Echocardiogram, complete",2024-10-04
+PRC-0000252,PAT-0000133,ENC-0000293,12001,Simple repair of superficial wound,2024-03-14
+PRC-0000253,PAT-0000152,ENC-0000299,99213,"Office/outpatient visit, established patient, low complexity",2024-03-29
+PRC-0000254,PAT-0000134,ENC-0000500,47562,Laparoscopic cholecystectomy,2023-02-18
+PRC-0000255,PAT-0000071,ENC-0000238,90471,Immunization administration,2024-07-14
+PRC-0000256,PAT-0000073,ENC-0000071,93306,"Echocardiogram, complete",2023-08-19
+PRC-0000257,PAT-0000096,ENC-0000361,29881,Knee arthroscopy with meniscectomy,2023-01-28
+PRC-0000258,PAT-0000085,ENC-0000095,90471,Immunization administration,2023-08-13
+PRC-0000259,PAT-0000158,ENC-0000447,45378,"Colonoscopy, diagnostic",2026-04-16
+PRC-0000260,PAT-0000082,ENC-0000321,47562,Laparoscopic cholecystectomy,2023-01-18
+PRC-0000261,PAT-0000096,ENC-0000361,70450,CT scan of head/brain without contrast,2023-01-28
+PRC-0000262,PAT-0000013,ENC-0000001,93306,"Echocardiogram, complete",2024-09-23
+PRC-0000263,PAT-0000066,ENC-0000322,99283,"Emergency department visit, moderate severity",2024-11-11
+PRC-0000264,PAT-0000181,ENC-0000198,81001,Urinalysis with microscopy,2023-04-06
+PRC-0000265,PAT-0000143,ENC-0000354,45378,"Colonoscopy, diagnostic",2023-07-18
+PRC-0000266,PAT-0000034,ENC-0000272,99213,"Office/outpatient visit, established patient, low complexity",2025-10-13
+PRC-0000267,PAT-0000156,ENC-0000152,29881,Knee arthroscopy with meniscectomy,2024-01-02
+PRC-0000268,PAT-0000195,ENC-0000386,71046,"Chest X-ray, 2 views",2026-07-13
+PRC-0000269,PAT-0000105,ENC-0000358,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2026-04-25
+PRC-0000270,PAT-0000176,ENC-0000278,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2023-08-06
+PRC-0000271,PAT-0000076,ENC-0000407,80053,Comprehensive metabolic panel,2023-05-30
+PRC-0000272,PAT-0000055,ENC-0000404,70450,CT scan of head/brain without contrast,2023-12-06
+PRC-0000273,PAT-0000198,ENC-0000042,99396,"Periodic preventive medicine exam, established patient, 40-64 years",2024-06-23
+PRC-0000274,PAT-0000058,ENC-0000451,45378,"Colonoscopy, diagnostic",2024-02-10
+PRC-0000275,PAT-0000157,ENC-0000377,81001,Urinalysis with microscopy,2025-11-29
+PRC-0000276,PAT-0000171,ENC-0000029,36415,Collection of venous blood by venipuncture,2026-03-19
+PRC-0000277,PAT-0000073,ENC-0000485,81001,Urinalysis with microscopy,2023-12-28
+PRC-0000278,PAT-0000067,ENC-0000346,45378,"Colonoscopy, diagnostic",2023-03-19
+PRC-0000279,PAT-0000068,ENC-0000455,99213,"Office/outpatient visit, established patient, low complexity",2025-11-12
+PRC-0000280,PAT-0000161,ENC-0000057,29881,Knee arthroscopy with meniscectomy,2024-01-08
+PRC-0000281,PAT-0000052,ENC-0000188,47562,Laparoscopic cholecystectomy,2026-04-09
+PRC-0000282,PAT-0000094,ENC-0000317,99213,"Office/outpatient visit, established patient, low complexity",2024-06-06
+PRC-0000283,PAT-0000052,ENC-0000188,45378,"Colonoscopy, diagnostic",2026-04-09
+PRC-0000284,PAT-0000025,ENC-0000090,70450,CT scan of head/brain without contrast,2024-12-05
+PRC-0000285,PAT-0000182,ENC-0000287,12001,Simple repair of superficial wound,2024-06-22
+PRC-0000286,PAT-0000100,ENC-0000035,36415,Collection of venous blood by venipuncture,2023-07-18
+PRC-0000287,PAT-0000092,ENC-0000364,90471,Immunization administration,2023-12-21
+PRC-0000288,PAT-0000091,ENC-0000105,93000,"Electrocardiogram, routine, with interpretation",2024-06-30
+PRC-0000289,PAT-0000068,ENC-0000172,80053,Comprehensive metabolic panel,2024-09-14
+PRC-0000290,PAT-0000145,ENC-0000277,99283,"Emergency department visit, moderate severity",2024-06-29
+PRC-0000291,PAT-0000108,ENC-0000333,47562,Laparoscopic cholecystectomy,2024-04-09
+PRC-0000292,PAT-0000029,ENC-0000378,90471,Immunization administration,2024-02-11
+PRC-0000293,PAT-0000134,ENC-0000298,93306,"Echocardiogram, complete",2025-06-21
+PRC-0000294,PAT-0000177,ENC-0000492,12001,Simple repair of superficial wound,2026-04-12
+PRC-0000295,PAT-0000002,ENC-0000108,90471,Immunization administration,2023-04-19
+PRC-0000296,PAT-0000061,ENC-0000382,90471,Immunization administration,2023-05-17
+PRC-0000297,PAT-0000104,ENC-0000116,45378,"Colonoscopy, diagnostic",2026-07-16
+PRC-0000298,PAT-0000054,ENC-0000181,81001,Urinalysis with microscopy,2024-05-02
+PRC-0000299,PAT-0000082,ENC-0000137,36415,Collection of venous blood by venipuncture,2023-03-01
+PRC-0000300,PAT-0000090,ENC-0000349,29881,Knee arthroscopy with meniscectomy,2024-04-14

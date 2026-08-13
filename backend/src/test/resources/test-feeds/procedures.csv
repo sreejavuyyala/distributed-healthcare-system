@@ -1,0 +1,2 @@
+procedure_id,patient_id,encounter_id,procedure_code,procedure_description,procedure_date
+PRC-TEST-01,PAT-TEST-01,ENC-TEST-01,93000,Electrocardiogram,2025-01-01

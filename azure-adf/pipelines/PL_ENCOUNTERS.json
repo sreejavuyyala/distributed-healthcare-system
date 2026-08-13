@@ -1,0 +1,68 @@
+{
+  "name": "PL_ENCOUNTERS",
+  "description": "Representative Azure Data Factory pipeline definition for the Encounters feed — design artifact only, not deployed. Structurally identical to PL_PATIENTS (and PL_DIAGNOSES/PL_PROCEDURES/PL_LABS, omitted here for brevity since they follow the same shape) — one independent pipeline per feed is exactly what gives per-feed failure isolation at the orchestration layer, mirrored locally by IngestionOrchestrator running each feed through its own try/catch (see docs/fault-tolerance.md).",
+  "properties": {
+    "activities": [
+      {
+        "name": "ValidateSourceFile",
+        "type": "Validation",
+        "typeProperties": {
+          "dataset": { "referenceName": "DS_Encounters_Source", "type": "DatasetReference" },
+          "minimumSize": 1
+        }
+      },
+      {
+        "name": "CopyEncountersToRawLandingZone",
+        "type": "Copy",
+        "dependsOn": [{ "activity": "ValidateSourceFile", "dependencyConditions": ["Succeeded"] }],
+        "policy": {
+          "timeout": "0.01:00:00",
+          "retry": 3,
+          "retryIntervalInSeconds": 2,
+          "secureOutput": false
+        },
+        "typeProperties": {
+          "source": { "type": "DelimitedTextSource" },
+          "sink": {
+            "type": "JsonSink",
+            "storeSettings": {
+              "type": "AzureBlobStorageWriteSettings",
+              "copyBehavior": "PreserveHierarchy"
+            }
+          }
+        },
+        "inputs": [{ "referenceName": "DS_Encounters_Source", "type": "DatasetReference" }],
+        "outputs": [{ "referenceName": "DS_Encounters_RawBlob", "type": "DatasetReference" }]
+      },
+      {
+        "name": "LogSuccess",
+        "type": "WebActivity",
+        "dependsOn": [{ "activity": "CopyEncountersToRawLandingZone", "dependencyConditions": ["Succeeded"] }],
+        "typeProperties": {
+          "url": "@pipeline().parameters.ingestionCallbackUrl",
+          "method": "POST",
+          "body": { "feedName": "encounters", "status": "SUCCESS", "batchId": "@pipeline().RunId" }
+        }
+      },
+      {
+        "name": "LogFailure",
+        "type": "WebActivity",
+        "dependsOn": [{ "activity": "CopyEncountersToRawLandingZone", "dependencyConditions": ["Failed"] }],
+        "typeProperties": {
+          "url": "@pipeline().parameters.ingestionCallbackUrl",
+          "method": "POST",
+          "body": {
+            "feedName": "encounters",
+            "status": "FAILED",
+            "batchId": "@pipeline().RunId",
+            "errorMessage": "@activity('CopyEncountersToRawLandingZone').Error.message"
+          }
+        }
+      }
+    ],
+    "parameters": {
+      "ingestionCallbackUrl": { "type": "string" }
+    },
+    "annotations": ["feed:encounters", "layer:raw-ingestion"]
+  }
+}

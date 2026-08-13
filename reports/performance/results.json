@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-08-13T05:39:36.519244+00:00",
+  "database": "healthcare",
+  "runs_per_query": 7,
+  "queries": [
+    {
+      "id": "Q1_patient_encounter_history",
+      "description": "Patient encounter history (single patient, ordered, limited)",
+      "baseline_ms_samples": [
+        2.443,
+        2.49,
+        2.655,
+        2.459,
+        2.314,
+        2.212,
+        2.204
+      ],
+      "optimized_ms_samples": [
+        0.097,
+        0.105,
+        0.104,
+        0.107,
+        0.101,
+        0.113,
+        0.115
+      ],
+      "baseline_median_ms": 2.443,
+      "optimized_median_ms": 0.105,
+      "improvement_pct": 95.7
+    },
+    {
+      "id": "Q2_encounters_by_facility_date_range",
+      "description": "Encounters by facility within a date range (dashboard chart)",
+      "baseline_ms_samples": [
+        3.429,
+        3.388,
+        4.399,
+        4.814,
+        4.151,
+        4.125,
+        4.173
+      ],
+      "optimized_ms_samples": [
+        2.835,
+        2.748,
+        2.926,
+        3.049,
+        2.953,
+        2.827,
+        2.806
+      ],
+      "baseline_median_ms": 4.151,
+      "optimized_median_ms": 2.835,
+      "improvement_pct": 31.7
+    },
+    {
+      "id": "Q3_diagnoses_by_patient",
+      "description": "Diagnosis lookup by patient (Patient Explorer panel)",
+      "baseline_ms_samples": [
+        6.983,
+        3.08,
+        3.283,
+        3.018,
+        6.851,
+        4.82,
+        7.953
+      ],
+      "optimized_ms_samples": [
+        0.097,
+        0.111,
+        0.097,
+        0.134,
+        0.097,
+        0.099,
+        0.116
+      ],
+      "baseline_median_ms": 4.82,
+      "optimized_median_ms": 0.099,
+      "improvement_pct": 97.9
+    }
+  ],
+  "overall_average_improvement_pct": 75.1
+}
